@@ -362,12 +362,15 @@
         <spravna cesta="">when the interface is functioning as a DCE device</spravna>
     </question>
     <question id="50">
-        <otazka cesta="">Due to a security violation, the router passwords must be changed. What information can be learned from the following configuration entries? (Choose two.) ; Router(config)# line vty 0 3 ; Router(config-line)# password c13c0 ; Router(config-line)# login</otazka>
-        <spatna cesta="">The entries specify three Telnet lines for remote access.</spatna>
+        <otazka cesta="">Due to a security violation, the router passwords must be changed. What information can be learned from the following configuration entries? (Choose two.) 
+Router(config)# line vty 0 3 ;
+Router(config-line)# password c13c0 ;
+Router(config-line)# login</otazka>
         <spravna cesta="">The entries specify four Telnet lines for remote access.</spravna>
+        <spravna cesta="">Access will be permitted for Telnet using “c13c0” as the password.</spravna>
+        <spatna cesta="">The entries specify three Telnet lines for remote access.</spatna>
         <spatna cesta="">The entries set the console and Telnet password to “c13c0”.</spatna>
         <spatna cesta="">Telnet access will be denied because the Telnet configuration is incomplete.</spatna>
-        <spravna cesta="">Access will be permitted for Telnet using “c13c0” as the password.</spravna>
     </question>
     <question id="51">
         <otazka cesta="">Which password is automatically encrypted when it is created?</otazka>
@@ -660,7 +663,11 @@
         <spravna cesta="">1000 BASE-SX</spravna>
     </question>
     <question id="90">
-        <otazka cesta="">To enhance security in a network, the network administrator uses these commands: Router(config)# line console 0; Router(config-line)#password j1mdi2; Router(config-line)# login ; What two conclusions are evident from these commands? (Choose two.)</otazka>
+        <otazka cesta="">To enhance security in a network, the network administrator uses these commands: 
+Router(config)# line console 0; 
+Router(config-line)#password j1mdi2; 
+Router(config-line)# login; 
+What two conclusions are evident from these commands? (Choose two.)</otazka>
         <spravna cesta="">Users who attempt to connect to the console port of the router must enter a password.</spravna>
         <spravna cesta="">The entries permit access through the console by the use of j1mdi2 as the password.</spravna>
         <spatna cesta="">The entries eliminate the need for authentication.</spatna>
