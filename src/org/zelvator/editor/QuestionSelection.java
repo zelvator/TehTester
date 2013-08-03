@@ -1,13 +1,15 @@
 package org.zelvator.editor;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Component;
+import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-import javax.swing.DefaultListCellRenderer;
+import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -15,8 +17,19 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
+import javax.swing.JTextPane;
+import javax.swing.ListCellRenderer;
 import javax.swing.ListModel;
 import javax.swing.ListSelectionModel;
+import javax.swing.ScrollPaneConstants;
+import javax.swing.UIManager;
+import javax.swing.border.Border;
+import javax.swing.border.EmptyBorder;
+import javax.swing.text.DefaultStyledDocument;
+import javax.swing.text.Style;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyleContext;
+import javax.swing.text.StyledDocument;
 import javax.xml.transform.TransformerException;
 
 import org.w3c.dom.Node;
@@ -156,6 +169,65 @@ public class QuestionSelection {
 		refreshListOfQuestions();
 	}
 
+	class QuestionRenderer extends JPanel implements ListCellRenderer<Object> {
+		private static final long serialVersionUID = 4635401484999279341L;
+
+		protected final Border noFocusBorder = new EmptyBorder(1, 1, 1, 1);
+		private final Border SAFE_NO_FOCUS_BORDER = new EmptyBorder(1, 1, 1, 1);
+
+		public QuestionRenderer() {
+			setOpaque(true);
+		}
+
+		private Border getNoFocusBorder() {
+			if (System.getSecurityManager() != null) {
+				return SAFE_NO_FOCUS_BORDER;
+			} else {
+				return UIManager.getBorder("List.noFocusBorder");
+			}
+		}
+
+		public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
+			if (value instanceof Question) {
+				removeAll();
+				StyledDocument document = null;
+				document = new DefaultStyledDocument();
+				Style defaultStyle = document.getStyle(StyleContext.DEFAULT_STYLE);
+				StyleConstants.setAlignment(defaultStyle, StyleConstants.ALIGN_LEFT);
+				setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
+
+				JTextPane textPane = new JTextPane(document);
+				textPane.setText((index + 1) + ". " + ((Question) value).getQuestion());
+				textPane.setSize(new Dimension(getScrollPane().getWidth() - 20, 15));
+				textPane.setMaximumSize(new Dimension(getScrollPane().getWidth() - 20, 1000));
+				add(textPane);
+
+				Border border = null;
+				if (cellHasFocus) {
+					if (isSelected) {
+						setBackground(new Color(51, 153, 255)); //blue
+						textPane.setBackground(new Color(51, 153, 255));
+						border = UIManager.getBorder("List.focusSelectedCellHighlightBorder");
+						textPane.setForeground(Color.white);
+					}
+					if (border == null) {
+						setBackground(new Color(51, 153, 255)); 
+						textPane.setBackground(new Color(51, 153, 255));
+						textPane.setForeground(Color.white);
+						border = UIManager.getBorder("List.focusCellHighlightBorder");
+					}
+				} else {
+					border = getNoFocusBorder();
+					setBackground(Color.white); 
+					textPane.setBackground(Color.white);
+					textPane.setForeground(Color.black);
+				}
+				setBorder(border);
+			}
+			return this;
+		}
+	}
+
 	/**
 	 * This method reinitializes JList with questions, updates the list according values in xml file
 	 * and set up Filter for filtering existing questions.
@@ -176,18 +248,7 @@ public class QuestionSelection {
 			}
 		});
 		getList().setSelectedIndex(0);
-		getList().setCellRenderer(new DefaultListCellRenderer() {
-			private static final long serialVersionUID = 4198411313308223377L;
-
-			@Override
-			public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-				Component renderer = super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
-				if (renderer instanceof JLabel && value instanceof Question) {
-					((JLabel) renderer).setText((index + 1) + ". " + ((Question) value).getQuestion());
-				}
-				return renderer;
-			}
-		});
+		getList().setCellRenderer(new QuestionRenderer());
 		getList().setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 	}
 
@@ -320,6 +381,7 @@ public class QuestionSelection {
 	 */
 	private void setScrollPane(JScrollPane scrollPane) {
 		this.scrollPane = scrollPane;
+		scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 	}
 
 	/**

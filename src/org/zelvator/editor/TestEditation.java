@@ -236,7 +236,7 @@ public class TestEditation {
 	 */
 	private void createNewTest() {
 		String newTestName = JOptionPane.showInputDialog(null, "Vložte název nového testu: ", "Název testu", JOptionPane.INFORMATION_MESSAGE);
-		if (!newTestName.equals("")) {
+		if (newTestName != null && !newTestName.equals("")  ) {
 			boolean alreadyExists = false;
 			for (File file : getFilesInFolder().getFiles()) {
 				if (file.getName().substring(0, (file.getName().length() - 4)).equals(newTestName)) {

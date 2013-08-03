@@ -3,6 +3,7 @@ package org.zelvator.editor;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.dnd.DropTarget;
@@ -18,7 +19,7 @@ import java.util.Collections;
 import java.util.List;
 
 import javax.imageio.ImageIO;
-import javax.swing.DefaultListCellRenderer;
+import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -30,8 +31,18 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.JTextPane;
+import javax.swing.ListCellRenderer;
 import javax.swing.ListSelectionModel;
-import javax.swing.SwingConstants;
+import javax.swing.ScrollPaneConstants;
+import javax.swing.UIManager;
+import javax.swing.border.Border;
+import javax.swing.border.EmptyBorder;
+import javax.swing.text.DefaultStyledDocument;
+import javax.swing.text.Style;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyleContext;
+import javax.swing.text.StyledDocument;
 import javax.xml.transform.TransformerException;
 
 import org.w3c.dom.Node;
@@ -258,6 +269,75 @@ public class QuestionEditation {
 		refreshAnswers();
 	}
 
+	class AnswersRenderer extends JPanel implements ListCellRenderer<Object> {
+		private static final long serialVersionUID = 4635401484999279341L;
+		
+		protected final Border noFocusBorder = new EmptyBorder(1, 1, 1, 1);
+		private final Border SAFE_NO_FOCUS_BORDER = new EmptyBorder(1, 1, 1, 1);
+
+		public AnswersRenderer() {
+			setOpaque(true);
+		}
+
+		private Border getNoFocusBorder() {
+			if (System.getSecurityManager() != null) {
+				return SAFE_NO_FOCUS_BORDER;
+			} else {
+				return UIManager.getBorder("List.noFocusBorder");
+			}
+		}
+
+		public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
+			if (value instanceof Answer) {
+				removeAll();
+				getAnswerPanel().setImage(((Answer) value).getAnswerPicture(), true);
+				StyledDocument document = null;
+				if (!((Answer) value).getAnswerPicture().equals("")) {
+					document = new DefaultStyledDocument();
+					Style defaultStyle = document.getStyle(StyleContext.DEFAULT_STYLE);
+					StyleConstants.setAlignment(defaultStyle, StyleConstants.ALIGN_CENTER);
+					setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+				} else {
+					document = new DefaultStyledDocument();
+					Style defaultStyle = document.getStyle(StyleContext.DEFAULT_STYLE);
+					StyleConstants.setAlignment(defaultStyle, StyleConstants.ALIGN_LEFT);
+					setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
+				}
+
+				JTextPane textPane = new JTextPane(document);
+				textPane.setText((index + 1) + ". " + ((Answer) value).getAnswer());
+				textPane.setSize(new Dimension(380, 15));
+				textPane.setMaximumSize(new Dimension(380, 1000));
+				add(textPane);
+
+				JLabel label = new JLabel();
+				label.setIcon(new ImageIcon((BufferedImage) getAnswerPanel().getImage()));
+				add(label);
+
+				if (((Answer) value).isCorrectAnswer()) {
+					setBackground(new Color(142, 236, 143)); // green
+					textPane.setBackground(new Color(142, 236, 143));
+				} else {
+					setBackground(new Color(226, 80, 80)); // red
+					textPane.setBackground(new Color(226, 80, 80));
+				}
+				Border border = null;
+				if (cellHasFocus) {
+					if (isSelected) {
+						border = UIManager.getBorder("List.focusSelectedCellHighlightBorder");
+					}
+					if (border == null) {
+						border = UIManager.getBorder("List.focusCellHighlightBorder");
+					}
+				} else {
+					border = getNoFocusBorder();
+				}
+				setBorder(border);
+			}
+			return this;
+		}
+	}
+
 	/**
 	 * This method reinitializes JList with answers, updates the list according values in question object
 	 */
@@ -266,30 +346,7 @@ public class QuestionEditation {
 		getAnswerList().setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		getScrollPane_1().setViewportView(getAnswerList());
 		getAnswerList().setSelectedIndex(0);
-		getAnswerList().setCellRenderer(new DefaultListCellRenderer() {
-			private static final long serialVersionUID = 7238015637996987222L;
-
-			@Override
-			public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-				Component renderer = super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
-				if (renderer instanceof JLabel && value instanceof Answer) {
-					((JLabel) renderer).setText((index + 1) + ". " + ((Answer) value).getAnswer());
-					getAnswerPanel().setImage(((Answer) value).getAnswerPicture(), true);
-					((JLabel) renderer).setIcon(new ImageIcon((BufferedImage) getAnswerPanel().getImage()));
-					((JLabel) renderer).setVerticalTextPosition(SwingConstants.TOP);
-					((JLabel) renderer).setHorizontalTextPosition(SwingConstants.CENTER);
-					if (!((Answer) value).getAnswerPicture().equals(""))
-						((JLabel) renderer).setHorizontalAlignment(SwingConstants.CENTER);
-
-					if (((Answer) value).isCorrectAnswer()) {
-						setBackground(new Color(142, 236, 143)); // green
-					} else {
-						setBackground(new Color(226, 80, 80)); // red
-					}
-				}
-				return renderer;
-			}
-		});
+		getAnswerList().setCellRenderer(new AnswersRenderer());
 	}
 
 	/**
@@ -442,6 +499,7 @@ public class QuestionEditation {
 
 	public void setTextQuestion(JTextArea textQuestion) {
 		this.textQuestion = textQuestion;
+		textQuestion.setWrapStyleWord(true);
 		textQuestion.setLineWrap(true);
 	}
 
@@ -728,6 +786,7 @@ public class QuestionEditation {
 	 */
 	private void setScrollPane_1(JScrollPane scrollPane_1) {
 		this.scrollPane_1 = scrollPane_1;
+		scrollPane_1.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 	}
 
 	/**
@@ -820,4 +879,5 @@ public class QuestionEditation {
 	private void setPanel_1(JPanel panel_1) {
 		this.panel_1 = panel_1;
 	}
+
 }

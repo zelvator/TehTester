@@ -1,5 +1,6 @@
 package org.zelvator.tester;
 
+import java.awt.Color;
 import java.awt.Component;
 import java.awt.Cursor;
 import java.awt.Dimension;
@@ -8,14 +9,17 @@ import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
 import javax.imageio.ImageIO;
-import javax.swing.DefaultListCellRenderer;
+import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -24,9 +28,19 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.JTextPane;
+import javax.swing.ListCellRenderer;
 import javax.swing.ListSelectionModel;
-import javax.swing.SwingConstants;
+import javax.swing.UIManager;
+import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.text.DefaultStyledDocument;
+import javax.swing.text.Style;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyleContext;
+import javax.swing.text.StyledDocument;
 
 import org.zelvator.dragImage.ImagePanel;
 import org.zelvator.editor.TestEditation;
@@ -34,13 +48,6 @@ import org.zelvator.models.ListModelAnswers;
 import org.zelvator.questions.Question;
 import org.zelvator.questions.answers.Answer;
 import org.zelvator.timer.TestTimer;
-
-import java.awt.event.MouseAdapter;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-
-import javax.swing.event.ListSelectionListener;
-import javax.swing.event.ListSelectionEvent;
 
 /**
  * This Frame represents The Tester, which loads questions from file into array and
@@ -281,30 +288,83 @@ public class Tester extends JFrame {
 		setListOfAnswers(new JList<Answer>(new ListModelAnswers(new ArrayList<Answer>())));
 		getListOfAnswers().setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		getScrollPane_1().setViewportView(getListOfAnswers());
-		getListOfAnswers().setCellRenderer(new DefaultListCellRenderer() {
-			private static final long serialVersionUID = 7238015637996987222L;
-
-			@Override
-			public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-				Component renderer = super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
-				if (renderer instanceof JLabel && value instanceof Answer) {
-					((JLabel) renderer).setText(((Answer) value).getAnswer());
-					((JLabel) renderer).setVerticalTextPosition(SwingConstants.TOP);
-					((JLabel) renderer).setHorizontalTextPosition(SwingConstants.CENTER);
-					getAnswerPanel().setImage(((Answer) value).getAnswerPicture(), true);
-					((JLabel) renderer).setIcon(new ImageIcon((BufferedImage) getAnswerPanel().getImage()));
-					if (!((Answer) value).getAnswerPicture().equals(""))
-						((JLabel) renderer).setHorizontalAlignment(SwingConstants.CENTER);
-				}
-				return renderer;
-			}
-		});
+		getListOfAnswers().setCellRenderer(new AnswersRenderer());
 
 		lblType = new JLabel("Typ:");
 		lblType.setBounds(10, 11, 426, 14);
 		panel.add(lblType);
 	}
+	class AnswersRenderer extends JPanel implements ListCellRenderer<Object> {
+		private static final long serialVersionUID = 4635401484999279341L;
+		
+		protected final Border noFocusBorder = new EmptyBorder(1, 1, 1, 1);
+		private final Border SAFE_NO_FOCUS_BORDER = new EmptyBorder(1, 1, 1, 1);
 
+		public AnswersRenderer() {
+			setOpaque(true);
+		}
+
+		private Border getNoFocusBorder() {
+			if (System.getSecurityManager() != null) {
+				return SAFE_NO_FOCUS_BORDER;
+			} else {
+				return UIManager.getBorder("List.noFocusBorder");
+			}
+		}
+
+		public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
+			if (value instanceof Answer) {
+				removeAll();
+				getAnswerPanel().setImage(((Answer) value).getAnswerPicture(), true);
+				StyledDocument document = null;
+				if (!((Answer) value).getAnswerPicture().equals("")) {
+					document = new DefaultStyledDocument();
+					Style defaultStyle = document.getStyle(StyleContext.DEFAULT_STYLE);
+					StyleConstants.setAlignment(defaultStyle, StyleConstants.ALIGN_CENTER);
+					setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+					
+				} else {
+					document = new DefaultStyledDocument();
+					Style defaultStyle = document.getStyle(StyleContext.DEFAULT_STYLE);
+					StyleConstants.setAlignment(defaultStyle, StyleConstants.ALIGN_LEFT);
+					setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
+				}
+
+				JTextPane textPane = new JTextPane(document);
+				textPane.setText(((Answer) value).getAnswer());
+				textPane.setSize(new Dimension(getScrollPane_1().getWidth() - 20, 10));
+				textPane.setMaximumSize(new Dimension(getScrollPane_1().getWidth() - 20, 1000));
+				add(textPane);
+
+				JLabel label = new JLabel();
+				label.setIcon(new ImageIcon((BufferedImage) getAnswerPanel().getImage()));
+				add(label);
+
+				Border border = null;
+				if (cellHasFocus) {
+					if (isSelected) {
+						setBackground(new Color(51, 153, 255)); //blue
+						textPane.setBackground(new Color(51, 153, 255));
+						border = UIManager.getBorder("List.focusSelectedCellHighlightBorder");
+						textPane.setForeground(Color.white);
+					}
+					if (border == null) {
+						setBackground(new Color(51, 153, 255)); 
+						textPane.setBackground(new Color(51, 153, 255));
+						textPane.setForeground(Color.white);
+						border = UIManager.getBorder("List.focusCellHighlightBorder");
+					}
+				} else {
+					border = getNoFocusBorder();
+					setBackground(Color.white); 
+					textPane.setBackground(Color.white);
+					textPane.setForeground(Color.black);
+				}
+				setBorder(border);
+			}
+			return this;
+		}
+	}
 	/**
 	 * Method for setting Icon for PlayButton.
 	 * 
@@ -537,26 +597,7 @@ public class Tester extends JFrame {
 		getScrollPane_1().setViewportView(getListOfAnswers());
 		getListOfAnswers().setSelectedIndex(-1);
 		changeSelectedAnswers();
-		getListOfAnswers().setCellRenderer(new DefaultListCellRenderer() {
-			private static final long serialVersionUID = 7238015637996987222L;
-
-			@Override
-			public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-				Component renderer = super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
-				if (renderer instanceof JLabel && value instanceof Answer) {
-					((JLabel) renderer).setText(((Answer) value).getAnswer());
-					((JLabel) renderer).setVerticalTextPosition(SwingConstants.TOP);
-					((JLabel) renderer).setHorizontalTextPosition(SwingConstants.CENTER);
-					getAnswerPanel().setImage(((Answer) value).getAnswerPicture(), true);
-					if (!((Answer) value).getAnswerPicture().equals("")) {
-						((JLabel) renderer).setIcon(new ImageIcon((BufferedImage) getAnswerPanel().getImage()));
-						((JLabel) renderer).setHorizontalAlignment(SwingConstants.CENTER);
-
-					}
-				}
-				return renderer;
-			}
-		});
+		getListOfAnswers().setCellRenderer(new AnswersRenderer());
 	}
 
 	/**
@@ -573,26 +614,7 @@ public class Tester extends JFrame {
 		getScrollPane_1().setViewportView(getListOfAnswers());
 		getListOfAnswers().setSelectedIndex(-1);
 		changeSelectedAnswers();
-		getListOfAnswers().setCellRenderer(new DefaultListCellRenderer() {
-			private static final long serialVersionUID = 7238015637996987222L;
-
-			@Override
-			public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-				Component renderer = super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
-				if (renderer instanceof JLabel && value instanceof Answer) {
-					((JLabel) renderer).setText(((Answer) value).getAnswer());
-					((JLabel) renderer).setVerticalTextPosition(SwingConstants.TOP);
-					((JLabel) renderer).setHorizontalTextPosition(SwingConstants.CENTER);
-					getAnswerPanel().setImage(((Answer) value).getAnswerPicture(), true);
-
-					if (!((Answer) value).getAnswerPicture().equals("")) {
-						((JLabel) renderer).setIcon(new ImageIcon((BufferedImage) getAnswerPanel().getImage()));
-						((JLabel) renderer).setHorizontalAlignment(SwingConstants.CENTER);
-					}
-				}
-				return renderer;
-			}
-		});
+		getListOfAnswers().setCellRenderer(new AnswersRenderer());
 	}
 
 	public JLabel getLblQuestions() {
