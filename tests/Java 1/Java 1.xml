@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="Windows-1250"?>
+<questions>
+    <question id="1">
+        <otazka cesta="">Pro vytvoření objektu používáme</otazka>
+        <spravna cesta="">klíčové slovo "new" a volání konstruktoru</spravna>
+        <spatna cesta="">instance se vytváří automaticky kompilátorem při prvním použití v proměnné</spatna>
+        <spatna cesta="">klíčové slovo "create" a volání konstruktoru</spatna>
+        <spatna cesta="">klíčové slovo "alloc" a volání konstruktoru</spatna>
+        <spatna cesta="">klíčové slovo "new" a volání destruktoru</spatna>
+    </question>
+    <question id="2">
+        <otazka cesta="">Označte pravdivá tvrzení pro finální třídu X</otazka>
+        <spravna cesta="">Lze volat metody u proměnné typu X</spravna>
+        <spravna cesta="">Od X lze vytvořit instanci </spravna>
+        <spatna cesta="">Může mít libovolný počet předků - jiných tříd.</spatna>
+        <spatna cesta="">Lze vytvořit třídu, která bude potomkem/implementací X</spatna>
+        <spatna cesta="">Tato konstrukce v jazyce Java neexistuje</spatna>
+    </question>
+    <question id="3">
+        <otazka cesta="">Klíčové slovo "this" se používá k</otazka>
+        <spatna cesta="">v předkovi k odkazování na potomka</spatna>
+        <spatna cesta="">v metodě k odkazování na tuto metodu</spatna>
+        <spatna cesta="">v potomkovi k odkazování na předka</spatna>
+        <spatna cesta=""> k odkazování na aktuální instanci virtuálního stroje</spatna>
+        <spravna cesta="">v metodě k odkazování na objekt, ze kterého je aktuální metoda volána</spravna>
+    </question>
+    <question id="4">
+        <otazka cesta="">Rozhranní se definuje pomocí klíčového slova</otazka>
+        <spravna cesta="">interface</spravna>
+        <spatna cesta="">public</spatna>
+        <spatna cesta="">class</spatna>
+        <spatna cesta="">volatile</spatna>
+        <spatna cesta="">extends</spatna>
+    </question>
+    <question id="5">
+        <otazka cesta="">Označte pravdivá tvrzení o konstruktoru</otazka>
+        <spravna cesta="">může volat konstruktor třídy-předka</spravna>
+        <spatna cesta="">každá třída má vždy implicitní veřejný bezparametrický konstruktor</spatna>
+        <spravna cesta="">může být privátní</spravna>
+        <spatna cesta="">nemůže mít nikdy parametry</spatna>
+        <spatna cesta="">má návratový typ void</spatna>
+    </question>
+    <question id="6">
+        <otazka cesta="">Tzv. gettery a settery se používají k</otazka>
+        <spatna cesta="">ke vložení/získání instance ze zásobníku virtuálního stroje</spatna>
+        <spatna cesta="">ke komunikaci se zdrojovým kódem mimo jazyk Java</spatna>
+        <spatna cesta="">takové konstrukce se v Javě nepoužívají</spatna>
+        <spravna cesta="">zapouzdření nastavení a získání hodnoty ze soukromé proměnné třídy</spravna>
+        <spatna cesta="">k vytvoření a zrušení instance dané třídy</spatna>
+    </question>
+    <question id="7">
+        <otazka cesta="">Pro odstranění objektu z paměti používáme</otazka>
+        <spatna cesta="">volání destruktoru</spatna>
+        <spatna cesta="">volání funkce "clear"</spatna>
+        <spatna cesta="">volání funkce "unalloc"</spatna>
+        <spatna cesta="">objekty se neruší a v paměti zůstávájí až do ukončení běhu virtuálního stroje</spatna>
+        <spravna cesta="">odstranění odkazů na daný objekt; ten je poté předán ke zrušení garbage collectoru</spravna>
+    </question>
+    <question id="8">
+        <otazka cesta="">Označte pravdivá tvrzení pro abstraktní třídu X</otazka>
+        <spatna cesta="">Tato konstrukce v jazyce Java neexistuje</spatna>
+        <spatna cesta="">Může mít libovolný počet přímých předků - jiných abstraktních tříd.</spatna>
+        <spravna cesta="">Lze vytvořit třídu, která bude potomkem/implementací X</spravna>
+        <spravna cesta="">Lze volat metody u proměnné typu X</spravna>
+        <spatna cesta="">Od X lze vytvořit instanci</spatna>
+    </question>
+    <question id="9">
+        <otazka cesta="">Při volání konstruktoru se objevuje klíčové slovo</otazka>
+        <spravna cesta="">new</spravna>
+        <spatna cesta="">extends</spatna>
+        <spatna cesta="">call</spatna>
+        <spatna cesta="">create</spatna>
+        <spatna cesta="">implements</spatna>
+    </question>
+    <question id="10">
+        <otazka cesta="">Klíčové slovo "static" se používá k</otazka>
+        <spatna cesta="">takové slovo v jazyce Java neexistuje</spatna>
+        <spatna cesta="">k definování vlastnosti s neměnnou hodnotou</spatna>
+        <spatna cesta="">k označení metody, která vrací vždy stejný výsledek bez ohledu na stav objektu a předané parametry</spatna>
+        <spravna cesta="">definování metod a proměnných, které patří přímo třídě a jsou společné pro všechny instance této třídy</spravna>
+        <spatna cesta="">k označení metody, která nemění obsah jí předaných parametrů</spatna>
+    </question>
+    <question id="11">
+        <otazka cesta="">Označte pravdivá tvrzení pro statickou třídu X</otazka>
+        <spatna cesta="">Lze volat metody u proměnné typu X</spatna>
+        <spatna cesta="">Od X lze vytvořit instanci</spatna>
+        <spravna cesta="">Tato konstrukce v jazyce Java neexistuje</spravna>
+        <spatna cesta="">Může mít libovolný počet předků - jiných statických tříd.</spatna>
+        <spatna cesta="">Lze vytvořit třídu, která bude potomkem/implementací X</spatna>
+    </question>
+    <question id="12">
+        <otazka cesta="">Jak se předávají objekty (ne primitivní typy) jako parametry při volání metod?</otazka>
+        <spatna cesta="">tuto konstrukci Java nepodporuje</spatna>
+        <spravna cesta="">pouze referencí</spravna>
+        <spatna cesta="">lze hodnotou i referencí</spatna>
+        <spatna cesta="">pouze hodnotou</spatna>
+        <spatna cesta="">klonováním</spatna>
+    </question>
+    <question id="13">
+        <otazka cesta="">Třída se definuje pomocí klíčového slova</otazka>
+        <spravna cesta="">class</spravna>
+        <spatna cesta="">extends</spatna>
+        <spatna cesta="">public</spatna>
+        <spatna cesta="">volatile</spatna>
+        <spatna cesta="">interface</spatna>
+    </question>
+    <question id="14">
+        <otazka cesta="">Identifikátor používající se při testování v JUnit pro ohodnocení shodnosti/korektnosti výsledku je:</otazka>
+        <spravna cesta="">assert</spravna>
+        <spatna cesta="">view</spatna>
+        <spatna cesta="">equal</spatna>
+        <spatna cesta="">test</spatna>
+        <spatna cesta="">analyze</spatna>
+    </question>
+    <question id="15">
+        <otazka cesta="">Správný postup při vývoji pomocí TDD je:</otazka>
+        <spatna cesta="">Vytvořit celou aplikace. Po jejím vytvoření vytvořit všechny testy. Po ověření všechno refaktorovat.</spatna>
+        <spatna cesta="">Vytvořit test, korektně naimplementovat požadovanou funkcionalitu, ověřit funkcionalitu testem.</spatna>
+        <spatna cesta="">Pomocí refaktoringu vytvořit funkcionalitu, potom navrhnout test a ověřit funkcionalitu.</spatna>
+        <spravna cesta="">Vytvořit test, zběžně naimplementovat požadovanou funkcionalitu, po ověření testem ji pomocí refaktoringu upravit do výsledné formy.</spravna>
+        <spatna cesta="">Vytvořit funkcionalitu, zběžně navrhnout test, po ověření refaktorováním upravit test do výsledné formy.</spatna>
+    </question>
+    <question id="16">
+        <otazka cesta="">Co je cílem refaktorování?</otazka>
+        <spatna cesta="">Operace nutné k přenesení aplikace na jinou platformu</spatna>
+        <spravna cesta="">Odstranění duplicit</spravna>
+        <spravna cesta="">Vytvořit co nejčistější a nejpřehlednější funkční kód</spravna>
+        <spatna cesta=""> Opravit chyby v nefunkčním kódu</spatna>
+        <spatna cesta="">Přeložit zdrojový kód pomocí efektivnějšího kompilátoru do strojového kódu</spatna>
+    </question>
+    <question id="17">
+        <otazka cesta="">Co je to unitový test?</otazka>
+        <spatna cesta="">Test ověřující funcionalitu modulů aplikace.</spatna>
+        <spatna cesta="">Test ověřující funkcionalitu výsledné aplikace jako celku</spatna>
+        <spatna cesta="">Test ověřující propojení několika bloků systémů</spatna>
+        <spatna cesta="">Jakýkoliv obecný test ověřující funkcionalitu aplikace.</spatna>
+        <spravna cesta="">Test ověřující funkcionalitu funkčně jednoduchého bloku</spravna>
+    </question>
+    <question id="18">
+        <otazka cesta="">Co je to funkční test?</otazka>
+        <spatna cesta="">Test ověřující fukcionalitu konkrétní metody třídy</spatna>
+        <spatna cesta="">Test ověřující funkcionalitu výsledné aplikace jako celku</spatna>
+        <spatna cesta="">Jakýkoliv obecný test ověřující funkcionalitu aplikace.</spatna>
+        <spatna cesta="">Test ověřující funkcionalitu funkčně jednoduchého bloku</spatna>
+        <spravna cesta="">Test ověřující funcionalitu modulů aplikace.</spravna>
+    </question>
+    <question id="19">
+        <otazka cesta="">Jedním z frameworků, který se používá pro TDD v Javě, je:</otazka>
+        <spravna cesta="">JUnit</spravna>
+        <spatna cesta="">.NETUnit</spatna>
+        <spatna cesta="">Potřebné knihovny jsou součástí Java SDK a nemají speciální název.</spatna>
+        <spatna cesta="">xTester</spatna>
+        <spatna cesta="">JavaTestDrivenDevelopmentUnit</spatna>
+    </question>
+    <question id="20">
+        <otazka cesta="">Co je to integrační test?</otazka>
+        <spatna cesta="">Test ověřující funkcionalitu funkčně jednoduchého bloku</spatna>
+        <spatna cesta="">Jakýkoliv obecný test ověřující funkcionalitu aplikace.</spatna>
+        <spatna cesta="">Test ověřující funcionalitu modulů aplikace.</spatna>
+        <spravna cesta="">Test ověřující funkcionalitu výsledné aplikace jako celku</spravna>
+        <spatna cesta="">Test ověřující fukcionalitu konkrétní metody třídy</spatna>
+    </question>
+    <question id="21">
+        <otazka cesta="">Testovací metody v JUnit mají prefix:</otazka>
+        <spatna cesta="">assert</spatna>
+        <spatna cesta="">set</spatna>
+        <spravna cesta="">test</spravna>
+        <spatna cesta="">view</spatna>
+        <spatna cesta="">check</spatna>
+    </question>
+    <question id="22">
+        <otazka cesta="">K čemu slouží wrappery pro primitivní typy?</otazka>
+        <spatna cesta="">Zapouzdrují objektové typy, aby je šlo použít spolu s primitivními typy.</spatna>
+        <spatna cesta="">Zapouzdřují primitivní typ, aby zabránili vložení nekorektní hodnoty.</spatna>
+        <spatna cesta="">Wrappery nelze použít s primitivními typy.</spatna>
+        <spravna cesta="">Zapouzdřují primitivní typ do třídy, aby jej šlo použít jako referenční typ. </spravna>
+        <spatna cesta="">Zapouzdřují primitivní typ, aby jej šlo zkompilovat v nové verzi javy 6.</spatna>
+    </question>
+    <question id="23">
+        <otazka cesta="">Označte pravdivé výroky ohledně metody toString():</otazka>
+        <spravna cesta="">Metoda se používá pro získání hodnoty objektu transformovaného na řetězec.</spravna>
+        <spravna cesta="">Existuje primitivní typ, který nemá metodu toString()</spravna>
+        <spatna cesta="">Metodu nelze přetížit.</spatna>
+        <spravna cesta="">Metoda je definována v datovém typu Object.</spravna>
+        <spatna cesta="">Existuje referenční typ, který nemá metodu toString()</spatna>
+    </question>
+    <question id="24">
+        <otazka cesta="">Vyberte pravdivá tvrzení o primitivních typech:</otazka>
+        <spravna cesta="">Předávají se hodnotou</spravna>
+        <spravna cesta="">Pomocí wrapovacích typů je lze používat jako typy referenční</spravna>
+        <spatna cesta="">Dědí z obecného typu Object</spatna>
+        <spravna cesta="">Nepatří do objektové hierarchie typů</spravna>
+        <spatna cesta="">Předávají se referencí</spatna>
+        <spatna cesta="">V Javě existují bezznaménkové prmitivní typy (s rozsahem pouze kladných čísel)</spatna>
+        <spatna cesta="">V Javě existují znaménkové primitivní typy (s rozsahem záporných i kladných čísel) </spatna>
+    </question>
+    <question id="25">
+        <otazka cesta="">Jaký je význam existence třídy StringBuilder?</otazka>
+        <spravna cesta="">Umožňuje vytvořit dlouhý řetězec pomocí skládání jednotlivých částí metodou append.</spravna>
+        <spatna cesta="">Umožňuje načítat řetězec automatizovaně ze souboru.</spatna>
+        <spatna cesta="">Taková třída v Javě neexistuje.</spatna>
+        <spravna cesta="">Umožňuje měnit proměnnou s řetězcem, aniž by se pro každou změnu musela vytvářet nová instance.</spravna>
+        <spatna cesta="">Umožňuje bezpečně vícevláknově přistupovat při čtení z proměnné řetězce.</spatna>
+    </question>
+    <question id="26">
+        <otazka cesta="">Které z následujících dvojic hodnot čísel a datových typů si odpovídají?</otazka>
+        <spravna cesta="">170L - long</spravna>
+        <spatna cesta="">34.453 - float</spatna>
+        <spatna cesta="">170i - int</spatna>
+        <spravna cesta="">84.455f - float</spravna>
+        <spravna cesta="">170 - int</spravna>
+    </question>
+    <question id="27">
+        <otazka cesta="">Správné operace s řetězce realizují výrazy:</otazka>
+        <spatna cesta="">String repl = s.replace(2,3,4,5);</spatna>
+        <spatna cesta="">String s = "Dobrý + den."";</spatna>
+        <spravna cesta="">String s = "Dobrý " + "den.";</spravna>
+        <spravna cesta="">boolean shodné = s.equals("Dobrý den");</spravna>
+        <spatna cesta="">String part = s.delete(4,6);</spatna>
+    </question>
+    <question id="28">
+        <otazka cesta="">Nejvyšším datovým typem v hierarchii objektů v Javě je:</otazka>
+        <spatna cesta="">Type</spatna>
+        <spatna cesta="">Top</spatna>
+        <spatna cesta="">Class</spatna>
+        <spravna cesta="">Object</spravna>
+        <spatna cesta="">Parent</spatna>
+    </question>
+    <question id="29">
+        <otazka cesta="">Chci-li vytisknout nebo parsovat hodnotu data ve formátu 14. ledna 2001 08:20, použiji:</otazka>
+        <spravna cesta="">instanci třídy SimpleDateFormat s nastavením formátovacího řetězce na dd. MMMM yyyy hh:mm</spravna>
+        <spravna cesta="">instanci třídy TimeZone s nastavením formátovacího řetězce na dd. MMMM yyyy hh:mm</spravna>
+        <spatna cesta="">instanci třídy Locale s nastavením formátovacího řetězce na dd. MMMM yyyy HH:mm</spatna>
+        <spatna cesta="">instanci třídy Date s nastavením formátovacího řetězce na dd. MMMM yyyy hh:mm </spatna>
+        <spatna cesta="">instanci třídy SimpleDateFormat s nastavením formátovacího řetězce na d. M y h:m</spatna>
+    </question>
+    <question id="30">
+        <otazka cesta="">S jakou přesností reprezentují datum a čas běžné třídy v jazyce Java?</otazka>
+        <spatna cesta="">Na sekundy</spatna>
+        <spatna cesta="">Na dny</spatna>
+        <spravna cesta="">Na milisekundy</spravna>
+        <spatna cesta="">Na minuty</spatna>
+    </question>
+    <question id="31">
+        <otazka cesta="">Které z následujících hodnot můžete získat jako informace z instance třídy java.util.Date?</otazka>
+        <spatna cesta="">Hodiny</spatna>
+        <spatna cesta="">Roky</spatna>
+        <spatna cesta="">Sekundy</spatna>
+        <spatna cesta="">Dny</spatna>
+        <spravna cesta="">Milisekundy</spravna>
+    </question>
+    <question id="32">
+        <otazka cesta="">Třída java.util.GregorianCalendar reprezentuje datum pomocí:</otazka>
+        <spravna cesta="">třídní proměnné typu "long" udržující počet milisekund od určitého data</spravna>
+        <spravna cesta="">třídních proměnných udržujících postupně hodnoty pro rok-měsíc-den-hodina-minuta-sekunda</spravna>
+        <spatna cesta="">hash kódu a metody getHashCode()</spatna>
+        <spatna cesta="">nijak, třída reprentuje pouze chování kalendáře (např. počet dní v měsíci), nikoliv aktuální datum</spatna>
+        <spatna cesta="">pomocí vnitřní proměnné java.util.Date</spatna>
+    </question>
+    <question id="33">
+        <otazka cesta="">Převod mezi java.util.Date a java.util.Calendar se provádí pomocí:</otazka>
+        <spravna cesta="">pomocí mezikroku a převodu přes milisekundy a metod toTime() a get/setTimeInMilis()</spravna>
+        <spatna cesta="">pomocí mezikroku a převodu přes hodiny (v desetinném formátu) a metod toTime() a get/setTimeInMilis()</spatna>
+        <spatna cesta="">metod fromCalendar/toCalendar třídy java.util.Date</spatna>
+        <spatna cesta="">java.util.Calendar vnitřně obsahuje java.util.Date, takže převod se nemusí provádět</spatna>
+        <spatna cesta="">explicitního volání kontruktoru obou tříd se zadáním hodnot rok-měsíc-den-hodina-minuta-sekunda-milisekunda</spatna>
+    </question>
+    <question id="34">
+        <otazka cesta="">Můžete si v Javě naprogramovat vlastní, fiktivní kalendář, využívající pouze 10 měsíců v roce?</otazka>
+        <spatna cesta="">Ne</spatna>
+        <spravna cesta="">Ano, jako potomka třídy java.util.Calendar</spravna>
+        <spatna cesta="">Ano, ale pouze jako samostatnou třídu</spatna>
+        <spatna cesta="">Ano, jako potomka třídy java.util.Date</spatna>
+    </question>
+    <question id="35">
+        <otazka cesta="">Lze převést instanci třídy java.util.Date na instanci třídy java.util.GregorianCalendar?</otazka>
+        <spravna cesta="">Ano, pomocí metody</spravna>
+        <spatna cesta="">Ano, přímo pomocí přetypování</spatna>
+        <spatna cesta="">Složitě přes instanci třídy String</spatna>
+        <spatna cesta="">Ne</spatna>
+    </question>
+    <question id="36">
+        <otazka cesta="">Lze převést instanci třídy java.util.GregorianCalendar na instanci třídy java.util.Date?</otazka>
+        <spatna cesta="">Ne</spatna>
+        <spatna cesta="">Ano, přímo pomocí přetypování</spatna>
+        <spravna cesta="">Ano, pomocí metod</spravna>
+        <spatna cesta="">Složitě přes instanci třídy String</spatna>
+    </question>
+    <question id="37">
+        <otazka cesta="">Třída určená k formátování řetězce na datum a zpět se jmenuje:</otazka>
+        <spatna cesta="">java.util.Locale</spatna>
+        <spatna cesta="">java.util.TimeZone</spatna>
+        <spatna cesta="">java.util.Date</spatna>
+        <spravna cesta="">java.text.SimpleDateFormat </spravna>
+        <spatna cesta="">java.util.Calendar</spatna>
+    </question>
+    <question id="38">
+        <otazka cesta="">Lze vytvořit instanci třídy java.util.Calendar?</otazka>
+        <spatna cesta="">Ano</spatna>
+        <spravna cesta="">Ne</spravna>
+        <spatna cesta="">Jen z instance třídy String</spatna>
+        <spatna cesta="">Jen z instance třídy java.util.Date</spatna>
+    </question>
+    <question id="39">
+        <otazka cesta="">Hodnotu aktuálního data získáme z třídy java.util.Calendar pomocí:</otazka>
+        <spatna cesta="">volání statické metody getCurrent();</spatna>
+        <spatna cesta="">volání bezparametrického konstruktoru</spatna>
+        <spatna cesta="">pouze a jen explicitně voláním konstruktoru třídy s parametry rok-měsíc-den-hodina-minuta-sekunda-milisekunda</spatna>
+        <spatna cesta="">volání nestatické (instanční) metody getNow();</spatna>
+        <spravna cesta="">volání statické metody getInstance()</spravna>
+    </question>
+    <question id="40">
+        <otazka cesta="">Základní metody pro úpravu aktuálního data v kalendáři jsou:</otazka>
+        <spatna cesta="">remove()</spatna>
+        <spatna cesta="">append()</spatna>
+        <spravna cesta="">roll() </spravna>
+        <spravna cesta="">add()</spravna>
+        <spravna cesta="">set()</spravna>
+    </question>
+    <question id="41">
+        <otazka cesta="">Lidsky čitelnou hodnotu v instanci třídy java.util.Date získáme nejrychleji pomocí:</otazka>
+        <spatna cesta="">volání metod getTime().toString()</spatna>
+        <spatna cesta="">nelze získat, musí se použít převod na typ java.util.Calendar</spatna>
+        <spatna cesta="">volání metody toDateString</spatna>
+        <spravna cesta="">volání metody toString()</spravna>
+        <spatna cesta="">volání metody printDate()</spatna>
+    </question>
+    <question id="42">
+        <otazka cesta="">Korektní syntaxe pro vytvoření proměnné pro reprezentaci matice 3x3 bude:</otazka>
+        <spatna cesta="">int [[]] mat = new int [3[3]];</spatna>
+        <spatna cesta="">int [,] mat = new int [3, 3];</spatna>
+        <spravna cesta="">int [][] mat = new int [3][3];</spravna>
+        <spatna cesta="">takové pole nelze v Javě vytvořit</spatna>
+        <spatna cesta="">int [..] mat = new int [3..3];</spatna>
+    </question>
+    <question id="43">
+        <otazka cesta="">Chci udržovat sadu prvků, do které chci prvky přidávat a chci později měnit jejich hodnoty. Použiji nejlépe:</otazka>
+        <spatna cesta="">Mapu</spatna>
+        <spatna cesta="">Množinu</spatna>
+        <spatna cesta="">Pole</spatna>
+        <spravna cesta="">List</spravna>
+    </question>
+    <question id="44">
+        <otazka cesta="">Co je to pole?</otazka>
+        <spatna cesta="">Základní datová struktura určená k udržení a reprezentaci součtu daných prvků</spatna>
+        <spravna cesta="">Základní datová struktura určená k udržení a reprezentaci předem daného, statického počtu prvků stejného typu</spravna>
+        <spatna cesta="">Takový pojem v programování v Javě neexistuje, byl nahrazen pojmem Kolekce.</spatna>
+        <spatna cesta="">Základní datová struktura určená k udržení a reprezentaci libovolně měnitelného počtu prvků stejného typu</spatna>
+    </question>
+    <question id="45">
+        <otazka cesta="">Pro průchod přes desetiprvkové pole v Javě použijeme cyklus:</otazka>
+        <spatna cesta="">for (int i = 1; i &lt; 10; i++)</spatna>
+        <spatna cesta="">for (int i = 1; i &lt;= 10; i++)</spatna>
+        <spravna cesta="">for (int i = 0; i &lt; 10; i++) </spravna>
+        <spatna cesta="">for (int i = 0; i &lt; 9; i++)</spatna>
+        <spatna cesta="">for (int i = 0; i &lt;= 10; i++)</spatna>
+    </question>
+    <question id="46">
+        <otazka cesta="">Korektní syntaxe pro definici 5-prvkového pole s indexy od 2 do 6 je:</otazka>
+        <spravna cesta="">takové pole nelze v Javě vytvořit</spravna>
+        <spatna cesta="">int [] i = new int[2,5];</spatna>
+        <spatna cesta="">int [] i = new int[2-6];</spatna>
+        <spatna cesta="">int [] i = new int[2..6];</spatna>
+        <spatna cesta="">int [] i = new int[2,6];</spatna>
+    </question>
+    <question id="47">
+        <otazka cesta="">Korektní syntaxe pro vytvoření pole v Javě je:</otazka>
+        <spravna cesta="">int [] i = new int {2, 3, 4};</spravna>
+        <spatna cesta="">int () i = new int (5);</spatna>
+        <spravna cesta="">int [] i = new int [5];</spravna>
+        <spatna cesta="">int {} i = new int {5}</spatna>
+        <spatna cesta="">int i [] = new int [5];</spatna>
+    </question>
+    <question id="48">
+        <otazka cesta="">Korektní metody, které lze volat nad kolekcí typu "ArrayList" jsou: </otazka>
+        <spravna cesta="">kol.add(4);</spravna>
+        <spatna cesta="">Integer i = kol[4];</spatna>
+        <spravna cesta="">kol.get(3);</spravna>
+        <spravna cesta="">kol.set(5,3);</spravna>
+        <spatna cesta="">kol[4] = 5; </spatna>
+    </question>
+    <question id="49">
+        <otazka cesta="">Pro vyhledání hodnoty 4 v poli "x" použijeme výraz:</otazka>
+        <spatna cesta="">int index = Arrays.binarySearch(x, 4); // pole nemusí být předem seřazeno</spatna>
+        <spatna cesta="">int index = x.binarySearch(4); // pole musí být předem seřazeno</spatna>
+        <spatna cesta="">int index = x.find(4); // pole musí být předem seřazeno</spatna>
+        <spatna cesta="">int index = x.search(4); // pole musí být předem seřazeno</spatna>
+        <spravna cesta="">int index = Arrays.binarySearch(x, 4); // pole musí být předem seřazeno</spravna>
+    </question>
+    <question id="50">
+        <otazka cesta="">Pro seřazení pole "x" použijeme výraz:</otazka>
+        <spatna cesta="">x.sort(Arrays);</spatna>
+        <spravna cesta="">Arrays.sort(x);</spravna>
+        <spatna cesta="">x.sort();</spatna>
+        <spatna cesta="">x.Sort();</spatna>
+        <spatna cesta="">sort(x);</spatna>
+    </question>
+    <question id="51">
+        <otazka cesta="">Zatrhněte dvojici deklarací, které po kompilaci zahlásí chybu upozorňující na opakovaný výskyt stejné metody se stejnou signaturou:</otazka>
+        <spatna cesta="">public int add(List&lt;int&gt; data)</spatna>
+        <spatna cesta="">public void add&lt;T&gt;(List&lt;T&gt; data) </spatna>
+        <spravna cesta="">public void add(List&lt;String&gt; data)</spravna>
+        <spravna cesta="">public void add(List&lt;Integer&gt; data)</spravna>
+    </question>
+    <question id="52">
+        <otazka cesta="">Který z následujících řádků uvozuje generickou třídu X:</otazka>
+        <spatna cesta="">public class Y generic X</spatna>
+        <spatna cesta="">public class X?Y</spatna>
+        <spatna cesta="">public class Y&lt;X&gt;</spatna>
+        <spravna cesta="">public class X&lt;Y&gt;</spravna>
+    </question>
+    <question id="53">
+        <otazka cesta="">U kterých následujících výrazových prvků jazyka lze běžnou deklaraci rozšířit na generickou?</otazka>
+        <spravna cesta="">Metoda</spravna>
+        <spatna cesta="">Třídní instanční proměnná</spatna>
+        <spravna cesta="">Třída</spravna>
+        <spatna cesta="">Konstanta</spatna>
+    </question>
+    <question id="54">
+        <otazka cesta="">Které z následujících písmen označuje generický typ v deklaraci "public class A&lt;B&gt; extends C"</otazka>
+        <spatna cesta="">C</spatna>
+        <spravna cesta="">A</spravna>
+        <spatna cesta="">B</spatna>
+    </question>
+    <question id="55">
+        <otazka cesta="">Co je charakteristické pro výjimku, vyvolávanou v případě selhální zdroje (např. souboru, sítě) způsobeného mimo vlastní běh aplikace?</otazka>
+        <spatna cesta="">Je potomkem třídy RuntimeException</spatna>
+        <spravna cesta="">Je potomkem třídy Exception</spravna>
+        <spatna cesta="">Je potomkem třídy Error</spatna>
+        <spatna cesta="">Nemusí se zachytávat blokem try-catch-finally</spatna>
+    </question>
+    <question id="56">
+        <otazka cesta="">Pro vyvolání výjimky se používá klíčové slovo:</otazka>
+        <spravna cesta="">throw</spravna>
+        <spatna cesta="">throws</spatna>
+        <spatna cesta="">catch</spatna>
+        <spatna cesta="">finally</spatna>
+        <spatna cesta="">try</spatna>
+    </question>
+    <question id="57">
+        <otazka cesta="">Co znamená, že výjimky jsou "řetězené":</otazka>
+        <spatna cesta="">že klienský kód musí výjimku buď ošetřit, nebo ji propagovat</spatna>
+        <spatna cesta="">že kompilátor kontroluje syntaxi zapsaných try-catch-finally bloků</spatna>
+        <spatna cesta="">takový termín neexistuje.</spatna>
+        <spatna cesta="">že JVM kontroluje chyby a vyvolává případné výjimky</spatna>
+        <spravna cesta="">že lze do nové instance výjimky vložit již existující instanci jiné výjimky</spravna>
+    </question>
+    <question id="58">
+        <otazka cesta="">Kolikrát můžeme použít podblok "finally" v sekvenci try-catch-finally?</otazka>
+        <spatna cesta="">0x - 3x</spatna>
+        <spravna cesta="">0x - 1x</spravna>
+        <spatna cesta="">1x</spatna>
+        <spatna cesta="">Libovolněkrát</spatna>
+        <spatna cesta="">2x</spatna>
+    </question>
+    <question id="59">
+        <otazka cesta="">Který z následujících výrazů je korektní vyvolání výjimky?</otazka>
+        <spravna cesta="">throw new Exception ("Chyba.");</spravna>
+        <spatna cesta="">throw Exception ("Chyba.");</spatna>
+        <spatna cesta="">throws new Exception ("Chyba.");</spatna>
+        <spatna cesta="">throws Exception ("Chyba.);</spatna>
+        <spatna cesta="">throws Exception ("Chyba.");</spatna>
+    </question>
+    <question id="60">
+        <otazka cesta="">Kolikrát můžeme použít podblok "try" v sekvenci try-catch-finally?</otazka>
+        <spatna cesta="">2x</spatna>
+        <spatna cesta="">0x - 3x</spatna>
+        <spatna cesta="">Libovolněkrát</spatna>
+        <spravna cesta="">1x</spravna>
+        <spatna cesta="">0x - 1x</spatna>
+    </question>
+    <question id="61">
+        <otazka cesta="">Pro uvození bloku, který zkusí provést zadané příkazy, se používá klíčové slovo:</otazka>
+        <spatna cesta="">catch</spatna>
+        <spatna cesta="">throw</spatna>
+        <spatna cesta="">finally</spatna>
+        <spatna cesta="">throws</spatna>
+        <spravna cesta="">try</spravna>
+    </question>
+    <question id="62">
+        <otazka cesta="">Pro uvození bloku, který bude zachytávat případnou výjimku, se používá klíčové slovo:</otazka>
+        <spravna cesta="">catch</spravna>
+        <spatna cesta="">throw</spatna>
+        <spatna cesta="">try</spatna>
+        <spatna cesta="">throws</spatna>
+        <spatna cesta="">finally</spatna>
+    </question>
+    <question id="63">
+        <otazka cesta="">Který z následujících výrazů je korektní úvod bloku pro zachycení výjimky?</otazka>
+        <spravna cesta="">catch (Exception ex)</spravna>
+        <spatna cesta="">finally (Exception)</spatna>
+        <spatna cesta="">catch</spatna>
+        <spatna cesta="">catchs (Exception ex)</spatna>
+        <spatna cesta="">catch (Exception)</spatna>
+    </question>
+    <question id="64">
+        <otazka cesta="">Jakým způsobem řeší jazyk Java práci s odlišnými souborovými systémy různých operačních systémů?</otazka>
+        <spatna cesta="">Java umožňuje pracovat pouze se souborovým systémem FATxx a NTFS, které jsou vzájemně kompatibilní.</spatna>
+        <spatna cesta="">Každý souborový systém má svého potomka abstraktních tříd, které realizují operace pro daný souborový systém</spatna>
+        <spravna cesta="">Vše zapouzdřuje do jedné knihovny umožňující pracovat s libovolnými souborovými systémy</spravna>
+        <spatna cesta="">Každý souborový systém má svůj vlastní balíček, který obsahuje třídy, které zpracovávají daný souborový systém</spatna>
+    </question>
+    <question id="65">
+        <otazka cesta="">Třídy pro práci se soubory a souborovým systémem lze nalézt v balíčku:</otazka>
+        <spravna cesta="">java.io</spravna>
+        <spravna cesta="">java.nio</spravna>
+        <spatna cesta="">java.data</spatna>
+        <spatna cesta="">java.files</spatna>
+    </question>
+    <question id="66">
+        <otazka cesta="">Základní třídou reprezentující určitý objekt na disku, je třída "java.io.File". Pokud vytvoříme instanci předáním určité cesty (např. C:\windows\windows.ini), musí tento objekt existovat?</otazka>
+        <spravna cesta="">Ne.</spravna>
+        <spatna cesta="">Ano.</spatna>
+        <spatna cesta="">Ne, ale při vytvoření instance se automaticky vytvoří.</spatna>
+        <spatna cesta="">Ne, ale programátor jej musí v průběhu běhu aplikace vytvořit.</spatna>
+    </question>
+    <question id="67">
+        <otazka cesta="">Základní třídou reprezentující určitý objekt na disku, je třída "java.io.File". Instance této třídy reprezentuje:</otazka>
+        <spravna cesta="">Složku</spravna>
+        <spatna cesta="">Jedná se o abstraktní třídu.</spatna>
+        <spatna cesta="">Seznam atributů souboru</spatna>
+        <spravna cesta="">Soubor</spravna>
+    </question>
+    <question id="68">
+        <otazka cesta="">Výjimky při práci se streamy:</otazka>
+        <spatna cesta="">Není třeba zachytávat, typicky operace vyhazují java.io.IOException, která je systémová (Error) a nelze ji explicitně zachytit.</spatna>
+        <spatna cesta="">Není třeba zachytávat, typicky operace vyhazují java.io.IOException, která je běhová a nemusí se explicitně zachytit.</spatna>
+        <spatna cesta="">Nevyhazují se explicitně výjimky, není třeba zachytávat.</spatna>
+        <spravna cesta="">Je třeba zachytávat, typicky operace vyhazují java.io.IOException.</spravna>
+    </question>
+    <question id="69">
+        <otazka cesta="">V Javě se se soubory pracuje pomocí tzv. streamů. Tyto streamy lze (v javě typicky) dělit do kategorií na:</otazka>
+        <spravna cesta="">Vstupní a výstupní</spravna>
+        <spatna cesta="">Zabezpečené a nezabezpečené</spatna>
+        <spatna cesta="">Šifrované a nešifrované</spatna>
+        <spravna cesta="">Bytové a textové</spravna>
+    </question>
+    <question id="70">
+        <otazka cesta="">Výstupní bytový proud pro RAR kompresi datových souborů bude nejlépe charakterizován třídou:</otazka>
+        <spravna cesta="">RarOutputStream</spravna>
+        <spatna cesta="">RarWriter</spatna>
+        <spatna cesta="">RarInputStream</spatna>
+        <spatna cesta="">RarReader</spatna>
+    </question>
+    <question id="71">
+        <otazka cesta="">Co je charakteristické pro filtrový (filtrovací) stream?</otazka>
+        <spatna cesta="">Má bezparametrický veřejný konstruktor.</spatna>
+        <spatna cesta="">Nemusí se uzavírat (provede uzavření automaticky).</spatna>
+        <spravna cesta="">Zapouzdřuje jiný stream.</spravna>
+        <spatna cesta="">Nutně bufferuje data.</spatna>
+    </question>
+    <question id="72">
+        <otazka cesta="">Vstupní textový proud pro RAR dekompresi textu bude nejlépe charakterizován třídou:</otazka>
+        <spatna cesta="">RarWriter</spatna>
+        <spravna cesta="">RarReader</spravna>
+        <spatna cesta="">RarOutputStream</spatna>
+        <spatna cesta="">RarInputStream</spatna>
+    </question>
+    <question id="73">
+        <otazka cesta="">Základní operace při práci se streamy lze provádět v pořadí:</otazka>
+        <spatna cesta="">Otevření, načtení do lokální proměnné, zpracování z lokální proměnné</spatna>
+        <spravna cesta="">Otevření, načtení do lokální proměnné, uzavření, zpracování z lokální proměnné</spravna>
+        <spatna cesta="">Otevření, uzavření, načtení do lokální proměnné, zpracování z lokální proměnné,</spatna>
+        <spravna cesta="">Otevření, načtení do lokální proměnné, zpracování z lokální proměnné, uzavření </spravna>
+    </question>
+    <question id="74">
+        <otazka cesta="">Technika, která umožňuje automatizovaně ukládat instanci třídy do proudu dat, se nazývá:</otazka>
+        <spatna cesta="">Persistence</spatna>
+        <spatna cesta="">Materializace</spatna>
+        <spatna cesta="">Exceptionalizace</spatna>
+        <spravna cesta="">Serializace</spravna>
+    </question>
+</questions>

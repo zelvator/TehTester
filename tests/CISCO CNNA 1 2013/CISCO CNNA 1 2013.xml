@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="Windows-1250"?>
+<questions>
+    <question id="1">
+        <otazka cesta="">Which of the following are the address ranges of the private IP addresses? (Choose three.)</otazka>
+        <spravna cesta="">10.0.0.0 to 10.255.255.255</spravna>
+        <spatna cesta="">200.100.50.0 to 200.100.25.255</spatna>
+        <spatna cesta="">150.150.0.0 to 150.150.255.255</spatna>
+        <spravna cesta="">172.16.0.0 to 172.31.255.255</spravna>
+        <spravna cesta="">192.168.0.0 to 192.168.255.255</spravna>
+        <spatna cesta="">127.16.0.0 to 127.31.255.255</spatna>
+    </question>
+    <question id="2">
+        <otazka cesta="">Which two functions of the OSI model occur at layer two? (Choose two.)</otazka>
+        <spravna cesta="">physical addressing</spravna>
+        <spatna cesta="">encoding</spatna>
+        <spatna cesta="">routing</spatna>
+        <spatna cesta="">cabling</spatna>
+        <spravna cesta="">media access control</spravna>
+    </question>
+    <question id="3">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic1.jpg">Refer to the exhibit. What function does router RT_A need to provide to allow Internet access for hosts in this network? VIZ OBRAZEK</otazka>
+        <spravna cesta="">address translation</spravna>
+        <spatna cesta="">DHCP services</spatna>
+        <spatna cesta="">ftpd</spatna>
+        <spatna cesta="">web server</spatna>
+    </question>
+    <question id="4">
+        <otazka cesta="">What is true regarding network layer addressing? (Choose three.)</otazka>
+        <spatna cesta="">uses a flat structure</spatna>
+        <spatna cesta="">prevent broadcasts</spatna>
+        <spravna cesta="">heirarchical</spravna>
+        <spravna cesta="">uniquely identifies each host</spravna>
+        <spatna cesta="">48 bits in length</spatna>
+        <spravna cesta="">contains a network portion</spravna>
+    </question>
+    <question id="5">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic2.jpg">Refer to the exhibit. Host A attempts to establish a TCP/IP session with host C. During this attempt, a frame was captured with the source MAC address 0050.7320.D632 and the destination MAC address 0030.8517.44C4. The packet inside the captured frame has an IP source address 192.168.7.5, and the destination IP address is 192.168.219.24. At which point in the network was this packet captured? VIZ OBRAZEK</otazka>
+        <spravna cesta="">leaving Dallas</spravna>
+        <spatna cesta="">leaving host A</spatna>
+        <spatna cesta="">leaving ATL</spatna>
+        <spatna cesta="">leaving NYC</spatna>
+    </question>
+    <question id="6">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic3.jpg">Refer to the exhibit. Assume all devices are using default configurations. How many subnets are required to address the topology that is shown? VIZ OBRAZEK</otazka>
+        <spravna cesta="">3</spravna>
+        <spatna cesta="">1</spatna>
+        <spatna cesta="">4</spatna>
+        <spatna cesta="">5</spatna>
+        <spatna cesta="">7</spatna>
+    </question>
+    <question id="7">
+        <otazka cesta="">A technician is asked to secure the privileged EXEC mode of a switch by requiring a password. Which type of password would require this login and be considered the most secure?</otazka>
+        <spatna cesta="">console</spatna>
+        <spatna cesta="">enable</spatna>
+        <spravna cesta="">enable secret</spravna>
+        <spatna cesta="">VTY</spatna>
+    </question>
+    <question id="8">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic4.jpg">Refer to the exhibit. A technician is working on a network problem that requires verification of the router LAN interface. What address should be pinged from this host to confirm that the router interface is operational? VIZ OBRAZEK</otazka>
+        <spravna cesta="">192.168.254.1</spravna>
+        <spatna cesta="">127.0.0.1</spatna>
+        <spatna cesta="">192.168.64.196</spatna>
+        <spatna cesta="">192.168.254.9</spatna>
+        <spatna cesta="">192.168.254.254</spatna>
+    </question>
+    <question id="9">
+        <otazka cesta="">Which OSI layer does IP rely on to determine whether packets have been lost and to request retransmission?</otazka>
+        <spatna cesta="">application</spatna>
+        <spatna cesta="">presentation</spatna>
+        <spatna cesta="">session</spatna>
+        <spravna cesta="">transport</spravna>
+    </question>
+    <question id="10">
+        <otazka cesta="">When connectionless protocols are implemented at the lower layers of the OSI model, what is usually used to acknowledge that the data was received and to request the retransmission of missing data?</otazka>
+        <spatna cesta="">IP</spatna>
+        <spatna cesta="">UDP</spatna>
+        <spatna cesta="">Ethernet</spatna>
+        <spatna cesta="">a connectionless acknowledgement</spatna>
+        <spravna cesta="">an upper-layer, connection-oriented protocol or service</spravna>
+    </question>
+    <question id="11">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic5.jpg">Refer to the exhibit. Host C is able to ping 127.0.0.1 successfully, but is unable to communicate with hosts A and B in the organization. What is the likely cause of the problem? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The subnet mask on host C is improperly configured.</spravna>
+        <spatna cesta="">Hosts A and B are not on the same subnet as host C.</spatna>
+        <spatna cesta="">The IP addresses on the router serial interfaces are wrong.</spatna>
+        <spatna cesta="">The FastEthernet interface fa0/0 of router 1 is wrongly configured.</spatna>
+    </question>
+    <question id="12">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic6.jpg">Refer to the exhibit. Which list refers only to end devices? VIZ OBRAZEK</otazka>
+        <spravna cesta="">D,E,F,G</spravna>
+        <spatna cesta="">A,H,B,C</spatna>
+        <spatna cesta="">A,D,E,F</spatna>
+        <spatna cesta="">A,D,E,G</spatna>
+    </question>
+    <question id="13">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic7.jpg">Refer to the exhibit. Host A sends a frame with the destination MAC address as FFFF.FFFF.FFFF. What action will the switch take for this frame? VIZ OBRAZEK</otazka>
+        <spravna cesta="">It will send the frame to all hosts except host A.</spravna>
+        <spatna cesta="">It will drop the frame.</spatna>
+        <spatna cesta="">It will send the frame back to host A.</spatna>
+        <spatna cesta="">It will forward the frame to the default gateway.</spatna>
+    </question>
+    <question id="14">
+        <otazka cesta="">Which subnet mask will allow 2040 hosts per subnet on the IP network 10.0.0.0?</otazka>
+        <spatna cesta="">255.255.0.0</spatna>
+        <spatna cesta="">255.255.254.0</spatna>
+        <spatna cesta="">255.255.252.0</spatna>
+        <spravna cesta="">255.255.248.0</spravna>
+        <spatna cesta="">255.255.240.0</spatna>
+        <spatna cesta="">255.255.255.128</spatna>
+    </question>
+    <question id="15">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic8.jpg">Refer to the exhibit. RouterB is configured properly. The Ethernet interface Fa0/0 of RouterA is configured with the use of the commands that are shown. However, a ping from the Fa0/0 interface of RouterA to the Fa0/0 interface of RouterB is unsuccessful. What action should be taken on RouterA to solve this problem? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Use the no shutdown command on the FastEthernet interface Fa0/0.</spravna>
+        <spatna cesta="">Use the description command on the FastEthernet interface Fa0/0.</spatna>
+        <spatna cesta="">Configure the clock rate of the FastEthernet interface Fa0/0.</spatna>
+        <spatna cesta="">Reboot the router.</spatna>
+    </question>
+    <question id="16">
+        <otazka cesta="">To send data through a network, what two flags are used to establish a session? (Choose two.)</otazka>
+        <spravna cesta="">ACK</spravna>
+        <spatna cesta="">CRC</spatna>
+        <spravna cesta="">SYN</spravna>
+        <spatna cesta="">Ack #</spatna>
+        <spatna cesta="">Port #</spatna>
+        <spatna cesta="">Seq #</spatna>
+    </question>
+    <question id="17">
+        <otazka cesta="">Which statement is true about the TTL value of an IPv4 packet?</otazka>
+        <spatna cesta="">It determines the priority of a packet.</spatna>
+        <spravna cesta="">It specifies the remaining “life” of the packet.</spravna>
+        <spatna cesta="">It indicates that the packet has been fragmented.</spatna>
+        <spatna cesta="">It denotes the data payload type that the packet is carrying.</spatna>
+    </question>
+    <question id="18">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic9.jpg">Refer to the exhibit. Communication for hosts X and Y is restricted to the local network. What is the reason for this? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The gateway addresses are broadcast addresses.</spravna>
+        <spatna cesta="">Host X is assigned a network address.</spatna>
+        <spatna cesta="">Host Y is assigned a multicast address.</spatna>
+        <spatna cesta="">Host X and host Y belong to different networks.</spatna>
+    </question>
+    <question id="19">
+        <otazka cesta="">What type of network is maintained if a server takes no dedicated role in the network?</otazka>
+        <spatna cesta="">mainframe</spatna>
+        <spatna cesta="">client/server</spatna>
+        <spravna cesta="">peer-to-peer</spravna>
+        <spatna cesta="">centralized</spatna>
+    </question>
+    <question id="20">
+        <otazka cesta="">A routing issue has occurred in your internetwork. Which of the following type of devices should be examined to isolate this error?</otazka>
+        <spatna cesta="">access point</spatna>
+        <spatna cesta="">host</spatna>
+        <spatna cesta="">hub</spatna>
+        <spravna cesta="">router</spravna>
+        <spatna cesta="">switch</spatna>
+    </question>
+    <question id="21">
+        <otazka cesta="">Which physical component is used to access and perform the initial configuration on a new unconfigured router? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 21\answer2.jpg">Obrazek 2</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 21\answer1.jpg">Obrazek 1</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 21\answer3.jpg">Obrazek 3</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 21\answer6.jpg">Obrazek 4</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 21\answer5.jpg">Obrazek 5</spatna>
+    </question>
+    <question id="22">
+        <otazka cesta="">A user sees the command prompt: Router(config-if)# . What task can be performed at this mode?</otazka>
+        <spatna cesta="">Reload the device.</spatna>
+        <spatna cesta="">Perform basic tests.</spatna>
+        <spravna cesta="">Configure individual interfaces.</spravna>
+        <spatna cesta="">Configure individual terminal lines.</spatna>
+    </question>
+    <question id="23">
+        <otazka cesta="">What is the correct order for PDU encapsulation? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 23\answer1.jpg">Obrazek 1</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 23\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 23\answer3.jpg">Obrazek 3</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 23\answer4.jpg">Obrazek 4</spatna>
+    </question>
+    <question id="24">
+        <otazka cesta="">What information can be gathered by using the command netstat?</otazka>
+        <spatna cesta="">the default gateway</spatna>
+        <spatna cesta="">the routing protocol</spatna>
+        <spravna cesta="">active TCP connections</spravna>
+        <spatna cesta="">the locally configured subnet mask</spatna>
+    </question>
+    <question id="25">
+        <otazka cesta="">How can ARP be used to help document the network?</otazka>
+        <spatna cesta="">It can list each hop on the way to a destination host.</spatna>
+        <spatna cesta="">It can show the average latency of hosts on the network.</spatna>
+        <spravna cesta="">It can provide a list of physical addresses on the network.</spravna>
+        <spatna cesta="">It can indicate which hosts are not responding to network traffic.</spatna>
+    </question>
+    <question id="26">
+        <otazka cesta="">What is the protocol data unit that is associated with the data link layer of the OSI reference model?</otazka>
+        <spatna cesta="">data</spatna>
+        <spravna cesta="">frame</spravna>
+        <spatna cesta="">packet</spatna>
+        <spatna cesta="">segment</spatna>
+    </question>
+    <question id="27">
+        <otazka cesta="">Which application layer protocol allows administrators to log into a server from remote locations and control a server as though logged in locally?</otazka>
+        <spatna cesta="">DNS</spatna>
+        <spatna cesta="">FTP</spatna>
+        <spatna cesta="">DHCP</spatna>
+        <spatna cesta="">SMTP</spatna>
+        <spravna cesta="">Telnet</spravna>
+    </question>
+    <question id="28">
+        <otazka cesta="">Which statement identifies the DNS protocol?</otazka>
+        <spatna cesta="">It transmits information using TCP port 25.</spatna>
+        <spatna cesta="">It transfers and conveys information using HTML pages.</spatna>
+        <spravna cesta="">It matches a resource name with the required network address.</spravna>
+        <spatna cesta="">It requests and assigns an IP address, default gateway, and server addresses to hosts.</spatna>
+    </question>
+    <question id="29">
+        <otazka cesta="">Which password would allow a user to establish a Telnet session with a Cisco device?</otazka>
+        <spravna cesta="">VTY password</spravna>
+        <spatna cesta="">enable password</spatna>
+        <spatna cesta="">console password</spatna>
+        <spatna cesta="">enable secret password</spatna>
+    </question>
+    <question id="30">
+        <otazka cesta="">Which identifier is contained in the header of the Layer 2 Ethernet frame?</otazka>
+        <spatna cesta="">timing and synchronization of bits</spatna>
+        <spatna cesta="">source and destination port numbers</spatna>
+        <spatna cesta="">logical source and destination addresses</spatna>
+        <spravna cesta="">physical source and destination addresses</spravna>
+    </question>
+    <question id="31">
+        <otazka cesta="">What happens when a node on an Ethernet network is creating a frame and it does not have the destination MAC address?</otazka>
+        <spatna cesta="">The node drops the frame.</spatna>
+        <spatna cesta="">The node sends out a Layer 3 broadcast message.</spatna>
+        <spatna cesta="">The node sends a message directly to the router for the address.</spatna>
+        <spravna cesta="">The node sends out an ARP request with the destination IP address.</spravna>
+    </question>
+    <question id="32">
+        <otazka cesta="">An administrator makes changes to the default configuration of a router and saves them to NVRAM. After testing, it is discovered that the configurations did not have the desired effect and must be removed. What steps must be taken to remove the changes and return the router to the default configuration?</otazka>
+        <spatna cesta="">Reboot the router.</spatna>
+        <spatna cesta="">Use no version of the commands that are issued.</spatna>
+        <spravna cesta="">Issue the erase startup-config command, and then reboot the router.</spravna>
+        <spatna cesta="">Issue the erase running-config command, and then reboot the router.</spatna>
+    </question>
+    <question id="33">
+        <otazka cesta="">A network administrator is tasked with connecting two workgroups that are configured to use different subnets. Which device should be selected to allow connectivity between users on the two networks?</otazka>
+        <spatna cesta="">hub</spatna>
+        <spatna cesta="">switch</spatna>
+        <spravna cesta="">router</spravna>
+        <spatna cesta="">wireless access point</spatna>
+    </question>
+    <question id="34">
+        <otazka cesta="">Which two programs can be used to accomplish terminal emulation for configuring a router from the CLI through the console port? (Choose two.)</otazka>
+        <spravna cesta="">HyperTerminal</spravna>
+        <spatna cesta="">Internet Explorer</spatna>
+        <spravna cesta="">Minicom</spravna>
+        <spatna cesta="">Secure Shell</spatna>
+        <spatna cesta="">Telnet</spatna>
+    </question>
+    <question id="35">
+        <otazka cesta="">Which statement accurately describes file sharing in a peer-to-peer network?</otazka>
+        <spatna cesta="">A dedicated server is required.</spatna>
+        <spravna cesta="">Access control is decentralized.</spravna>
+        <spatna cesta="">Files are typically stored on the most powerful peer in the network.</spatna>
+        <spatna cesta="">Peers can either make requests, or respond to requests, but not both.</spatna>
+    </question>
+    <question id="36">
+        <otazka cesta="">What are two primary responsibilities of the Ethernet MAC sublayer? (Choose two.)</otazka>
+        <spatna cesta="">frame delimiting</spatna>
+        <spravna cesta="">data encapsulation</spravna>
+        <spatna cesta="">logical addressing</spatna>
+        <spatna cesta="">error detection</spatna>
+        <spravna cesta="">accessing the media</spravna>
+    </question>
+    <question id="37">
+        <otazka cesta="">Which router configuration mode would an administrator use to configure the router for SSH or Telnet login access?</otazka>
+        <spravna cesta="">line</spravna>
+        <spatna cesta="">router</spatna>
+        <spatna cesta="">global</spatna>
+        <spatna cesta="">interface</spatna>
+        <spatna cesta="">privileged EXEC</spatna>
+    </question>
+    <question id="38">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic10.jpg">Refer to the exhibit. Which device should be included in the network topology to provide Layer 2 connectivity for all LAN devices, provide multiple collision domains, and also provide a connection to the rest of the network? VIZ OBRAZEK</otazka>
+        <spravna cesta="">switch</spravna>
+        <spatna cesta="">server</spatna>
+        <spatna cesta="">hub</spatna>
+        <spatna cesta="">PC</spatna>
+    </question>
+    <question id="39">
+        <otazka cesta="">Refer to the exhibit. A technician has been asked to test connectivity from PC1 to a remote network. Which action will indicate if there is remote connectivity? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 39\answer1.jpg">Obrazek 1</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 39\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 39\answer3.jpg">Obrazek 3</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 39\answer4.jpg">Obrazek 4</spatna>
+    </question>
+    <question id="40">
+        <otazka cesta="">What purpose does a hostname serve on a router?</otazka>
+        <spatna cesta="">uniquely identifies a router on the internet</spatna>
+        <spatna cesta="">used by routing protocols to identify peer routers</spatna>
+        <spravna cesta="">provides device identification to users logging on remotely</spravna>
+        <spatna cesta="">determines the hosts that are allowed to connect to the device</spatna>
+    </question>
+    <question id="41">
+        <otazka cesta="">Which prompt is associated with the privileged exec mode?</otazka>
+        <spatna cesta="">R1&gt;</spatna>
+        <spravna cesta="">R1#</spravna>
+        <spatna cesta="">R1(config)#</spatna>
+        <spatna cesta="">R1(config-router)#</spatna>
+    </question>
+    <question id="42">
+        <otazka cesta="">A technician wishes to connect two computers to move data from one to the other before reloading the operating system. The NICs on both PCs do not support autosensing feature. Which procedure will satisfy the requirement?</otazka>
+        <spatna cesta="">Interconnect the two PCs with a rollover cable.</spatna>
+        <spatna cesta="">Interconnect the two PCs with two rollover cables and a hub.</spatna>
+        <spravna cesta="">Interconnect the two PCs with a crossover cable.</spravna>
+        <spatna cesta="">Interconnest the two PCs with two crossover cables and a hub.</spatna>
+    </question>
+    <question id="43">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic11.jpg">Refer to the exhibit. Interface Fa0/0 on router A is generating excessive broadcast traffic. Which LAN segments will affected by the excessive broadcasts? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Only the 192.168.1.200/30 network will be affected.</spravna>
+        <spatna cesta="">Only the link between 192.168.1.201 and port Fa0/5 on SW1 will be affected.</spatna>
+        <spatna cesta="">Both the 192.168.1.200/30 and 192.168.1.204/30 networks will be affected.</spatna>
+        <spatna cesta="">Only the links between 192.168.1.201 and port Fa0/7 on SW2 will be affected.</spatna>
+    </question>
+    <question id="44">
+        <otazka cesta="">Two routers are connected via their serial ports in a lab environment. The routers are configured with valid IP addresses, but they cannot ping each other. The show interface serial0/0 command shows that the serial0/0 interface is up but the line protocol is down. What could be the cause of this problem?</otazka>
+        <spatna cesta="">The no shutdown command has not been applied to the interfaces.</spatna>
+        <spravna cesta="">The clock rate command has not been entered on the DCE interface.</spravna>
+        <spatna cesta="">The interface timers are not cleared.</spatna>
+        <spatna cesta="">The FastEthernet interface is emulating a serial interface by assigning it a timing signal.</spatna>
+    </question>
+    <question id="45">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic12.jpg">Refer to the exhibit. Which layered network model is shown in the diagram? VIZ OBRAZEK</otazka>
+        <spravna cesta="">TCP/IP</spravna>
+        <spatna cesta="">Cisco</spatna>
+        <spatna cesta="">IETF</spatna>
+        <spatna cesta="">OSI</spatna>
+    </question>
+    <question id="46">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic13.jpg">Refer to the exhibit. Host A is unable to reach host B on the remote network. A technician attempted to ping the local gateway and the ping was successful. To verify the host configuration, the technician issued the ipconfig command. What is the likely cause of the problem? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The default gateway on host A is incorrectly configured.</spravna>
+        <spatna cesta="">The local NIC is incorrectly configured.</spatna>
+        <spatna cesta="">The subnet mask on host A is incorrectly configured.</spatna>
+        <spatna cesta="">The IP address on host A is incorrectly configured.</spatna>
+    </question>
+    <question id="47">
+        <otazka cesta="">Which option shows how a router will route packets to a remote network? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 47\answer4.jpg">Obrazek 4</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 47\answer1.jpg">Obrazek 1</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 47\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 47\answer3.jpg">Obrazek 3</spatna>
+    </question>
+    <question id="48">
+        <otazka cesta="">A network administrator is configuring several switches for a network. The switches have similar configurations and only minor differences. The administrator wants to save all commands that are issued on the first switch to a text file for editing. Which transfer option should be selected in HyperTerminal? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 48\answer3.jpg">Obrazek 3</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 48\answer1.jpg">Obrazek 1</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 48\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 48\answer4.jpg">Obrazek 4</spatna>
+    </question>
+    <question id="49">
+        <otazka cesta="">When must a router serial interface be configured with the clock rate command?</otazka>
+        <spatna cesta="">when the interface is functioning as a DTE device</spatna>
+        <spatna cesta="">when the interface timers have been cleared</spatna>
+        <spatna cesta="">when the connected DTE device is shut down</spatna>
+        <spravna cesta="">when the interface is functioning as a DCE device</spravna>
+    </question>
+    <question id="50">
+        <otazka cesta="">Due to a security violation, the router passwords must be changed. What information can be learned from the following configuration entries? (Choose two.) ; Router(config)# line vty 0 3 ; Router(config-line)# password c13c0 ; Router(config-line)# login</otazka>
+        <spatna cesta="">The entries specify three Telnet lines for remote access.</spatna>
+        <spravna cesta="">The entries specify four Telnet lines for remote access.</spravna>
+        <spatna cesta="">The entries set the console and Telnet password to “c13c0”.</spatna>
+        <spatna cesta="">Telnet access will be denied because the Telnet configuration is incomplete.</spatna>
+        <spravna cesta="">Access will be permitted for Telnet using “c13c0” as the password.</spravna>
+    </question>
+    <question id="51">
+        <otazka cesta="">Which password is automatically encrypted when it is created?</otazka>
+        <spatna cesta="">vty</spatna>
+        <spatna cesta="">aux</spatna>
+        <spatna cesta="">console</spatna>
+        <spravna cesta="">enable secret</spravna>
+        <spatna cesta="">enable password</spatna>
+    </question>
+    <question id="52">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic14.jpg">Refer to the exhibit. A network technician is trying to determine the correct IP address configuration for Host A. What is a valid configuration for Host A? VIZ OBRAZEK</otazka>
+        <spravna cesta="">IP address: 192.168.100.20; Subnet Mask: 255.255.255.240; Default Gateway: 192.168.100.17</spravna>
+        <spatna cesta="">IP address: 192.168.100.19; Subnet Mask: 255.255.255.248; Default Gateway: 192.16.1.2</spatna>
+        <spatna cesta="">IP address: 192.168.100.21; Subnet Mask: 255.255.255.248; Default Gateway: 192.168.100.18</spatna>
+        <spatna cesta="">IP address: 192.168.100.22; Subnet Mask: 255.255.255.240; Default Gateway: 10.1.1.5</spatna>
+        <spatna cesta="">IP address: 192.168.100.30; Subnet Mask: 255.255.255.240; Default Gateway: 192.168.1.1</spatna>
+        <spatna cesta="">IP address: 192.168.100.31; Subnet Mask: 255.255.255.240; Default Gateway: 192.168.100.18</spatna>
+    </question>
+    <question id="53">
+        <otazka cesta="">Which prompt represents the appropriate mode used for the copy running-config startup-config command ?</otazka>
+        <spatna cesta="">Switch-6J&gt;</spatna>
+        <spravna cesta="">Switch-6J#</spravna>
+        <spatna cesta="">Switch-6J(config)#</spatna>
+        <spatna cesta="">Switch-6J(config-if)#</spatna>
+        <spatna cesta="">Switch-6J(config-line)#</spatna>
+    </question>
+    <question id="54">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic15.jpg">Refer to the exhibit. The tracert command is initiated from PC1 to PC4. Which device will send a response to the initial tracert packet from PC1? VIZ OBRAZEK</otazka>
+        <spravna cesta="">London</spravna>
+        <spatna cesta="">Athens</spatna>
+        <spatna cesta="">Ankara</spatna>
+        <spatna cesta="">Paris</spatna>
+        <spatna cesta="">PC4</spatna>
+    </question>
+    <question id="55">
+        <otazka cesta="">Which information is used by the router to determine the path between the source and destination hosts?</otazka>
+        <spatna cesta="">the host portion of the IP address</spatna>
+        <spravna cesta="">the network portion of the IP address</spravna>
+        <spatna cesta="">host default gateway address</spatna>
+        <spatna cesta="">the MAC address</spatna>
+    </question>
+    <question id="56">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic16.jpg">Refer to the exhibit. A PC is communicating with another PC on a remote network. The two networks are connected by three routers. Which action will help to identify the path between the hosts? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Use the tracert command at the host.</spravna>
+        <spatna cesta="">Use the ipconfig command at the host.</spatna>
+        <spatna cesta="">Use the ipconfig/all command at the destination.</spatna>
+        <spatna cesta="">Use the ping command at the destination.</spatna>
+    </question>
+    <question id="57">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic17.jpg">Refer to the exhibit. The diagram represents the process of sending e-mail between clients. Which list correctly identifies the component or protocol used at each numbered stage of the diagram? VIZ OBRAZEK</otazka>
+        <spravna cesta="">1.MUA 2.SMTP 3.MTA 4.SMTP 5.MTA 6.MDA 7.POP 8.MUA</spravna>
+        <spatna cesta="">1.MUA 2.MDA 3.MTA 4.SMTP 5.MTA 6.POP 7.MDA 8.MUA</spatna>
+        <spatna cesta="">1.MUA 2.POP 3.MDA 4.SMTP 5.MTA 6.MDA 7.SMTP 8.MUA</spatna>
+        <spatna cesta="">1.MUA 2.POP 3.SMTP 4.MDA 5.MTA 6.SMTP 7.POP 8.MUA</spatna>
+    </question>
+    <question id="58">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic18.jpg">Refer to the exhibit. The router of the company failed and was replaced. After the replacement, hosts C and D in the Education office are able to ping each other, but they are unable to access the hosts in the Accounts office. What is the likely cause of the problem? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The subnet mask at the fa0/1 interface of the router is incorrectly entered.</spravna>
+        <spatna cesta="">The IP address at the fa0/0 interface of the router is incorrectly configured.</spatna>
+        <spatna cesta="">The IP address at the serial interface of the router is incorrectly configured.</spatna>
+        <spatna cesta="">The hosts in the Accounts office are not on the same subnet as the hosts in the Education office.</spatna>
+    </question>
+    <question id="59">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic19.jpg">Refer to the exhibit. Host A and B are unable to communicate with each other. What is the reason for this? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The gateway addresses are network addresses.</spravna>
+        <spatna cesta="">Host A is assigned a network address.</spatna>
+        <spatna cesta="">Host B is assigned a multicast address.</spatna>
+        <spatna cesta="">Host A and host B belong to different networks.</spatna>
+    </question>
+    <question id="60">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic20.jpg">Refer to the exhibit. Host B attempts to establish a TCP/IP session with host C. During this attempt, a frame was captured at the FastEthernet interface fa0/1 of the San Francisco router. The packet inside the captured frame has the source IP address 10.10.1.2, and the destination IP address is 10.31.1.20. What is the destination MAC address of the frame at the time of capture? VIZ OBRAZEK</otazka>
+        <spravna cesta="">0060.7320.D631</spravna>
+        <spatna cesta="">0060.7320.D632</spatna>
+        <spatna cesta="">0040.8517.44C3</spatna>
+        <spatna cesta="">0009.B2E4.EE03</spatna>
+        <spatna cesta="">0010.C2B4.342</spatna>
+    </question>
+    <question id="61">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic21.jpg">Refer to the exhibit. While configuring a network, a technician wired each end of a Category 5e cable as shown. Which two statements are true about this setup? (Choose two.) VIZ OBRAZEK</otazka>
+        <spravna cesta="">The cable is suitable for connecting a switch to a router Ethernet port.</spravna>
+        <spravna cesta="">The cable is suitable for connecting dissimilar types of devices.</spravna>
+        <spatna cesta="">The cable is unusable and must be rewired.</spatna>
+        <spatna cesta="">The cable is terminated in a way that the transmit pin is wired to the receive pin.</spatna>
+        <spatna cesta="">The cable simulates a point-to-point WAN link.</spatna>
+    </question>
+    <question id="62">
+        <otazka cesta="">Well-known services and applications use which range of TCP/UDP port numbers?</otazka>
+        <spatna cesta="">0 to 255</spatna>
+        <spravna cesta="">0 to 1023</spravna>
+        <spatna cesta="">1024 to 49151</spatna>
+        <spatna cesta="">49152 to 65535</spatna>
+    </question>
+    <question id="63">
+        <otazka cesta="">Which three IPv4 addresses represent subnet broadcast addresses? (Choose three.)</otazka>
+        <spravna cesta="">192.168.4.63 /26</spravna>
+        <spatna cesta="">192.168.4.129 /26</spatna>
+        <spravna cesta="">192.168.4.191 /26</spravna>
+        <spatna cesta="">192.168.4.51 /27</spatna>
+        <spravna cesta="">192.168.4.95 /27</spravna>
+        <spatna cesta="">192.168.4.221 /27</spatna>
+    </question>
+    <question id="64">
+        <otazka cesta="">Which three statements are true about network layer addressing? (Choose three.)</otazka>
+        <spatna cesta="">The addresses are 48 bits long.</spatna>
+        <spatna cesta="">Network layer addressing is used by Ethernet switches to make forwarding decisions.</spatna>
+        <spravna cesta="">It uses a hierarchical structure.</spravna>
+        <spatna cesta="">It does not support broadcasts.</spatna>
+        <spravna cesta="">It uniquely identifies each host.</spravna>
+        <spravna cesta="">A portion of the address is used to identify the network.</spravna>
+    </question>
+    <question id="65">
+        <otazka cesta="">Which OSI layer addressing is required to route packets between two networks?</otazka>
+        <spatna cesta="">Layer 1</spatna>
+        <spatna cesta="">Layer 2</spatna>
+        <spravna cesta="">Layer 3</spravna>
+        <spatna cesta="">Layer 4</spatna>
+    </question>
+    <question id="66">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic22.jpg">Refer to the exhibit. Host A is requesting a web page from the web server. Which option represents the socket to which the request is made? VIZ OBRAZEK</otazka>
+        <spravna cesta="">10.0.0.130:80</spravna>
+        <spatna cesta="">80</spatna>
+        <spatna cesta="">www.cisco.com</spatna>
+        <spatna cesta="">10.0.0.130</spatna>
+    </question>
+    <question id="67">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic23.jpg">Which statement describes the correct use of addresses to deliver an e-mail message from HostB to the e-mail service that is running on ServerA? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Router B uses a Layer 3 network address to route the packet.</spravna>
+        <spatna cesta="">HostB uses the MAC address of ServerA as the destination.</spatna>
+        <spatna cesta="">Router A uses the Layer 4 address to forward the packet to Router B.</spatna>
+        <spatna cesta="">Via the use of a Layer 3 address, ServerA assigns the message to the e-mail service.</spatna>
+    </question>
+    <question id="68">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic24.jpg">Refer to the exhibit. Host A is configured with the correct IP address for the default gateway of the router R1 FastEthernet0/1 interface. How will a packet that is sent from host A to host B be handled by the devices on the network? VIZ OBRAZEK</otazka>
+        <spravna cesta="">R1 will forward the packet to its default gateway, the next hop router R2. R2 will forward the packet to the directly connected network 10.1.1.0/24.</spravna>
+        <spatna cesta="">R1 will drop the packet because R1 does not have a specific route in its routing table to the 10.1.1.0/24 network.</spatna>
+        <spatna cesta="">R1 will forward the packet to its default gateway, the next hop router R2. R2 will drop the packet because it does not have a default route to network 10.1.1.0/24.</spatna>
+        <spatna cesta="">R1 will forward the packet to its default gateway, the next hop router R2. R2 will drop the packet because it does not have a route that is learned by a routing protocol to network 10.1.1.0/24.</spatna>
+    </question>
+    <question id="69">
+        <otazka cesta="">Which option correctly identifies the interface or interfaces used to connect the router to a CSU/DSU for WAN connectivity? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 69\answer4.jpg">Obrazek 4</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 69\answer1.jpg">Obrazek 1</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 69\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 69\answer3.jpg">Obrazek 3</spatna>
+    </question>
+    <question id="70">
+        <otazka cesta="">How many host addresses may be assigned when using the 128.107.0.0 network address with a subnet mask of 255.255.248.0?</otazka>
+        <spatna cesta="">30</spatna>
+        <spatna cesta="">256</spatna>
+        <spravna cesta="">2046</spravna>
+        <spatna cesta="">2048</spatna>
+        <spatna cesta="">4094</spatna>
+        <spatna cesta="">4096</spatna>
+    </question>
+    <question id="71">
+        <otazka cesta="">During the encapsulation process, what is the PDU of the internet layer?</otazka>
+        <spatna cesta="">bit</spatna>
+        <spatna cesta="">data</spatna>
+        <spatna cesta="">frame</spatna>
+        <spravna cesta="">packet</spravna>
+        <spatna cesta="">segment</spatna>
+    </question>
+    <question id="72">
+        <otazka cesta="">Which service is used when the nslookup command is issued on a computer?</otazka>
+        <spatna cesta="">FTP</spatna>
+        <spravna cesta="">DNS</spravna>
+        <spatna cesta="">DHCP</spatna>
+        <spatna cesta="">Telnet</spatna>
+    </question>
+    <question id="73">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic25.jpg">Refer to the exhibit. A network technician creates equal-sized subnets of network 192.168.2.0/24 using the subnet mask 255.255.255.224. If the technician wishes to calculate the number of host addresses in each subnet by using the formula that is shown in the exhibit, what value will be used for n? VIZ OBRAZEK</otazka>
+        <spravna cesta="">5</spravna>
+        <spatna cesta="">1</spatna>
+        <spatna cesta="">2</spatna>
+        <spatna cesta="">3</spatna>
+        <spatna cesta="">4</spatna>
+    </question>
+    <question id="74">
+        <otazka cesta="">What are the default terminal emulation software settings when configuring a Cisco device through a console port?</otazka>
+        <spatna cesta="">Bits per second: 19200; Data bits: 7; Parity: None; Stop bits: 0;Flow control: None</spatna>
+        <spravna cesta="">Bits per second: 9600; Data bits: 8; Parity: None; Stop bits: 1; Flow control: None</spravna>
+        <spatna cesta="">Bits per second: 19200; Data bits: 7; Parity: None; Stop bits: 0; Flow control: Hardware</spatna>
+        <spatna cesta="">Bits per second: 9600; Data bits: 8; Parity: None; Stop bits: 1; Flow control: Hardware</spatna>
+    </question>
+    <question id="75">
+        <otazka cesta="">In a packet-switched data network, what is used to reassemble the packets in the correct order at the destination device?</otazka>
+        <spatna cesta="">source address</spatna>
+        <spravna cesta="">sequence number</spravna>
+        <spatna cesta="">priority assignment</spatna>
+        <spatna cesta="">destination address</spatna>
+    </question>
+    <question id="76">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic26.jpg">Refer to the exhibit. A network administrator tries to test the connectivity between routers R1 and R2, but the attempt to ping is unsuccessful. Based on the show ip interface brief command outputs, what could be the possible cause of the problem? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Interface S0/0/0 on router R1 is configured with an incorrect IP address.</spravna>
+        <spatna cesta="">Interface S0/0/0 on router R1 is shut down.</spatna>
+        <spatna cesta="">Interface S0/0/0 on router R2 is administratively down.</spatna>
+        <spatna cesta="">Interface S0/0/0 on router R2 does not have the clock rate settings configured.</spatna>
+    </question>
+    <question id="77">
+        <otazka cesta="">Which router configuration mode will require user authentication if an administrator issues the enable secret command?</otazka>
+        <spatna cesta="">user executive mode</spatna>
+        <spravna cesta="">privileged executive mode</spravna>
+        <spatna cesta="">global configuration mode</spatna>
+        <spatna cesta="">service specific configuration mode</spatna>
+    </question>
+    <question id="78">
+        <otazka cesta="">Which location of router memory is cleared with the erase startup-config command?</otazka>
+        <spatna cesta="">flash</spatna>
+        <spatna cesta="">RAM</spatna>
+        <spatna cesta="">ROM</spatna>
+        <spravna cesta="">NVRAM</spravna>
+    </question>
+    <question id="79">
+        <otazka cesta="">Which subnet mask should be used for a Class B network that is divided into subnets and will accommodate between 800 hosts and 1000 hosts?</otazka>
+        <spatna cesta="">255.255.255.0</spatna>
+        <spatna cesta="">255.255.254.0</spatna>
+        <spravna cesta="">255.255.252.0</spravna>
+        <spatna cesta="">255.255.248.0</spatna>
+        <spatna cesta="">255.255.240.0</spatna>
+    </question>
+    <question id="80">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic27.jpg">Refer to the exhibit. The network containing router B is experiencing problems. A network associate has isolated the issue in this network to router B. What action can be preformed to correct the network issue? VIZ OBRAZEK</otazka>
+        <spravna cesta="">issue the no shutdown command on interface FastEthernet 0/1</spravna>
+        <spatna cesta="">issue the clock rate command on interface Serial 0/0/0</spatna>
+        <spatna cesta="">issue the description command on interface Serial 0/0/1</spatna>
+        <spatna cesta="">issue the ip address command on interface FastEthernet 0/0</spatna>
+    </question>
+    <question id="81">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic28.jpg">Refer to the exhibit. A web browser running on host PC1 sends a request for a web page to the web server with an IP address 192.168.1.254/24. What sequence of steps will follow in order to establish the session before data can be exchanged? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The session will be initiated using TCP. A three-way handshake must be successfully completed before the session is established.</spravna>
+        <spatna cesta="">The session will be initiated using UDP. No additional acknowledgment will be required to establish the session.</spatna>
+        <spatna cesta="">The session will be initiated using TCP. No additional acknowledgment will be required to establish the session.</spatna>
+        <spatna cesta="">The session will be initiated using UDP. The returned web page will serve as an acknowledgment for session establishment.</spatna>
+    </question>
+    <question id="82">
+        <otazka cesta="">What is the effect of using the Router# copy running-config startup-config command on a router?</otazka>
+        <spatna cesta="">The contents of ROM will change.</spatna>
+        <spatna cesta="">The contents of RAM will change.</spatna>
+        <spravna cesta="">The contents of NVRAM will change.</spravna>
+        <spatna cesta="">The contents of flash will change.</spatna>
+    </question>
+    <question id="83">
+        <otazka cesta="">Which option represents a point-to-point logical topology diagram? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 83\answer4.jpg">Obrazek 4</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 83\answer1.jpg">Obrazek 1</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 83\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 83\answer3.jpg">Obrazek 3</spatna>
+    </question>
+    <question id="84">
+        <otazka cesta="">In a network design project, a network designer needs to select a device to provide collision free connections to 40 hosts on the LAN. Which device should be selected?</otazka>
+        <spatna cesta="">hub</spatna>
+        <spatna cesta="">router</spatna>
+        <spravna cesta="">switch</spravna>
+        <spatna cesta="">firewall</spatna>
+    </question>
+    <question id="85">
+        <otazka cesta="">Which communication tool allows real-time collaboration?</otazka>
+        <spatna cesta="">wiki</spatna>
+        <spatna cesta="">e-mail</spatna>
+        <spatna cesta="">weblog</spatna>
+        <spravna cesta="">instant messaging</spravna>
+    </question>
+    <question id="86">
+        <otazka cesta="">Which range of port numbers are reserved for services that are commonly used by applications that run on servers?</otazka>
+        <spatna cesta="">0 to 255</spatna>
+        <spravna cesta="">0 to 1023</spravna>
+        <spatna cesta="">1024 to 49151</spatna>
+        <spatna cesta="">49152 to 65535</spatna>
+    </question>
+    <question id="87">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic29.jpg">Refer to the exhibit. An employee wants to access the organization intranet from home. Which intermediary device should be used to connect the organization intranet to the Internet to enable this access?</otazka>
+        <spravna cesta="">router</spravna>
+        <spatna cesta="">hub</spatna>
+        <spatna cesta="">switch</spatna>
+        <spatna cesta="">wireless access point</spatna>
+    </question>
+    <question id="88">
+        <otazka cesta="">Which OSI layer manages data segments?</otazka>
+        <spatna cesta="">application layer</spatna>
+        <spatna cesta="">presentation layer</spatna>
+        <spatna cesta="">session layer</spatna>
+        <spravna cesta="">transport layer</spravna>
+    </question>
+    <question id="89">
+        <otazka cesta="">Which two types of media can provide bandwidth up to 1 Gb/s? (Choose two.)</otazka>
+        <spatna cesta="">10 BASE-T</spatna>
+        <spatna cesta="">100 BASE-T</spatna>
+        <spatna cesta="">100 BASE-FX</spatna>
+        <spravna cesta="">1000 BASE-TX</spravna>
+        <spravna cesta="">1000 BASE-SX</spravna>
+    </question>
+    <question id="90">
+        <otazka cesta="">To enhance security in a network, the network administrator uses these commands: Router(config)# line console 0; Router(config-line)#password j1mdi2; Router(config-line)# login ; What two conclusions are evident from these commands? (Choose two.)</otazka>
+        <spravna cesta="">Users who attempt to connect to the console port of the router must enter a password.</spravna>
+        <spravna cesta="">The entries permit access through the console by the use of j1mdi2 as the password.</spravna>
+        <spatna cesta="">The entries eliminate the need for authentication.</spatna>
+        <spatna cesta="">Access through the console will be denied because the console configuration is incomplete.</spatna>
+        <spatna cesta="">The entries prevent passwords from being displayed as plain text.</spatna>
+    </question>
+    <question id="91">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic30.jpg">Refer to the exhibit. When host A sends a frame addressed for host D, which hosts will receive the frame? VIZ OBRAZEK</otazka>
+        <spravna cesta="">only host D</spravna>
+        <spatna cesta="">only hosts A and D</spatna>
+        <spatna cesta="">only hosts B, C, and D</spatna>
+        <spatna cesta="">all hosts</spatna>
+    </question>
+    <question id="92">
+        <otazka cesta="">A user enters http://www.cisco.com/web1.htm in the address line of a browser. Which statement is true about this transaction?</otazka>
+        <spravna cesta="">The “http” portion indicates the protocol that is being used.</spravna>
+        <spatna cesta="">The “web1.htm” portion is the specific service name.</spatna>
+        <spatna cesta="">The retrieved web page will be displayed in URL code.</spatna>
+        <spatna cesta="">The “www.cisco.com” is the name of the web page file that is called</spatna>
+    </question>
+    <question id="93">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic31.jpg">The tracert 10.1.3.2 command was issued on computer A. Computer A can ping other addresses on the local subnet. Computer A sent the first ICMP packet toward computer B with a TTL value of 1. A protocol analyzer that was running on computer B showed that the packet never reached its destination. Why did the packet not reach the destination? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The TTL for the packet was decreased to zero by R1.</spravna>
+        <spatna cesta="">There is a TCP/IP problem on computer A.</spatna>
+        <spatna cesta="">There is a routing loop between R1 and R2.</spatna>
+        <spatna cesta="">R1 does not have a route for the destination network.</spatna>
+    </question>
+    <question id="94">
+        <otazka cesta="">What can the user do from the command prompt, Router(config-line)# ?</otazka>
+        <spatna cesta="">Configure one of the network interfaces.</spatna>
+        <spravna cesta="">Configure one of the physical or virtual lines.</spravna>
+        <spatna cesta="">Verify the running configuration on the device.</spatna>
+        <spatna cesta="">Configure the parameters for one of the routing protocols.</spatna>
+    </question>
+    <question id="95">
+        <otazka cesta="">Which option shows the PDU that contains the Layer 3 source and destination addressing for a packet? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 95\answer3.jpg">Obrazek 3</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 95\answer1.jpg">Obrazek 1</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 95\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 95\answer4.jpg">Obrazek 4</spatna>
+    </question>
+    <question id="96">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic32.jpg">Refer to the exhibit. The ping 127.0.0.1 command is issued on the local host. What do the ping results indicate? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The TCP/IP stack on the local host operates properly.</spravna>
+        <spatna cesta="">The local host can send packets on the local network.</spatna>
+        <spatna cesta="">The local host has full connectivity to the default gateway.</spatna>
+        <spatna cesta="">The local host has full connectivity to the remote network.</spatna>
+    </question>
+    <question id="97">
+        <otazka cesta="">Which topology divides the collision domain and provides full media bandwidth to the hosts in the network? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 97\answer3.jpg">Obrazek 3</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 97\answer1.jpg">Obrazek 1</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 97\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 97\answer4.jpg">Obrazek 4</spatna>
+    </question>
+    <question id="98">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic33.jpg">Refer to the exhibit. Which option correctly identifies the network address, range of host addresses, and the broadcast address for the network that contains host A? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 98\answer3.jpg">Obrazek 3</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 98\answer1.jpg">Obrazek 1</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 98\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 98\answer4.jpg">Obrazek 4</spatna>
+    </question>
+    <question id="99">
+        <otazka cesta="">A technician is setting up a workgroup for six users and wants to allow users to share files without setting up a server. Which application layer protocol will provide for peer-to-peer file sharing in a workgroup?</otazka>
+        <spatna cesta="">DNS</spatna>
+        <spravna cesta="">SMB</spravna>
+        <spatna cesta="">HTTP</spatna>
+        <spatna cesta="">DHCP</spatna>
+    </question>
+    <question id="100">
+        <otazka cesta="">Which router component will have contents erased when the command erase startup-config is issued?</otazka>
+        <spatna cesta="">flash</spatna>
+        <spatna cesta="">RAM</spatna>
+        <spatna cesta="">ROM</spatna>
+        <spravna cesta="">NVRAM</spravna>
+    </question>
+    <question id="101">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic34.jpg">Refer to the exhibit. Host1 is in the process of setting up a TCP session with Host2. Host1 has sent a SYN message to begin session establishment. What happens next? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Host2 sends a segment with the ACK flag = 1, SYN flag = 1 to Host1.</spravna>
+        <spatna cesta="">Host1 sends a segment with the ACK flag = 0, SYN flag = 0 to Host2.</spatna>
+        <spatna cesta="">Host1 sends a segment with the ACK flag = 1, SYN flag = 0 to Host2.</spatna>
+        <spatna cesta="">Host1 sends a segment with the ACK flag = 1, SYN flag = 1 to Host2.</spatna>
+        <spatna cesta="">Host2 sends a segment with the ACK flag = 0, SYN flag = 1 to Host1.</spatna>
+        <spatna cesta="">Host2 sends a segment with the ACK flag = 1, SYN flag = 0 to Host1.</spatna>
+    </question>
+    <question id="102">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic35.jpg">Refer to the exhibit. Host A is able to access resources on the local LAN but is unable to access any resources on the Internet. What is the likely cause of this problem? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The default gateway is on a different subnet from the host.</spravna>
+        <spatna cesta="">The host subnet mask in incorrect.</spatna>
+        <spatna cesta="">The network uses private addresses.</spatna>
+        <spatna cesta="">The host address is a network address.</spatna>
+    </question>
+    <question id="103">
+        <otazka cesta="">What is described by the network access layer of the TCP/IP model?</otazka>
+        <spatna cesta="">rules for packet acknowledgment, error recovery, and sequencing</spatna>
+        <spravna cesta="">rules for the handoff from the internet layer to the network access protocols</spravna>
+        <spatna cesta="">rules for how source and destination hosts exchange data between programs</spatna>
+        <spatna cesta="">rules for determining which processes can be used to route messages through an internetwork</spatna>
+    </question>
+    <question id="104">
+        <otazka cesta="">Which two factors contribute to the increased throughput when all nodes of a LAN are connected to a switch instead of a hub? (Choose two.)</otazka>
+        <spravna cesta="">full-duplex operation</spravna>
+        <spravna cesta="">collision-free environment</spravna>
+        <spatna cesta="">logical bus media access</spatna>
+        <spatna cesta="">broadcast-free environment</spatna>
+        <spatna cesta="">point-to-multipoint topology</spatna>
+    </question>
+    <question id="105">
+        <otazka cesta="">A network technician has made a UTP cable that is terminated as T568A on one end and T568B on the opposite end. What type of cable has been constructed?</otazka>
+        <spatna cesta="">patch</spatna>
+        <spatna cesta="">console</spatna>
+        <spravna cesta="">crossover</spravna>
+        <spatna cesta="">straight-through</spatna>
+    </question>
+    <question id="106">
+        <otazka cesta="">Which application belongs to the category of the client/server model?</otazka>
+        <spravna cesta="">using Telnet to access a router</spravna>
+        <spatna cesta="">exchanging information via instant messaging</spatna>
+        <spatna cesta="">printing a document to a locally connected printer</spatna>
+        <spatna cesta="">scanning a document with a directly connected scanner</spatna>
+    </question>
+    <question id="107">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic36.jpg">Refer to the exhibit. Which two layers of the OSI model describe the same functions as the transport and internet layers of the TCP/IP model? (Choose two.) VIZ OBRAZEK</otazka>
+        <spravna cesta="">transport layer</spravna>
+        <spravna cesta="">network layer</spravna>
+        <spatna cesta="">application layer</spatna>
+        <spatna cesta="">presentation layer</spatna>
+        <spatna cesta="">session layer</spatna>
+        <spatna cesta="">data link layer</spatna>
+        <spatna cesta="">physical layer</spatna>
+    </question>
+    <question id="108">
+        <otazka cesta="">What command can be used to troubleshoot domain name resolution issues?</otazka>
+        <spatna cesta="">get</spatna>
+        <spatna cesta="">arp -a</spatna>
+        <spatna cesta="">tracert</spatna>
+        <spravna cesta="">nslookup</spravna>
+    </question>
+    <question id="109">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic37.jpg">Refer to the exhibit. For connecting two routers with an Ethernet crossover cable, which interface should be used? VIZ OBRAZEK</otazka>
+        <spravna cesta="">C</spravna>
+        <spatna cesta="">A</spatna>
+        <spatna cesta="">B</spatna>
+        <spatna cesta="">D</spatna>
+    </question>
+    <question id="110">
+        <otazka cesta="">Which three addresses belong to the category of public IP addresses? (Choose three.)</otazka>
+        <spatna cesta="">127.0.0.1</spatna>
+        <spravna cesta="">196.1.105.6</spravna>
+        <spravna cesta="">132.11.9.99</spravna>
+        <spatna cesta="">10.0.0.1</spatna>
+        <spatna cesta="">172.16.9.10</spatna>
+        <spravna cesta="">46.1.1.97</spravna>
+    </question>
+    <question id="111">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic38.jpg">Refer to the exhibit. What two facts can be determined from the session information that is displayed? (Choose two.) VIZ OBRAZEK</otazka>
+        <spravna cesta="">The protocol is a connection-oriented protocol.</spravna>
+        <spravna cesta="">This exchange is part of the three-way handshake.</spravna>
+        <spatna cesta="">The SYN flag is representing the initial establishment of a session.</spatna>
+        <spatna cesta="">The destination port indicates that an FTP session has been initiated.</spatna>
+        <spatna cesta="">The source port does not support communication with the destination port that is listed.</spatna>
+    </question>
+    <question id="112">
+        <otazka cesta="">What is the effect of the command copy running-config tftp?</otazka>
+        <spatna cesta="">copies the configuration from a remote machine into RAM</spatna>
+        <spatna cesta="">copies the configuration from a remote machine into NVRAM</spatna>
+        <spravna cesta="">copies the configuration currently in RAM to a remote machine</spravna>
+        <spatna cesta="">copies the configuration currently in NVRAM to a remote machine</spatna>
+    </question>
+    <question id="113">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic39.jpg">Refer to the exhibit. Which type of network design is shown? VIZ OBRAZEK</otazka>
+        <spravna cesta="">peer-to-peer</spravna>
+        <spatna cesta="">client/server</spatna>
+        <spatna cesta="">wide area</spatna>
+        <spatna cesta="">dedicated server</spatna>
+    </question>
+    <question id="114">
+        <otazka cesta="">Refer to the exhibit. A network administrator remotely accesses the CLI of RouterB from PC1 using Telnet. Which statement is true about this connection? VIZ OBRAZEK</otazka>
+        <spatna cesta="">The data is automatically encrypted.</spatna>
+        <spatna cesta="">A Telnet server process is running on PC1.</spatna>
+        <spravna cesta="">The connection is made through a VTY session on the router.</spravna>
+        <spatna cesta="">A GET request was sent to RouterB to retrieve data during this session.</spatna>
+    </question>
+    <question id="115">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic40.jpg">Refer to the exhibit. A network technician wants to connect host A to the console of a Cisco switch to initialize the configuration. What type of cable is required for this connection? VIZ OBRAZEK</otazka>
+        <spravna cesta="">rollover cable</spravna>
+        <spatna cesta="">straight-through cable</spatna>
+        <spatna cesta="">crossover cable</spatna>
+        <spatna cesta="">serial cable</spatna>
+    </question>
+    <question id="116">
+        <otazka cesta="">A technician makes several changes to the running configuration on a router, but the desired results are not achieved. The technician issues the reload command. What action will be taken by the router?</otazka>
+        <spatna cesta="">All changes will be lost and the router will restart immediately.</spatna>
+        <spatna cesta="">Changes will be saved automatically and the router will restart.</spatna>
+        <spravna cesta="">The user will be prompted to save changes before the router restarts.</spravna>
+        <spatna cesta="">The router will detect changes to the running configuration and will reload using the configuration stored in RAM.</spatna>
+    </question>
+    <question id="117">
+        <otazka cesta="">A network administrator is asked to design a new addressing scheme for a corporate network. There are 60 users in the main office, 40 users in the branch office, 28 users in manufacturing, 12 in the sales office, and 4 users in the research office. Which VLSM addressing scheme that uses the 192.168.88.0/24 network will fulfill the requirements while wasting the fewest addresses?</otazka>
+        <spatna cesta="">192.168.88.0/26 main; 192.168.88.32/26 branch; 192.168.88.64/26 manufacturing; 192.168.88.96/27 sales; 192.168.88.128/28 research</spatna>
+        <spravna cesta="">192.168.88.0/26 main; 192.168.88.64/26 branch; 192.168.88.128/27 manufacturing; 192.168.88.160/28 sales; 192.168.88.176/29 research</spravna>
+        <spatna cesta="">192.168.88.0/27 main; 192.168.88.32/27 branch; 192.168.88.64/28 manufacturing; 192.168.88.80/29 sales; 192.168.88.88/30 research</spatna>
+        <spatna cesta="">192.168.88.0/27 main; 192.168.88.64/28 branch; 192.168.88.80/28 manufacturing; 192.168.88.96/29 sales; 192.168.88.104/30 research</spatna>
+    </question>
+    <question id="118">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic41.jpg">Refer to the exhibit. The serial interface of the router was configured with the use of the commands that are shown. The router cannot ping the router that is directly connected to interface serial 0/0/0. What should the network technician do to solve this problem? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Configure an IP address on interface serial 0/0/0.</spravna>
+        <spatna cesta="">Configure the description at interface serial 0/0/0.</spatna>
+        <spatna cesta="">Remove the no shutdown command at interface serial 0/0/0</spatna>
+        <spatna cesta="">Reboot the router.</spatna>
+    </question>
+    <question id="119">
+        <otazka cesta="">Which answer lists the CLI mode hierarchy from least to most specific?</otazka>
+        <spatna cesta="">global, privileged, user, specific</spatna>
+        <spatna cesta="">global, user, privileged, specific</spatna>
+        <spatna cesta="">user, global, privileged, specific</spatna>
+        <spravna cesta="">user, privileged, global, specific</spravna>
+    </question>
+    <question id="120">
+        <otazka cesta="">Which  router  component  will  have  contents  erased  when  the  command erase startup-config is issued?</otazka>
+        <spatna cesta="">flash</spatna>
+        <spatna cesta="">RAM</spatna>
+        <spatna cesta="">ROM</spatna>
+        <spravna cesta="">NVRAM</spravna>
+    </question>
+    <question id="121">
+        <otazka cesta="">Which three commands will change the current configuration mode of a router? (Choose three.)</otazka>
+        <spravna cesta="">router rip</spravna>
+        <spravna cesta="">line vty 0 4</spravna>
+        <spatna cesta="">password class</spatna>
+        <spatna cesta="">hostname RouterA</spatna>
+        <spatna cesta="">enable secret class</spatna>
+        <spravna cesta="">interface fastethernet 0/1</spravna>
+    </question>
+    <question id="122">
+        <otazka cesta="">Refer to the exhibit. Which Layer 2 protocol could be used inside nework A and network C? Viz Obrazek</otazka>
+        <spatna cesta="">IP</spatna>
+        <spatna cesta="">TCP</spatna>
+        <spatna cesta="">UDP</spatna>
+        <spravna cesta="">Ethernet</spravna>
+    </question>
+    <question id="123">
+        <otazka cesta="">UDP is the transport layer protocol for which application?</otazka>
+        <spatna cesta="">SMTP</spatna>
+        <spatna cesta="">Telnet</spatna>
+        <spravna cesta="">TFTP</spravna>
+        <spatna cesta="">FTP-data control web browser</spatna>
+    </question>
+    <question id="124">
+        <otazka cesta="">Refer to the exhibit. Host A wants to connect to host B on a different network. Which three IP addresses can be assigned to host A to enable this connectivity? (Choose three.) (missing picture!!!)</otazka>
+        <spatna cesta="">172.16.11.36</spatna>
+        <spatna cesta="">172.16.11.95</spatna>
+        <spravna cesta="">172.16.11.88</spravna>
+        <spravna cesta="">172.16.11.70</spravna>
+        <spatna cesta="">172.16.11.64</spatna>
+        <spravna cesta="">172.16.11.67</spravna>
+    </question>
+    <question id="125">
+        <otazka cesta="">Which device should be used for enabling a host to communicate with another host on a different network?</otazka>
+        <spatna cesta="">switch</spatna>
+        <spatna cesta="">hub</spatna>
+        <spravna cesta="">router</spravna>
+        <spatna cesta="">host</spatna>
+    </question>
+    <question id="126">
+        <otazka cesta="">Refer to the exhibit. What is the total amount of RAM on the router? (missing picture!!!)</otazka>
+        <spatna cesta="">16384 KB</spatna>
+        <spatna cesta="">31360 KB</spatna>
+        <spatna cesta="">114688 KB</spatna>
+        <spravna cesta="">131072 KB</spravna>
+    </question>
+    <question id="127">
+        <otazka cesta="">Which statement is true about router hostnames?</otazka>
+        <spravna cesta="">A hostname should be unique on each router.</spravna>
+        <spatna cesta="">A router hostname cannot contain capital letters.</spatna>
+        <spatna cesta="">A router hostname is configured in privileged executive mode.</spatna>
+        <spatna cesta="">A router hostname must be created before any other configurations can be added to the device.</spatna>
+    </question>
+    <question id="128">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic42.jpg">Refer to the exhibit. The network administrator for a small advertising company has chosen to use the 192.168.5.96/27 network for internal LAN addressing. As shown in the exhibit, a static IP address is assigned to the company web server. However, the web server cannot access the Internet. The administrator verifies that local workstations with IP addresses that are assigned by a DHCP server can access the Internet, and the web server is able to ping local workstations. Which component is incorrectly configured? VIZ OBRAZEK</otazka>
+        <spravna cesta="">subnet mask</spravna>
+        <spatna cesta="">DNS address</spatna>
+        <spatna cesta="">host IP address</spatna>
+        <spatna cesta="">default gateway address</spatna>
+    </question>
+    <question id="129">
+        <otazka cesta="">In which scenario would a crossover cable be required between Ethernet ports on the devices?</otazka>
+        <spatna cesta="">computer to hub</spatna>
+        <spravna cesta="">computer to router</spravna>
+        <spatna cesta="">computer to switch</spatna>
+        <spatna cesta="">switch to router</spatna>
+    </question>
+    <question id="130">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic43.jpg">Refer  to  the  exhibit. The Wireshark output shows  details of frame  456, which  was captured after a ping command was issued. Based on the output that is shown, what is the Layer 3 address of the source computer? VIZ OBRAZEK</otazka>
+        <spravna cesta="">10.90.0.237</spravna>
+        <spatna cesta="">10.90.0.73</spatna>
+        <spatna cesta="">00:50:56:40:d7:c9</spatna>
+        <spatna cesta="">70:5a:b6:a2:46:a5</spatna>
+    </question>
+    <question id="131">
+        <otazka cesta="">Which topology represents a collision-free environment? VIZ OBRAZEK</otazka>
+        <spravna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 131\answer3.jpg">Obrazek 3</spravna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 131\answer1.jpg">Obrazek 1</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 131\answer2.jpg">Obrazek 2</spatna>
+        <spatna cesta="tests\CISCO CNNA 1 2013\pics\otazka id 131\answer4.jpg">Obrazek 4</spatna>
+    </question>
+    <question id="132">
+        <otazka cesta="">A network has grown too large for technicians to configure network addresses and hosts files for name resolution. Which two application layer services should be added to the server to allow these needs to be satisfied dynamically? (Choose two.)</otazka>
+        <spravna cesta="">DNS</spravna>
+        <spatna cesta="">FTP</spatna>
+        <spravna cesta="">DHCP</spravna>
+        <spatna cesta="">HTTP</spatna>
+        <spatna cesta="">SMTP</spatna>
+    </question>
+    <question id="133">
+        <otazka cesta="">Which Layer 4 protocol is used to transport voice packets in a VoIP deployment?</otazka>
+        <spatna cesta="">IP</spatna>
+        <spravna cesta="">UDP</spravna>
+        <spatna cesta="">TCP</spatna>
+        <spatna cesta="">http</spatna>
+    </question>
+    <question id="134">
+        <otazka cesta="">Which basic process is used to select the best path for forwarding data?</otazka>
+        <spravna cesta="">routing</spravna>
+        <spatna cesta="">switching</spatna>
+        <spatna cesta="">addressing</spatna>
+        <spatna cesta="">encapsulation</spatna>
+    </question>
+    <question id="135">
+        <otazka cesta="">By using the ipconfig command, a network administrator determines that a workstation has the address 192.168.3.38 with 29 bits set in the subnet mask. To what network does the workstation belong?</otazka>
+        <spatna cesta="">192.168.3.8</spatna>
+        <spatna cesta="">192.168.3.16</spatna>
+        <spatna cesta="">192.168.3.24</spatna>
+        <spravna cesta="">192.168.3.32</spravna>
+    </question>
+    <question id="136">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic44.jpg">Refer to the exhibit. A PC is connected to a network. Which action will verify that the PC can communicate with its default gateway? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Use the ping 10.0.0.254 command.</spravna>
+        <spatna cesta="">Use the ping 127.0.0.1 command.</spatna>
+        <spatna cesta="">Use the ipconfig command.</spatna>
+        <spatna cesta="">Use the ipconfig/all command.</spatna>
+    </question>
+    <question id="137">
+        <otazka cesta="">What are two purposes for configuring a banner on a router? (Choose two.)</otazka>
+        <spravna cesta="">to announce system downtime</spravna>
+        <spatna cesta="">to prevent unauthorized access to the router</spatna>
+        <spatna cesta="">to provide a description of interface connections</spatna>
+        <spravna cesta="">to assist in legal prosecution for unauthorized access</spravna>
+        <spatna cesta="">to provide a welcome message to users who access the router</spatna>
+    </question>
+    <question id="138">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic45.jpg">Refer to the exhibit. Which application layer service was used to determine the IP address assigned to the URL? VIZ OBRAZEK</otazka>
+        <spravna cesta="">ICMP</spravna>
+        <spatna cesta="">DNS</spatna>
+        <spatna cesta="">HTTP</spatna>
+        <spatna cesta="">IP</spatna>
+    </question>
+    <question id="139">
+        <otazka cesta="">Which scenario describes a typical peer-to-peer network environment?</otazka>
+        <spatna cesta="">An employee downloads a file that is stored on a departmental file server.</spatna>
+        <spatna cesta="">An employee edits and reviews web pages on a web server that is located in the server farm.</spatna>
+        <spatna cesta="">A teleworker logs into a core router of the corporate network and makes a configuration change.</spatna>
+        <spravna cesta="">A user on one office PC sends output to a printer that is attached to the USB port of another PC in an adjacent office.</spravna>
+    </question>
+    <question id="140">
+        <otazka cesta="">What type of IP address should be assigned to a web server?</otazka>
+        <spravna cesta="">static</spravna>
+        <spatna cesta="">dynamic</spatna>
+        <spatna cesta="">multicast</spatna>
+        <spatna cesta="">broadcast</spatna>
+    </question>
+    <question id="141">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic46.jpg">Examine the graphic with current configurations. Host A in the Clerical offices failed and was replaced. Although a ping to 127.0.0.1 was successful, the replacement computer can not access the company network. What is the likely cause of the problem? VIZ OBRAZEK</otazka>
+        <spravna cesta="">subnet mask incorrectly entered</spravna>
+        <spatna cesta="">IP address incorrectly entered</spatna>
+        <spatna cesta="">network cables unplugged</spatna>
+        <spatna cesta="">network card failure</spatna>
+    </question>
+    <question id="142">
+        <otazka cesta="">During the encapsulation process, which identifiers are added at the transport layer?</otazka>
+        <spatna cesta="">two networks routing the packets</spatna>
+        <spravna cesta="">two applications communicating the data</spravna>
+        <spatna cesta="">two hosts at either end of the communication</spatna>
+        <spatna cesta="">two nodes on the local network exchanging the frame</spatna>
+    </question>
+    <question id="143">
+        <otazka cesta="">The Layer 4 header contains which type of information to aid in the delivery of data?</otazka>
+        <spravna cesta="">service port number</spravna>
+        <spatna cesta="">host logical address</spatna>
+        <spatna cesta="">device physical address</spatna>
+        <spatna cesta="">virtual connection identifier</spatna>
+    </question>
+    <question id="144">
+        <otazka cesta="">As network administrator, what is the subnet mask that allows 510 hosts given the IP address 172.30.0.0?</otazka>
+        <spatna cesta="">255.255.0.0</spatna>
+        <spatna cesta="">255.255.248.0</spatna>
+        <spatna cesta="">255.255.252.0</spatna>
+        <spravna cesta="">255.255.254.0</spravna>
+        <spatna cesta="">255.255.255.0</spatna>
+        <spatna cesta="">255.255.255.128</spatna>
+    </question>
+    <question id="145">
+        <otazka cesta="">In a Cisco IOS device, where is the startup-configuration file stored?</otazka>
+        <spatna cesta="">Flash</spatna>
+        <spravna cesta="">NVRAM</spravna>
+        <spatna cesta="">RAM</spatna>
+        <spatna cesta="">ROM</spatna>
+    </question>
+    <question id="146">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic47.jpg">Refer to the exhibit. Host A is transmitting data to host B. What addresses will host A use to for the destination IP and MAC addresses in this communication? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Destination MAC: EEEE:EEEE:EEEE Destination IP: 172.22.0.75</spravna>
+        <spatna cesta="">Destination MAC: BBBB:BBBB:BBBB Destination IP: 172.22.0.62</spatna>
+        <spatna cesta="">Destination MAC: DDDD:DDDD:DDDD Destination IP: 172.22.0.75</spatna>
+        <spatna cesta="">Destination MAC: EEEE:EEEE:EEEE Destination IP: 172.22.0.62</spatna>
+        <spatna cesta="">Destination MAC: BBBB:BBBB:BBBB Destination IP: 172.22.0.75</spatna>
+        <spatna cesta="">Destination MAC: DDDD:DDDD:DDDD Destination IP: 172.22.0.94</spatna>
+    </question>
+    <question id="147">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic48.jpg">Refer to the exhibit. Cable 1 and cable 2 have the ends wired for specific physical layer requirements. The table lists each segment by number and the cable which has been installed by the network technician between the network components on that segment. From the data given, which segments have the correct cable installed? (Choose three.) VIZ OBRAZEK</otazka>
+        <spravna cesta="">segment1</spravna>
+        <spravna cesta="">segment3</spravna>
+        <spravna cesta="">segment4</spravna>
+        <spatna cesta="">segment2</spatna>
+        <spatna cesta="">segment5</spatna>
+    </question>
+    <question id="148">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic49.jpg">Refer to the exhibit. A router, whose table is shown, receives a packet that is destined for 192.168.1.4. How will router treat the packet? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The packet will be forwarded to the destination host.</spravna>
+        <spatna cesta="">The packet will be dropped.</spatna>
+        <spatna cesta="">The packet will be forwarded via FastEthernet 0/0.</spatna>
+        <spatna cesta="">The packet will be forwarded to the 192.168.1.3 next-hop address.</spatna>
+    </question>
+    <question id="149">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic50.jpg">Refer to the exhibit. Each media link is labeled. What type of cable should be used to connect the different devices? VIZ OBRAZEK</otazka>
+        <spravna cesta="">Connection 1 – straight-through cable; Connection 2 – crossover cable; Connection 3 – straight-through cable</spravna>
+        <spatna cesta="">Connection 1 – rollover cable;Connection 2 – straight-through cable;Connection 3 – crossover cable</spatna>
+        <spatna cesta="">Connection 1 – crossover cable;Connection 2 – rollover cable; Connection 3 – crossover cable</spatna>
+        <spatna cesta="">Connection 1 – straight-through cable; Connection 2 – crossover cable; Connection 3 – crossover cable</spatna>
+        <spatna cesta="">Connection 1 – crossover cable; Connection 2 – straight-through cable; Connection 3 – crossover cable</spatna>
+    </question>
+    <question id="150">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic51.jpg">Refer to the exhibit. What two facts can be determined from the information that is given? (Choose two.) VIZ OBRAZEK</otazka>
+        <spravna cesta="">The destination port indicates that an HTTP session has been initiated.</spravna>
+        <spravna cesta="">The data listed is associated with the transport layer.</spravna>
+        <spatna cesta="">This exchange is part of the three-way handshake.</spatna>
+        <spatna cesta="">The source port indicates that a Telnet session has been initiated.</spatna>
+        <spatna cesta="">The data is flowing from server to client.</spatna>
+        <spatna cesta="">The source port does not support communication with the destination port that is listed.</spatna>
+    </question>
+    <question id="151">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic52.jpg">Refer to the exhibit. What is required on host A for a network technician to create the initial configuration on Router1? VIZ OBRAZEK</otazka>
+        <spravna cesta="">a terminal emulation program</spravna>
+        <spatna cesta="">an FTP client</spatna>
+        <spatna cesta="">a Telnet client</spatna>
+        <spatna cesta="">a web browser</spatna>
+    </question>
+    <question id="152">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic53.jpg">Refer to the exhibit. What three statements are true about the IP configuration that is shown? (Choose three.) VIZ OBRAZEK</otazka>
+        <spravna cesta="">The address that is assigned to the computer represents private addressing.</spravna>
+        <spravna cesta="">The computer is unable to communicate outside of the local network</spravna>
+        <spravna cesta="">The prefix of the computer address is /27.</spravna>
+        <spatna cesta="">The network of this computer can have 126 hosts.</spatna>
+        <spatna cesta="">The IP address that is assigned to the computer is routable on the Internet.</spatna>
+        <spatna cesta="">The IP address that is assigned to the computer is a broadcast address.</spatna>
+    </question>
+    <question id="153">
+        <otazka cesta="">Which three IPv4 addresses represent a broadcast for a subnet? (Choose three.)</otazka>
+        <spravna cesta="">172.16.4.63 /26</spravna>
+        <spatna cesta="">172.16.4.129 /26</spatna>
+        <spravna cesta="">172.16.4.191 /26</spravna>
+        <spatna cesta="">172.16.4.51 /27</spatna>
+        <spravna cesta="">172.16.4.95 /27</spravna>
+        <spatna cesta="">172.16.4.221 /27</spatna>
+    </question>
+    <question id="154">
+        <otazka cesta="">Which combination of network id and subnet mask correctly identifies all IP addresses from 172.16.128.0 through 172.16.159.255?</otazka>
+        <spatna cesta="">172.16.128.0 255.255.255.224</spatna>
+        <spatna cesta="">172.16.128.0 255.255.0.0</spatna>
+        <spatna cesta="">172.16.128.0 255.255.192.0</spatna>
+        <spravna cesta="">172.16.128.0 255.255.224.0</spravna>
+        <spatna cesta="">172.16.128.0 255.255.255.192</spatna>
+    </question>
+    <question id="155">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic54.jpg">Refer to the exhibit. When computer A sends a frame to computer D, what computers receive the frame? VIZ OBRAZEK</otazka>
+        <spravna cesta="">only computer D</spravna>
+        <spatna cesta="">only computer A and computer D</spatna>
+        <spatna cesta="">only computer B, computer C, and computer D</spatna>
+        <spatna cesta="">all computers</spatna>
+    </question>
+    <question id="156">
+        <otazka cesta="">Which three statements characterize the transport layer protocols? (Choose three.)</otazka>
+        <spravna cesta="">TCP and UDP port numbers are used by application layer protocols.</spravna>
+        <spatna cesta="">TCP uses port numbers to provide reliable transportation of IP packets.</spatna>
+        <spatna cesta="">UDP uses windowing and acknowledgments for reliable transfer of data.</spatna>
+        <spravna cesta="">TCP uses windowing and sequencing to provide reliable transfer of data.</spravna>
+        <spravna cesta="">TCP is a connection-oriented protocol. UDP is a connectionless protocol.</spravna>
+    </question>
+    <question id="157">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic55.jpg">Refer to the exhibit. What two facts can be determined about the exhibited topology? (Choose two) VIZ OBRAZEK</otazka>
+        <spravna cesta="">A single broadcast domain is present</spravna>
+        <spravna cesta="">Five collision domains exist.</spravna>
+        <spatna cesta="">Two logical address ranges are required.</spatna>
+        <spatna cesta="">Three broadcast domains are shown.</spatna>
+        <spatna cesta="">Four networks are needed.</spatna>
+    </question>
+    <question id="158">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic56.jpg">Refer to the exhibit. The command that is shown was issued on a PC. What does the IP address 192.168.33.2 represent? VIZ OBRAZEK</otazka>
+        <spravna cesta="">primary domain name server for the host</spravna>
+        <spatna cesta="">IP address of the host</spatna>
+        <spatna cesta="">default gateway of the host</spatna>
+        <spatna cesta="">IP address of the homepage for the host</spatna>
+        <spatna cesta="">IP address of the website resolver1.mooki.local</spatna>
+    </question>
+    <question id="159">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic57.jpg">Refer to the exhibit. What is the correct destination socket number for a web page request from Host A to the web server? VIZ OBRAZEK</otazka>
+        <spravna cesta="">198.133.219.25:80</spravna>
+        <spatna cesta="">00-08-a3-b6-ce-46</spatna>
+        <spatna cesta="">http://www.cisco.com</spatna>
+        <spatna cesta="">C 198.133.219.0/24 is directly connected, FastEthernet0/0</spatna>
+    </question>
+    <question id="160">
+        <otazka cesta="">Which type of media is immune to EMI and RFI? (Choose two.)</otazka>
+        <spatna cesta="">10 Base-T</spatna>
+        <spatna cesta="">10 Base-2</spatna>
+        <spatna cesta="">10 Base-5</spatna>
+        <spravna cesta="">100 Base-FX</spravna>
+        <spatna cesta="">100 Base TX</spatna>
+        <spravna cesta="">1000 Base LX</spravna>
+    </question>
+    <question id="161">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic58.jpg">Refer to the exhibit. Which set of devices contains only intermediary devices? VIZ OBRAZEK</otazka>
+        <spravna cesta="">A, B, D, G</spravna>
+        <spatna cesta="">A, B, E, F</spatna>
+        <spatna cesta="">C, D, G, I</spatna>
+        <spatna cesta="">G, H, I, J</spatna>
+    </question>
+    <question id="162">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic59.jpg">Refer to the exhibit. On the basis of the IP configuration that is shown, what is the reason that Host A and Host B are unable to communicate outside the local network? VIZ OBRAZEK</otazka>
+        <spravna cesta="">The gateway address was assigned a broadcast address.</spravna>
+        <spatna cesta="">Host A was assigned a network address.</spatna>
+        <spatna cesta="">Host B was assigned a multicast address.</spatna>
+        <spatna cesta="">Host A and Host B belong to different networks.</spatna>
+    </question>
+    <question id="163">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic60.jpg">Refer to the exhibit. Which logical topology best describes the exhibited network? VIZ OBRAZEK</otazka>
+        <spravna cesta="">multiaccess</spravna>
+        <spatna cesta="">star</spatna>
+        <spatna cesta="">ring</spatna>
+        <spatna cesta="">point-to-point</spatna>
+        <spatna cesta="">mesh</spatna>
+    </question>
+    <question id="164">
+        <otazka cesta="">What are three characteristics of CSMA/CD? (Choose three)</otazka>
+        <spatna cesta="">Devices can be configured with a higher transmission priority.</spatna>
+        <spatna cesta="">A jam signal indicates that the collision has cleared and the media is not busy.</spatna>
+        <spravna cesta="">A device listens and waits until the media is not busy before transmitting.</spravna>
+        <spatna cesta="">The device with the electronic token is the only one that can transmit after a collision.</spatna>
+        <spravna cesta="">All of the devices on a segment see data that passes on the network medium.</spravna>
+        <spravna cesta="">After detecting a collision, hosts can attempt to resume transmission after a random time delay has expired.</spravna>
+    </question>
+    <question id="165">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic61.jpg">Refer to the exhibit. With the router running NAT, what IP addresses can be applied to the computer to allow access to the Internet? (Choose three) VIZ OBRAZEK</otazka>
+        <spravna cesta="">192.168.18.49</spravna>
+        <spravna cesta="">192.168.18.52</spravna>
+        <spravna cesta="">192.168.18.59</spravna>
+        <spatna cesta="">192.168.18.38</spatna>
+        <spatna cesta="">192.168.18.48</spatna>
+        <spatna cesta="">192.168.18.63</spatna>
+    </question>
+    <question id="166">
+        <otazka cesta="">Which OSI layers offers reliable, connection-oriented data communication services?</otazka>
+        <spatna cesta="">application</spatna>
+        <spatna cesta="">presentation</spatna>
+        <spatna cesta="">session</spatna>
+        <spravna cesta="">transport</spravna>
+        <spatna cesta="">network</spatna>
+    </question>
+    <question id="167">
+        <otazka cesta="tests\CISCO CNNA 1 2013\pics\pic62.jpg">Refer to the exhibit. Which two statements describe the information that is represented in the header? (Choose two) VIZ OBRAZEK</otazka>
+        <spravna cesta="">The destination port indicates a Telnet session.</spravna>
+        <spravna cesta="">The return segment will contain a source port of 23.</spravna>
+        <spatna cesta="">This is a server response.</spatna>
+        <spatna cesta="">The UDP protocol is being used.</spatna>
+        <spatna cesta="">The next session originated from the client of this session will use the source port number 1335.</spatna>
+    </question>
+    <question id="168">
+        <otazka cesta="">A PC can not connect to any remote websites, ping its default gateway, or ping a printer that is functioning properly on the local network segment. Which action will verify that the TCP/IP stack is functioning correctly on this PC?</otazka>
+        <spatna cesta="">Use the ipconfig /all command at the host’s command prompt.</spatna>
+        <spravna cesta="">Use the ping 127.0.0.1 command at the command prompt.</spravna>
+        <spatna cesta="">Use the traceroute command at the command prompt to identify any failures on the path to the gateway.</spatna>
+        <spatna cesta="">Use FTP to check for connectivity to remote sites.</spatna>
+        <spatna cesta="">Download a troubleshooting tool from the PC manufacturer’s website.</spatna>
+    </question>
+</questions>

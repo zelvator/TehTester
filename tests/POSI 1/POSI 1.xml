@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="Windows-1250"?>
+<questions>
+    <question id="1">
+        <otazka cesta="">Zkratka DNS znamena:</otazka>
+        <spravna cesta="">Domain Name System</spravna>
+        <spatna cesta="">Directory Networking Service</spatna>
+        <spatna cesta="">Domenove Neutralni Sit</spatna>
+    </question>
+    <question id="2">
+        <otazka cesta="">Jake jsou vyhody vytvareni podsiti?</otazka>
+        <spatna cesta="">mensi kolizni domeny</spatna>
+        <spravna cesta="">vyssi pruznost pridelovani adres</spravna>
+        <spatna cesta="">vetsi kolizni domeny</spatna>
+        <spatna cesta="">vetsi broadcastove domeny</spatna>
+        <spravna cesta="">mensi broadcastove domeny</spravna>
+    </question>
+    <question id="3">
+        <otazka cesta="">Co je to hypertext?</otazka>
+        <spatna cesta="">soubor nekolika dokumentu s obrazky</spatna>
+        <spatna cesta="">dokument doplneny o odkazy na jine netextove informace</spatna>
+        <spravna cesta="">soubor nekolika dokumentu provazanych aktivnimi odkazy</spravna>
+    </question>
+    <question id="4">
+        <otazka cesta="">Vyznacte mezi nasledujicimi adresami IP adresy tridy C:</otazka>
+        <spatna cesta="">10.1.10.20</spatna>
+        <spatna cesta="">128.1.10.20</spatna>
+        <spravna cesta="">192.168.10.20</spravna>
+        <spatna cesta="">172.16.10.20</spatna>
+        <spravna cesta="">223.16.10.20</spravna>
+        <spatna cesta="">126.1.10.20</spatna>
+        <spravna cesta="">195.113.10.20</spravna>
+    </question>
+    <question id="5">
+        <otazka cesta="">Co je to broadcast (obeznik) na linkove vrstve?</otazka>
+        <spatna cesta="">paket, ktery je zaslan na vice adres</spatna>
+        <spravna cesta="">ramec, ktery je zaslan vsem uzlum v siti</spravna>
+        <spatna cesta="">ramec, ktery je naruseny kolizi</spatna>
+    </question>
+    <question id="6">
+        <otazka cesta="">Jak dlouho zustava vazba mezi IP adresou a MAC adresou v ARP cache ve Windows?</otazka>
+        <spatna cesta="">30 - 60 minut</spatna>
+        <spatna cesta="">5 - 10 minut</spatna>
+        <spravna cesta="">2 - 10 minut</spravna>
+        <spatna cesta="">20 - 30 minut</spatna>
+        <spatna cesta="">1-5 minut</spatna>
+    </question>
+    <question id="7">
+        <otazka cesta="">Zprava ICMP Time Exceeded se generuje:</otazka>
+        <spatna cesta="">Na koncovem uzlu pri snizeni TTL na nulu</spatna>
+        <spravna cesta="">Pri snizeni TTL na nulu na smerovaci.</spravna>
+        <spatna cesta="">Na smerovaci pri neobdrzeni jednoho fragmentu fragmentovaneho paketu</spatna>
+        <spravna cesta="">U konecneho prijemce pri neobdrzeni jednoho fragmentu fragmentovaneho paketu</spravna>
+    </question>
+    <question id="8">
+        <otazka cesta="">V cem spociva rozdil mezi sdilenim souboru a prenosem souboru?</otazka>
+        <spatna cesta="">pri sdileni souboru se neni treba prihlasovat k serveru</spatna>
+        <spravna cesta="">pri sdileni pracujeme se souborem ulozenym na vzdalenem serveru</spravna>
+        <spatna cesta="">pri sdileni souboru je mozna soucasna prace vice uzivatelu s aktualnimi daty</spatna>
+    </question>
+    <question id="9">
+        <otazka cesta="">Oznacte vsechna pravdiva tvrzeni o odesilani zpravy el. posty:</otazka>
+        <spravna cesta="">po navazani spojeni s SMTP serverem se overuje platnost adres prijemcu i adresy odesilatele</spravna>
+        <spatna cesta="">klientsky program po prikazu k odeslani zpravy navaze spojeni se SMTP serverem urcenym pomoci DHCP poskytovatele pripojeni</spatna>
+        <spatna cesta="">POP3 ponechava vsechny postovni zpravy na serveru</spatna>
+        <spravna cesta="">zprava je ze SMTP serveru odchozi posty zaslana na dalsi SMTP server urceny podle adesy prijemce</spravna>
+        <spatna cesta="">behem SMTP dialogu se vzdy overuje jmeno a heslo uzivatele</spatna>
+        <spravna cesta="">klientsky program po prikazu k odeslani zpravy navaze spojeni se SMTP serverem uvedenym ve sve konfiguraci</spravna>
+    </question>
+    <question id="10">
+        <otazka cesta="">Co plati pro site Ethernet?</otazka>
+        <spatna cesta="">v TCP/IP spada do vrstvy sitove</spatna>
+        <spravna cesta="">v relacnim modelu ISO/OSI pokryva fyzickou a linkovou vrstvu</spravna>
+        <spatna cesta="">lze je provozovat pouze na mediu kroucena dvojlinka</spatna>
+        <spatna cesta="">norma, jez ji popisuje, je IEEE 805.6</spatna>
+        <spatna cesta="">pro sve fungovani pouziva opakovace, huby a smerovace, nikoliv vsak prepinace</spatna>
+    </question>
+    <question id="11">
+        <otazka cesta="">Oznacte pravdiva tvrzeni o IP paketu:</otazka>
+        <spatna cesta="">zadna polozka hlavicky IP paketu se pri prenosu nemeni</spatna>
+        <spatna cesta="">Velikost hlavicky paketu v bytech</spatna>
+        <spravna cesta="">Obsahuje typ prenasenych dat</spravna>
+        <spatna cesta="">Nedoruceni IP paketu oznamuje prijemce ICMP zpravou</spatna>
+        <spravna cesta="">Neobsahuje udaje o datovem toku, k nemuz paket nalezi</spravna>
+    </question>
+    <question id="12">
+        <otazka cesta="">K cemou slouzi utilita NET ve Windows XP, kdyz pouzijeme prikaz NET USE?</otazka>
+        <spravna cesta="">Ke zpristupneni nektereho sdileneho prostredku v siti pro pouziti z Vaseho pocitace</spravna>
+        <spatna cesta="">K vypsani prostredku, ktere Vas pocitac nabizi ke sdileni</spatna>
+        <spravna cesta="">K vypsani sitovych prostredku, ktere jsou Vasemu pocitaci k dispozici</spravna>
+        <spatna cesta="">K nabidnuti nektereho prostredku Vaseho pocitace ke sdileni ostatnim uzlum v siti</spatna>
+    </question>
+    <question id="13">
+        <otazka cesta="">Vyberte tvrzeni, jez plati pro Most:</otazka>
+        <spatna cesta="">kazdy port Mostu ma prirazenu IP adresu</spatna>
+        <spatna cesta="">siri kolizni domenu</spatna>
+        <spatna cesta="">pracuje pouze jako digitalni zesilovac, kompenzuje zkresleni a utlum</spatna>
+        <spravna cesta="">filtruje data a posila je jen do urcitych segmentu na zaklade linkove adresy</spravna>
+        <spravna cesta="">pracuje na linkove vrstve referencniho modelu ISO/OSI</spravna>
+    </question>
+    <question id="14">
+        <otazka cesta="">Zprava el. posty podepsana pomoci certifikatu:</otazka>
+        <spravna cesta="">Obsahuje certifikaty pouzite k vytvoreni podpisu</spravna>
+        <spatna cesta="">Muze byt rozsifrovana pouze drzitelem soukromeho klice</spatna>
+        <spravna cesta="">Zajistuje, ze odesilatelem muze byt pouze drzitel prislusneho soukromeho klice</spravna>
+        <spatna cesta="">Zabezpecuje ochranu pred odposlechem</spatna>
+    </question>
+    <question id="15">
+        <otazka cesta="">Ktera tvrzeni plati pro technologii 100 Base-TX ?</otazka>
+        <spravna cesta="">je vystavena na hvezdicove topologii</spravna>
+        <spravna cesta="">jedno z variant technologie pro site Ethernet</spravna>
+        <spatna cesta="">maximalni delka souvisleho kabeloveho segmentu je temer 200 metru</spatna>
+        <spatna cesta="">jako prenosove medium je pouzit opticky kabel</spatna>
+        <spatna cesta="">prenosova rychlost 10 Mb/s</spatna>
+    </question>
+    <question id="16">
+        <otazka cesta="">Oznacte pravdiva tvrzeni o fungovani protokolu TCP:</otazka>
+        <spravna cesta="">cisluje kazdy byte odeslanych dat</spravna>
+        <spatna cesta="">Pri navazovani spojeni pouziva bitove priznaky SYN, PSH a ACK</spatna>
+        <spravna cesta="">pouziva nesamostatne potvrzovani prijatych dat</spravna>
+        <spravna cesta="">k rizeni toku paketu pouziva okenko</spravna>
+        <spatna cesta="">k rizeni toku dat pouziva potvrzovani</spatna>
+    </question>
+    <question id="17">
+        <otazka cesta="">Zakladni jednotkou pro prenos dat na linkove vrstve je?</otazka>
+        <spatna cesta="">datagram</spatna>
+        <spatna cesta="">bit</spatna>
+        <spatna cesta="">segment</spatna>
+        <spravna cesta="">ramec</spravna>
+        <spatna cesta="">paket</spatna>
+    </question>
+    <question id="18">
+        <otazka cesta="">Ethernet topologie 10BaseT je:</otazka>
+        <spatna cesta="">10 Mbit/s tlusty koax. kabel s delkou segmentu 2000 m</spatna>
+        <spravna cesta="">10 Mbit/s UTP kabel s delkou segmentu max. 100m</spravna>
+        <spatna cesta="">10 Mbit/s tenky koax. kabel s delkou segmentu max. 185 m</spatna>
+        <spatna cesta="">100 Mbit/s UTP kabel s delkou segmentu max. 250 m</spatna>
+    </question>
+    <question id="19">
+        <otazka cesta="">K cemu slouzi protokol ARP?</otazka>
+        <spatna cesta="">k nastaveni IP adresy pri startu uzlu</spatna>
+        <spravna cesta="">k prevodu IP adres na MAC adresy</spravna>
+        <spatna cesta="">k prevodu MAC adres na IP adresy</spatna>
+    </question>
+    <question id="20">
+        <otazka cesta="">Co lze tvrdit o RJ 45?</otazka>
+        <spravna cesta="">pouziva se u siti vyuzivajicich jako medium kroucenou dvojlinku</spravna>
+        <spatna cesta="">koncovka pro koaxialni kabely</spatna>
+        <spatna cesta="">ma 8 paru vodicu</spatna>
+        <spatna cesta="">vyuziva se pouze u technologie Gigabitovy Ethernet</spatna>
+    </question>
+    <question id="21">
+        <otazka cesta="">Systém DNS slouží k:</otazka>
+        <spatna cesta="">převodu IP adres na doménová jména</spatna>
+        <spatna cesta="">převodu MAC adres na IP adresy</spatna>
+        <spravna cesta="">převodu doménových jmen na IP adresy</spravna>
+    </question>
+    <question id="22">
+        <otazka cesta="">Která tvrzení platí pro technologii 100 Base-TX ?</otazka>
+        <spatna cesta="">přenosová rychlost 10 Mb/s</spatna>
+        <spravna cesta="">je vystavěna na hvězdicové topologii</spravna>
+        <spatna cesta="">jako přenosové médium je použit optický kabel</spatna>
+        <spravna cesta="">jedno z variant technologie pro sítě Ethernet</spravna>
+        <spatna cesta="">maximální délka souvislého kabelového segmentu je téměř 200 metrů</spatna>
+    </question>
+    <question id="23">
+        <otazka cesta="">Zpráva el. pošty podepsaná pomocí certifikátu:</otazka>
+        <spatna cesta="">Zabezpečuje ochranu před odposlechem</spatna>
+        <spravna cesta="">Obsahuje certifikáty použité k vytvoření podpisu</spravna>
+        <spatna cesta="">Může být rozšifrována pouze držitelem soukromého klíče</spatna>
+        <spravna cesta="">Zajišťuje, že odesílatelem může být pouze držitel příslušného soukromého klíče</spravna>
+    </question>
+    <question id="24">
+        <otazka cesta="">Vyznačte mezi následujícími adresami IP adresy třídy B:</otazka>
+        <spravna cesta="">172.16.10.20</spravna>
+        <spravna cesta="">146.1.10.20</spravna>
+        <spatna cesta="">192.168.10.20</spatna>
+        <spatna cesta="">1.2.3.4</spatna>
+        <spravna cesta="">128.1.10.20</spravna>
+        <spatna cesta="">10.1.10.20</spatna>
+    </question>
+    <question id="25">
+        <otazka cesta="">Označte pravdivá tvrzení o ARP:</otazka>
+        <spravna cesta="">doba uložení do ARP cache obvykle závisí na počtu obnovení záznamů v ARP cache</spravna>
+        <spravna cesta="">obsah ARP cache lze zobrazit (pod Windows) pomocí řádkové utility arp</spravna>
+        <spatna cesta="">Vazby mezi IP adresami a MAC adresami se ukládají do cache na nejvýše 1 minutu</spatna>
+        <spravna cesta="">rozesílá dotazy pomocí rámce zaslaného na MAC adresu FF:FF:FF:FF:FF:FF</spravna>
+        <spatna cesta="">rozesílá dotazy broadcastovým paketem na broadcastovou IP adresu 255.255.255.255</spatna>
+    </question>
+    <question id="26">
+        <otazka cesta="">Vyberte tvrzení, jež platí pro Most:</otazka>
+        <spravna cesta="">rozesílá broadcastové rámce</spravna>
+        <spravna cesta="">propojovací uzel na úrovni linkové vrstvy</spravna>
+        <spatna cesta="">propojuje pouze segmenty se stejnou přenosovou rychlostí</spatna>
+        <spravna cesta="">funkčně shodné zařízení jako přepínač, přepínač však má více portů a  schopnost současného zpracovávání více datových toků</spravna>
+        <spatna cesta="">pracuje pouze jako digitální zesilovač, kompenzuje zkreslení a útlum</spatna>
+    </question>
+    <question id="27">
+        <otazka cesta="">Co je to broadcast (oběžník) na linkové vrstvě?</otazka>
+        <spatna cesta="">paket, který je zaslán na více adres</spatna>
+        <spravna cesta="">rámec, který je zaslán všem uzlům v síti</spravna>
+        <spatna cesta="">rámec, který je narušený kolizí</spatna>
+    </question>
+    <question id="28">
+        <otazka cesta="">Zpětné skládání fragmentovaných paketů se provádí:</otazka>
+        <spatna cesta="">na defragmentačním serveru</spatna>
+        <spatna cesta="">na nejbližším dalším směrovači po cestě</spatna>
+        <spravna cesta="">na koncovém uzlu, pro který je fragmentovaný paket určen</spravna>
+    </question>
+    <question id="29">
+        <otazka cesta="">Označte všechna pravdivá tvrzení o protokolech POP3 a IMAP:</otazka>
+        <spravna cesta="">bez trvalého připojení k poštovnímu serveru není vhodné používat IMAP</spravna>
+        <spatna cesta="">POP3 ponechává všechny poštovní zprávy na serveru</spatna>
+        <spravna cesta="">oba slouží k přístupu k doručeným zprávám</spravna>
+        <spatna cesta="">IMAP nové zprávy přenese na počítač s klientem a pak je odstraní ze serveru</spatna>
+        <spatna cesta="">pro přístup ke zprávám elektronické pošty slouží jen POP3</spatna>
+        <spatna cesta="">POP3 a IMAP se liší náročností na hardware</spatna>
+        <spravna cesta="">POP3 nové zprávy přenese na počítač s klientem a pak je obvykle odstraní ze serveru</spravna>
+    </question>
+    <question id="30">
+        <otazka cesta="">Obsahuje protokol FTP nějaký prostředek pro zabezpečení proti odposlechu hesla?</otazka>
+        <spatna cesta="">Ano, ale jen v novější verzi</spatna>
+        <spravna cesta="">Ne</spravna>
+        <spatna cesta="">Ano, již od počátku</spatna>
+    </question>
+    <question id="31">
+        <otazka cesta="">Co je cookie a kde se uchovává?</otazka>
+        <spravna cesta="">textový soubor s informacemi generovanými serverem uložený během relace se serverem na počítači klienta</spravna>
+        <spatna cesta="">soubor s odkazem na server, je uložen na serveru</spatna>
+        <spatna cesta="">soubor s ikonou serveru uložený na počítači klienta</spatna>
+    </question>
+    <question id="32">
+        <otazka cesta="">Která maska podsítě musí být přiřazena síti 192.168.126.0, aby v ní bylo 254 použitelných adres pro počítače či jiná zařízení?</otazka>
+        <spatna cesta="">255.255.248.0</spatna>
+        <spravna cesta="">255.255.255.0</spravna>
+        <spatna cesta="">255.255.254.0</spatna>
+        <spatna cesta="">255.255.0.0</spatna>
+    </question>
+    <question id="33">
+        <otazka cesta="">Jak se nazývá počítačová síť, kde některé uzly mohou pouze využívat prostředků (např. tiskáren, disků apod) nabízených do sítě jinými uzly, a jiné uzly naopak mohou pouze tyto prostředky do sítě nabízet?</otazka>
+        <spatna cesta="">Internet</spatna>
+        <spatna cesta="">síť LAN</spatna>
+        <spravna cesta="">síť serverového typu</spravna>
+        <spatna cesta="">síť peer-to-peer</spatna>
+    </question>
+    <question id="34">
+        <otazka cesta="">Jaké vlastnosti má protokol TCP:</otazka>
+        <spravna cesta="">spojově orientovaný</spravna>
+        <spravna cesta="">spolehlivý</spravna>
+        <spatna cesta="">nespolehlivý</spatna>
+        <spatna cesta="">nespojovaný</spatna>
+    </question>
+    <question id="35">
+        <otazka cesta="">Co platí pro sítě Ethernet?</otazka>
+        <spravna cesta="">v TCP/IP spadá do vrstvy síťového rozhraní</spravna>
+        <spatna cesta="">z technického vybavení lze použít pro její budování pouze síťové karty a přepínače, nikoliv opakovače</spatna>
+        <spatna cesta="">lze ji provozovat pouze na médiu optický kabel a koaxiál</spatna>
+        <spravna cesta="">popisuje ji norma IEEE 802.3</spravna>
+    </question>
+    <question id="36">
+        <otazka cesta="">Hlavička IP paketu obsahuje:</otazka>
+        <spatna cesta="">pořadí dat, která paket přenáší</spatna>
+        <spravna cesta="">povolený počet průchodů přes směrovače</spravna>
+        <spatna cesta="">IP adresu nejbližšího směrovače</spatna>
+        <spatna cesta="">Velikost hlavičky paketu v bytech</spatna>
+        <spravna cesta="">Počet bytů tvořících paket</spravna>
+    </question>
+    <question id="37">
+        <otazka cesta="">Co platí pro sítě Ethernet?</otazka>
+        <spravna cesta="">popisuje ji norma IEEE 802.3</spravna>
+        <spatna cesta="">je to jeden typ sítě WAN</spatna>
+        <spatna cesta="">z technického vybavení lze použít pro její budování pouze síťové karty a přepínače, nikoliv opakovače</spatna>
+        <spravna cesta="">lze ji provozovat pouze na médiích typu optický kabel, koaxiální kabel, kroucená dvojlinka</spravna>
+        <spravna cesta="">v TCP/IP spadá do vrstvy síťového rozhraní</spravna>
+    </question>
+    <question id="38">
+        <otazka cesta="">Co lze tvrdit o konektorech RJ 45?</otazka>
+        <spravna cesta="">má 8 vývodů</spravna>
+        <spatna cesta="">je to konektor pro koaxiální kabely</spatna>
+        <spatna cesta="">spolu s příslušným kabelem slouží pouze k propojování přepínač/hub-PC, nikoli však k propojení přepínačů nebo hubů mezi sebou</spatna>
+        <spatna cesta="">využívá se pouze u technologie Gigabitový Ethernet</spatna>
+        <spravna cesta="">používá se u sítí využívajících jako médium kroucenou dvojlinku</spravna>
+    </question>
+    <question id="39">
+        <otazka cesta="">Pro Fast Ethernet se používá přenosové medium:</otazka>
+        <spravna cesta="">nestíněný kabel kroucená dvojlinka kategorie 5</spravna>
+        <spatna cesta="">UTP kat. 3</spatna>
+        <spatna cesta="">tlustý koaxiální kabel</spatna>
+        <spatna cesta="">tenký koaxiál</spatna>
+    </question>
+    <question id="40">
+        <otazka cesta="">Logická topologie počítačové sítě popisuje:</otazka>
+        <spatna cesta="">prostorové rozmístění uzlů a propojovacích vedení v síti</spatna>
+        <spatna cesta="">umístění síťové karty v počítačích</spatna>
+        <spravna cesta="">způsob, jakým spolu počítače komunikují</spravna>
+    </question>
+    <question id="41">
+        <otazka cesta="">Které druhy rámců se používají v Ethernetu?</otazka>
+        <spatna cesta="">IEEE 802.1</spatna>
+        <spravna cesta="">Ethernet II</spravna>
+        <spatna cesta="">Ethernet DEX</spatna>
+        <spatna cesta="">ISO/OSI</spatna>
+        <spravna cesta="">IEEE 802.3</spravna>
+    </question>
+    <question id="42">
+        <otazka cesta="">Vyznačte mezi následujícími adresami IP adresy třídy A:</otazka>
+        <spravna cesta="">1.2.3.4</spravna>
+        <spatna cesta="">192.168.10.20</spatna>
+        <spravna cesta="">126.1.10.20</spravna>
+        <spravna cesta="">10.1.10.20</spravna>
+        <spatna cesta="">172.16.10.20</spatna>
+        <spatna cesta="">128.1.10.20</spatna>
+    </question>
+    <question id="43">
+        <otazka cesta="">Uveďte správná tvrzení o protokolu HTTP:</otazka>
+        <spravna cesta="">Požadavek metodou GET neobsahuje žádná data, pouze hlavičky</spravna>
+        <spatna cesta="">slouží pro přenos souborů od klienta na server a zpět</spatna>
+        <spatna cesta="">slouží pouze pro přenos HTML souborů</spatna>
+        <spravna cesta="">Hlavičky jsou parametry metody a jsou součástí každého požadavku</spravna>
+        <spravna cesta="">Používá zejména metody GET a POST</spravna>
+    </question>
+    <question id="44">
+        <otazka cesta="">Systém DNS slouží k:</otazka>
+        <spatna cesta="">převodu MAC adres na IP adresy</spatna>
+        <spravna cesta="">převodu doménových jmen na IP adresy</spravna>
+        <spatna cesta="">převodu IP adres na doménová jména</spatna>
+    </question>
+    <question id="45">
+        <otazka cesta="">Co je to autoritativní odpověď?</otazka>
+        <spatna cesta="">každá nechybová odpověď DNS serveru</spatna>
+        <spatna cesta="">odpověď z cache DNS serveru</spatna>
+        <spravna cesta="">pouze odpověď vydaná DNS serverem dotazované domény</spravna>
+    </question>
+    <question id="46">
+        <otazka cesta="">Jaký rozsah zabírají IP adresy třídy C?</otazka>
+        <spatna cesta="">desítkově vyjádřený první byte má hodnoty 128-191</spatna>
+        <spatna cesta="">desítkově vyjádřený první byte má hodnoty 191-223</spatna>
+        <spravna cesta="">desítkově vyjádřený první byte má hodnoty 192-223</spravna>
+        <spatna cesta="">desítkově vyjádřený první byte má hodnoty 192-224</spatna>
+    </question>
+    <question id="47">
+        <otazka cesta="">Označte správná tvrzení o síťové masce:</otazka>
+        <spatna cesta="">standardní síťová maska pro třídu C je 255.255.0.0</spatna>
+        <spravna cesta="">používá se pro rozlišení uzlové části adresy</spravna>
+        <spravna cesta="">je to číslo o délce 32 bitů</spravna>
+        <spatna cesta="">slouží pro dynamické přidělení adresy</spatna>
+    </question>
+    <question id="48">
+        <otazka cesta="">Jak se dotazuje protokol ARP?</otazka>
+        <spatna cesta="">vyšle rámec s dotazem na IP adresu pouze vybraným uzlům (multicast)</spatna>
+        <spravna cesta="">vyšle rámec s dotazem na MAC adresu všem uzlům (broadcast)</spravna>
+        <spatna cesta="">vyšle rámec s dotazem na IP adresu všem uzlům (broadcast)</spatna>
+    </question>
+    <question id="49">
+        <otazka cesta="">Křížený kabel slouží ke spojení:</otazka>
+        <spatna cesta="">PC – hub</spatna>
+        <spravna cesta="">router – router</spravna>
+        <spravna cesta="">PC – router</spravna>
+        <spatna cesta="">PC – most</spatna>
+        <spatna cesta="">PC – přepínač</spatna>
+        <spravna cesta="">PC – PC</spravna>
+    </question>
+    <question id="50">
+        <otazka cesta="">Vyberte tvrzení, jež platí pro Přepínač po naučení adres:</otazka>
+        <spravna cesta="">broadcastové rámce rozesílá do vždy všech připojených směrů kromě zdrojového směru</spravna>
+        <spatna cesta="">rámce adresované konkrétnímu uzlu rozesílá vždy do všech připojených směrů kromě zdrojového směru</spatna>
+        <spatna cesta="">rámce adresované konkrétnímu uzlu rozesílá vždy do všech připojených směrů</spatna>
+        <spravna cesta="">rámce adresované konkrétnímu uzlu zasílá pouze do jednoho segmentu</spravna>
+        <spatna cesta="">broadcastové rámce rozesílá do vždy všech připojených směrů</spatna>
+    </question>
+    <question id="51">
+        <otazka cesta="">Která tvrzení platí pro technologii 10 Base-T?</otazka>
+        <spravna cesta="">jako přenosové médium je použita kroucená dvojlinka kategorie 3 a vyšší</spravna>
+        <spatna cesta="">přenosová rychlost 100 Mb/s</spatna>
+        <spravna cesta="">maximální délka souvislého kabelového segmentu je 100 metrů</spravna>
+        <spatna cesta="">využívá přístupovou metodu Token Passing</spatna>
+        <spatna cesta="">používá konektory AUI</spatna>
+    </question>
+    <question id="52">
+        <otazka cesta="">Kam se zasílá DNS dotaz z Vašeho PC, když chcete zobrazit v prohlížeči www stránku ze serveru www.seznam.cz?</otazka>
+        <spravna cesta="">na DNS server uvedený v konfiguraci síťového připojení Vašeho PC</spravna>
+        <spatna cesta="">na DNS server dns.seznam.cz</spatna>
+        <spravna cesta="">do cache DNS záznamů ve Vašem PC</spravna>
+        <spatna cesta="">na DNS server TLD domény .CZ</spatna>
+        <spatna cesta="">do cache DNS serveru www.osu.cz</spatna>
+    </question>
+    <question id="53">
+        <otazka cesta="">Označte správná tvrzení o režimech navazování spojení FTP</otazka>
+        <spatna cesta="">V aktivním režimu se navazuje řídící spojení od serveru ke klientovi</spatna>
+        <spatna cesta="">Aktivní režim navazuje každé datové spojení tím směrem, kterým se bude soubor přenášet</spatna>
+        <spravna cesta="">Pasivní režim umožňuje navázat datové spojení i tehdy, když je klient za firewalem</spravna>
+        <spravna cesta="">Aktivní režim navazuje datové spojení od serveru ke klientovi</spravna>
+    </question>
+    <question id="54">
+        <otazka cesta="">K čemou slouží utilita NET ve Windows XP, když použijeme příkaz NET SHARE?</otazka>
+        <spravna cesta="">K vypsání prostředků, které Váš počítač nabízí ke sdílení</spravna>
+        <spatna cesta="">Ke zpřístupnění některého sdíleného prostředku v síti pro použití z Vašeho počítače</spatna>
+        <spatna cesta="">K vypsání prostředků, které jsou na síti k dispozici ke sdílení</spatna>
+        <spravna cesta="">K nabídnutí některého prostředku Vašeho počítače ke sdílení ostatním uzlům v síti</spravna>
+    </question>
+    <question id="55">
+        <otazka cesta="">Jaké barvy se používají pro označení vodičů v kabelech typu kroucená dvojlinka pro sítě Ethernet?</otazka>
+        <spravna cesta="">zelená, modrá, hnědá, oranžová</spravna>
+        <spatna cesta="">červená, modrá, žlutá, zelená</spatna>
+        <spatna cesta="">oranžová, zelená, modrá, černá</spatna>
+        <spatna cesta="">oranžová, zelená, modrá, bílá</spatna>
+        <spatna cesta="">šedá, oranžová, zelená, modrá</spatna>
+    </question>
+    <question id="56">
+        <otazka cesta="">Které z následujících názvů technologií / standardů se NEPOUŽÍVÁ pro LAN?</otazka>
+        <spatna cesta="">FDDI</spatna>
+        <spravna cesta="">Frame Relay</spravna>
+        <spatna cesta="">Token Ring</spatna>
+        <spatna cesta="">Fast Ethernet</spatna>
+    </question>
+    <question id="57">
+        <otazka cesta="">Uveďte správná tvrzení o protokolu HTTP:</otazka>
+        <spravna cesta="">Rozhodnutí o verzi HTTP, která se pro daný přenos použije, závisí na domluvě web serveru s www klientem</spravna>
+        <spravna cesta="">starší verze HTTP neumožňovala zaslat více souborů po jednom TCP spojení</spravna>
+        <spravna cesta="">v praxi se používají verze 1.0 a 1.1</spravna>
+        <spatna cesta="">Verze 1.1 umožňuje, aby se spojení pro přenos souboru navázalo ze strany serveru</spatna>
+    </question>
+    <question id="58">
+        <otazka cesta="">Které z následujících přenosových médií SE NEPOUŽÍVÁ v Ethernetu?</otazka>
+        <spatna cesta="">tlustý koaxiální kabel</spatna>
+        <spravna cesta="">stíněný nekroucený drát</spravna>
+        <spatna cesta="">nestíněná kroucená dvojlinka</spatna>
+        <spatna cesta="">jednovidové optické vlákno</spatna>
+    </question>
+    <question id="59">
+        <otazka cesta="">Vyberte tvrzení, jež platí pro Opakovač:</otazka>
+        <spravna cesta="">pracuje na fyzické vrstvě referenčního modelu ISO/OSI</spravna>
+        <spravna cesta="">rozšiřuje kolizní doménu</spravna>
+        <spatna cesta="">má přiřazenu jednoznačnou MAC adresu</spatna>
+        <spatna cesta="">filtruje data a posílá je jen do určitých segmentů na základě linkové adresy</spatna>
+        <spravna cesta="">je nezávislý na protokolech linkové vrstvy</spravna>
+    </question>
+    <question id="60">
+        <otazka cesta="">Vyberte tvrzení, jež platí pro Přepínač:</otazka>
+        <spatna cesta="">pracuje jako digitální zesilovač, kompenzuje zkreslení a útlum</spatna>
+        <spravna cesta="">filtruje data a posílá je jen do určitých segmentů na základě linkové adresy</spravna>
+        <spatna cesta="">je to propojovací uzel na úrovni síťové vrstvy</spatna>
+        <spravna cesta="">pracuje s fyzickými adresami uzlů</spravna>
+        <spatna cesta="">funkčně stejné zařízení jako Směrovač, jen má menší vyrovnávací paměť pro data</spatna>
+    </question>
+    <question id="61">
+        <otazka cesta="">Vyberte tvrzení, jež platí pro Směrovač:</otazka>
+        <spravna cesta="">propojovací uzel na úrovni síťové vrstvy</spravna>
+        <spatna cesta="">rozesílá data do všech připojených sítí</spatna>
+        <spravna cesta="">každý port Směrovače má přiřazenu IP adresu</spravna>
+        <spatna cesta="">rozšiřuje kolizní doménu</spatna>
+        <spatna cesta="">rozesílá data do všech segmentů sítě bez jakékoliv filtrace</spatna>
+    </question>
+    <question id="62">
+        <otazka cesta="">Vyberte tvrzení, jež platí pro Most</otazka>
+        <spravna cesta="">není viditelný pro ostatní uzly na úrovni linkové vrstvy, ale pracuje v promiskuitním módu a proto přijímá všechny rámce</spravna>
+        <spatna cesta="">pracuje na vrstvě síťové v architektuře TCP/IP</spatna>
+        <spravna cesta="">rozděluje kolizní doménu</spravna>
+        <spatna cesta="">musí mít přiřazenu jednoznačnou IP adresu</spatna>
+        <spatna cesta="">rozesílá data do všech segmentů sítě bez jakékoliv filtrace</spatna>
+    </question>
+    <question id="63">
+        <otazka cesta="">Fyzická adresa používaná v Ethernetu má délku:</otazka>
+        <spatna cesta="">8 bitů</spatna>
+        <spatna cesta="">32 bitů</spatna>
+        <spravna cesta="">48 bitů</spravna>
+        <spatna cesta="">64 bitů</spatna>
+        <spatna cesta="">128 bitů</spatna>
+    </question>
+    <question id="64">
+        <otazka cesta="">Které jsou 3 horní vrstvy referenčního modelu ISO/OSI ve správném pořadí?</otazka>
+        <spatna cesta="">7. aplikační, 6. relační, 5. prezenční</spatna>
+        <spatna cesta="">7. aplikační, 6. prezenční, 5. transportní</spatna>
+        <spravna cesta="">7. aplikační, 6. prezentační, 5. relační</spravna>
+        <spatna cesta="">7. aplikační, 6. relační, 5. transportní</spatna>
+    </question>
+    <question id="65">
+        <otazka cesta="">Jak se nazývá 3. vrstva v referenčním modelu ISO/OSI?</otazka>
+        <spatna cesta="">transportní</spatna>
+        <spatna cesta="">fyzická</spatna>
+        <spatna cesta="">relační</spatna>
+        <spatna cesta="">prezentační</spatna>
+        <spravna cesta="">síťová</spravna>
+    </question>
+    <question id="66">
+        <otazka cesta="">Metoda řízení přístupu k médiu popisuje:</otazka>
+        <spatna cesta="">způsob stanovení frekvence, na které uzel vysílá</spatna>
+        <spravna cesta="">způsob určení oprávnění uzlu vysílat data</spravna>
+        <spatna cesta="">způsob stanovení doby, kdy uzel smí přijímat data ze sítě</spatna>
+    </question>
+    <question id="67">
+        <otazka cesta="">V sítích LAN se nejčastěji používá metoda přístupu k médiu:</otazka>
+        <spatna cesta="">CSMA/CA</spatna>
+        <spatna cesta="">Ethernet</spatna>
+        <spravna cesta="">CSMA/CD</spravna>
+        <spatna cesta="">Windows NT/2000</spatna>
+    </question>
+    <question id="68">
+        <otazka cesta="">Propojení na linkové vrstvě zajišťuje:</otazka>
+        <spravna cesta="">most</spravna>
+        <spravna cesta="">přepínač</spravna>
+        <spatna cesta="">směrovač</spatna>
+        <spatna cesta="">opakovač</spatna>
+        <spatna cesta="">hub</spatna>
+    </question>
+    <question id="69">
+        <otazka cesta="">Fyzická topologie počítačové sítě popisuje:</otazka>
+        <spravna cesta="">prostorové rozmístění uzlů a propojovacích vedení v síti</spravna>
+        <spatna cesta="">umístění síťové karty v počítačích</spatna>
+        <spatna cesta="">způsob, jakým spolu počítače komunikují</spatna>
+    </question>
+    <question id="70">
+        <otazka cesta="">Ktera prenosova technologie je vhodna pouze pro LAN?</otazka>
+        <spravna cesta="">Novell IPX/SPX</spravna>
+        <spatna cesta="">AMT</spatna>
+        <spatna cesta="">TCP/IP</spatna>
+    </question>
+    <question id="71">
+        <otazka cesta="">Jsou počítače tvořící distribuovaný systém nezávislé?</otazka>
+        <spatna cesta="">ANO, ale musí mít všechny stejný OS</spatna>
+        <spravna cesta="">ANO, mohou mít navzájem zcela odlišný HW, OS, apod.</spravna>
+        <spatna cesta="">NE, jsou na sobě závislé</spatna>
+    </question>
+    <question id="72">
+        <otazka cesta="">Označte vlastnosti sítě WAN:</otazka>
+        <spravna cesta="">Má nižší přenosovou rychlost (např. 64 kbps)</spravna>
+        <spravna cesta="">Je vhodná spíše pro potřeby komunikace</spravna>
+        <spravna cesta="">Spolehlivost přenosových cest je nižší</spravna>
+        <spatna cesta="">Má systematickou (pravidelnou) topologii sítě</spatna>
+    </question>
+    <question id="73">
+        <otazka cesta="">Který z níže uvedených výpočetních modelů neumožňuje interaktivní způsob práce?</otazka>
+        <spatna cesta="">Host/Terminál</spatna>
+        <spravna cesta="">Dávkové zpracování (batch processing)</spravna>
+        <spatna cesta="">Klient/Server</spatna>
+    </question>
+    <question id="74">
+        <otazka cesta="">Jak se nazývá poč. síť, kde všechny uzly mohou využívat prostředků (např. tiskáren, disku, apod.) nabízených do sítě jinými uzly a zároveň tyto prostředky nabízet ostatním uzlům?</otazka>
+        <spatna cesta="">Internet</spatna>
+        <spatna cesta="">Síť LAN</spatna>
+        <spravna cesta="">Síť peer-to-peer</spravna>
+        <spatna cesta="">Síť serverového typu</spatna>
+    </question>
+    <question id="75">
+        <otazka cesta="">Máte-li síť se třemi počítači, kde první má k dispozici pouze pevný disk "C:", druhý má pevný disk "C:" a CD mechaniku "D:" a třetí má CD mechaniku "D:", pevný disk "C:" a tiskárnu. Otázka zní: Co může síť poskytovat každému uživateli sítě?</otazka>
+        <spravna cesta="">tiskárnu, pevný dusk i CD mechaniku</spravna>
+        <spatna cesta="">pevná disk a CD mechaniku</spatna>
+        <spatna cesta="">každý užovatel bude využívat jen to, co má k dispozici</spatna>
+        <spatna cesta="">CD mechaniku</spatna>
+    </question>
+    <question id="76">
+        <otazka cesta="">Označte pravdivá tvrzení:</otazka>
+        <spravna cesta="">Síť LAN je skupina počítačů, které jsou navzájem propojené, aby byla možná jejich vzájemná komunikace</spravna>
+        <spravna cesta="">Síť LAN poskytuje uživatelům službu sdílení společných dat sítě</spravna>
+        <spatna cesta="">Síť LAN neposkytuje uživatelům službu monitorování jiných účastníků sítě</spatna>
+    </question>
+    <question id="77">
+        <otazka cesta="">Na jaké vrstvě se v architektuře TCP/IP uplatňuje princip "best effort"?</otazka>
+        <spatna cesta="">transportní</spatna>
+        <spravna cesta="">na síťové a zčásti na transportní</spravna>
+        <spatna cesta="">na aplikační</spatna>
+        <spatna cesta="">síťové</spatna>
+    </question>
+    <question id="78">
+        <otazka cesta="">Které vrstvy tvoří architekturu TCP/IP?</otazka>
+        <spatna cesta="">aplikační, relační, prezentační, síťová</spatna>
+        <spatna cesta="">aplikační, relační, trasnportní, síťová</spatna>
+        <spravna cesta="">aplikační, transportní, síťová, vrstva síťového rozhraní</spravna>
+        <spatna cesta="">transportní, síťová, linková, fyzická</spatna>
+    </question>
+    <question id="79">
+        <otazka cesta="">Kolik vrstev má architektura TCP/IP?</otazka>
+        <spatna cesta="">7</spatna>
+        <spatna cesta="">5</spatna>
+        <spatna cesta="">6</spatna>
+        <spravna cesta="">4</spravna>
+    </question>
+    <question id="80">
+        <otazka cesta="">Subjekt, který má na starost fungování Internetu se nazývá</otazka>
+        <spravna cesta="">ICANN</spravna>
+        <spatna cesta="">ICMP</spatna>
+        <spatna cesta="">IAB</spatna>
+        <spatna cesta="">IETF</spatna>
+    </question>
+    <question id="81">
+        <otazka cesta="">Jak se jmenuje třetí vrstva v architektuře TCP/IP:</otazka>
+        <spatna cesta="">aplikační</spatna>
+        <spravna cesta="">transportní</spravna>
+        <spatna cesta="">síťová</spatna>
+        <spatna cesta="">vrstva síťového rozhraní</spatna>
+    </question>
+    <question id="82">
+        <otazka cesta="">Adresa 190.10.1.1 je adresa třídy:</otazka>
+        <spatna cesta="">C</spatna>
+        <spatna cesta="">A</spatna>
+        <spatna cesta="">D</spatna>
+        <spravna cesta="">B</spravna>
+    </question>
+    <question id="83">
+        <otazka cesta="">Co je to subnetting, a co o něm můžeme tvrdit?</otazka>
+        <spatna cesta="">spojuje jednotlivé sítě do větších celků</spatna>
+        <spravna cesta="">lze jej použít pouze pro sítě blízké v tom smyslu, že mají jedinečný společný vstupní bod, jež je propojuje se zbytkem sítě</spravna>
+        <spatna cesta="">princip, jež nám umožňuje slučovat autonomní systémy</spatna>
+        <spatna cesta="">umožňuje spojovat sítě s různými přístupovými metodami</spatna>
+    </question>
+    <question id="84">
+        <otazka cesta="">Která maska podsítě musí být přiřazena síti 192.168.126.0, aby v ní bylo 254 použitelných adres počítačů?</otazka>
+        <spravna cesta="">255.255.255.0</spravna>
+        <spatna cesta="">255.255.254.0</spatna>
+        <spatna cesta="">255.255.248.0</spatna>
+        <spatna cesta="">255.255.0.0</spatna>
+    </question>
+    <question id="85">
+        <otazka cesta="">Maska 255.255.0.0 znamená, že hranice mezi síťovou a uzlovou částí IP adresy daného uzlu je za:</otazka>
+        <spravna cesta="">16. bitem</spravna>
+        <spatna cesta="">24. bitem</spatna>
+        <spatna cesta="">hranice není vyznačena</spatna>
+        <spatna cesta="">8. bitem</spatna>
+    </question>
+    <question id="86">
+        <otazka cesta="">Které tvrzení charakterizuje IP adresu?</otazka>
+        <spatna cesta="">pevná a nikdy neměnná hranice mezi síťovou a uzlovou částí</spatna>
+        <spravna cesta="">jednoznačně identifikuje uzel v celé síti</spravna>
+        <spravna cesta="">používá se na síťové vrstvě</spravna>
+        <spravna cesta="">neobsahuje informace o fyzických adresách</spravna>
+    </question>
+    <question id="87">
+        <otazka cesta="">Mechanismus CIDR umožňuje:</otazka>
+        <spravna cesta="">přidělovat IP adresy v počtu odpovídajícím libovolné mocnině dvou</spravna>
+        <spatna cesta="">určit přesné umístění uzlu</spatna>
+        <spravna cesta="">optimalizovat směrovací tabulky</spravna>
+    </question>
+    <question id="88">
+        <otazka cesta="">Které výroky platí pro IP paket:</otazka>
+        <spatna cesta="">hlavička obsahuje pouze IP adresu příjemce, IP adresa odesílatele není povinná</spatna>
+        <spravna cesta="">hlavička obsahuje mimo jiné položku: doba životnosti paketu</spravna>
+        <spatna cesta="">délka paketu není omezena</spatna>
+        <spravna cesta="">je také označován jako IP datagram</spravna>
+    </question>
+    <question id="89">
+        <otazka cesta="">Co je to směrování?</otazka>
+        <spatna cesta="">doprava linkových rámců mezi mosty</spatna>
+        <spravna cesta="">činnost, při níž určujeme nejvhodnější cestu po sítí</spravna>
+        <spatna cesta="">činnost, při níž pracujeme s IP a MAC adresami a TCP a UDP porty</spatna>
+        <spatna cesta="">záměrné a cílené filtrování zpráv mezi uživateli</spatna>
+    </question>
+    <question id="90">
+        <otazka cesta="">Jaká je úloha IP protokolu?</otazka>
+        <spatna cesta="">zajišťuje bezkolizní komunikaci v sítí WAN</spatna>
+        <spatna cesta="">dopravuje data pouze v rámci lokální sítě</spatna>
+        <spatna cesta="">přepravuje informace o topologii jednotlivých LAN sítí</spatna>
+        <spravna cesta="">umožňuje spojení jednotlivých LAN sítí do Internetu</spravna>
+    </question>
+    <question id="91">
+        <otazka cesta="">K čemu slouží protokol ARP?</otazka>
+        <spatna cesta="">k nastavení IP adresy při startu uzlu</spatna>
+        <spravna cesta="">k převodu IP adres na MAC adresy</spravna>
+        <spatna cesta="">převod MAC adres na IP adresy</spatna>
+    </question>
+    <question id="92">
+        <otazka cesta="">Fragmentace paketu znamená, že</otazka>
+        <spravna cesta="">paket byl cestou rozdělen na menší částí</spravna>
+        <spatna cesta="">paket nedorazil na cílový uel celý, ale jeho část se ztratila</spatna>
+        <spatna cesta="">část paketu byla cestou zaslána jinou trasou</spatna>
+    </question>
+    <question id="93">
+        <otazka cesta="">Zpětné skládání fragmentovaných paketů se provádí:</otazka>
+        <spatna cesta="">na nejbližším dalším směrovači po cestě</spatna>
+        <spatna cesta="">na defragmentačním serveru</spatna>
+        <spravna cesta="">na koncovém uzlu, pro který je fragmentovaný paket určen</spravna>
+    </question>
+    <question id="94">
+        <otazka cesta="">Jaké vlastnosti má protokol TCP:</otazka>
+        <spatna cesta="">nespolehlivý</spatna>
+        <spravna cesta="">spojově orientovaný</spravna>
+        <spravna cesta="">spolehlivý</spravna>
+        <spatna cesta="">nespojovaný</spatna>
+    </question>
+    <question id="95">
+        <otazka cesta="">Porty slouží k:</otazka>
+        <spatna cesta="">připojení více příjemců na 1 TCP spojení</spatna>
+        <spatna cesta="">adresování umístění souborů cookie</spatna>
+        <spravna cesta="">rozlišení příjemce/odesílatele (aplikace) v rámci 1 uzlu</spravna>
+        <spatna cesta="">nevím</spatna>
+    </question>
+    <question id="96">
+        <otazka cesta="">Spojení mezi aplikacemi je jednoznačně určeno:</otazka>
+        <spravna cesta="">zdrojovým a cílovým portem, zdrojovou a cílovou IP adresou a protokolem transportní vrstvy</spravna>
+        <spatna cesta="">spojení nelze jednoznačně určit</spatna>
+        <spatna cesta="">všemi směrovači, přes které paket putoval</spatna>
+        <spatna cesta="">IP adresou odesílatele, portem příjemce a transportním protokolem</spatna>
+    </question>
+    <question id="97">
+        <otazka cesta="">Co obsahuje UDP hlavička?</otazka>
+        <spatna cesta="">číslo protokolu vyšší vrstvy</spatna>
+        <spatna cesta="">zdrojovou a cílovou IP adresu</spatna>
+        <spatna cesta="">hlavičku IGMP zprávy</spatna>
+        <spravna cesta="">zdrojový a cílový port</spravna>
+    </question>
+    <question id="98">
+        <otazka cesta="">Základní jednotka přenosu dat protokolu TCP je:</otazka>
+        <spatna cesta="">datagram</spatna>
+        <spatna cesta="">raw</spatna>
+        <spatna cesta="">byte</spatna>
+        <spravna cesta="">segment</spravna>
+    </question>
+    <question id="99">
+        <otazka cesta="">Jaké operační systémy na serveru nelze použít pro vzdálené přihlašování přes telnet?</otazka>
+        <spravna cesta="">OS Windows 9X</spravna>
+        <spatna cesta="">operační systém Windows 2000 terminal server</spatna>
+        <spatna cesta="">operační systémy unixového typu</spatna>
+    </question>
+    <question id="100">
+        <otazka cesta="">K čemu slouží systém DNS?</otazka>
+        <spatna cesta="">k získání informace o geografickém umístění dotazovného serveru</spatna>
+        <spatna cesta="">k získání doménového jména dotazovaného serveru</spatna>
+        <spravna cesta="">k získání IP adresy serveru odpovídajícího danému doménovému jménu</spravna>
+    </question>
+    <question id="101">
+        <otazka cesta="">K čemu slouží položka Bcc. v hlavičce zprávy?</otazka>
+        <spatna cesta="">k zaslání zprávy více příjemcům</spatna>
+        <spatna cesta="">k utajení ostatních příjemců před příjemcem v poli Bcc</spatna>
+        <spravna cesta="">k utajení příjemce v poli Bcc před ostatními příjemci</spravna>
+    </question>
+    <question id="102">
+        <otazka cesta="">Lze při práci pomocí protokolu telnet používat znaky české abecedy?</otazka>
+        <spatna cesta="">Ano, vždy</spatna>
+        <spatna cesta="">Ne</spatna>
+        <spravna cesta="">Ano, ale jen pokud se na tom po přihlášení dohodne server s klientem</spravna>
+    </question>
+    <question id="103">
+        <otazka cesta="">Co je to autoritativní odpověď?</otazka>
+        <spatna cesta="">každá nechybová odpověď DNS serveru</spatna>
+        <spravna cesta="">pouze odpověď vydaná DNS serverem dotazové domény</spravna>
+        <spatna cesta="">odpověď z cache DNS serveru</spatna>
+    </question>
+    <question id="104">
+        <otazka cesta="">Fast Ethernet označuje Ethernet s přenosovu rychlostí:</otazka>
+        <spatna cesta="">10 Mb/s</spatna>
+        <spravna cesta="">100 Mb/s</spravna>
+        <spatna cesta="">10 Gb/s</spatna>
+        <spatna cesta="">1 Gb/s</spatna>
+    </question>
+    <question id="105">
+        <otazka cesta="">Které označení představuje Fast Ethernet?</otazka>
+        <spatna cesta="">10 Base-2</spatna>
+        <spravna cesta="">100 Base-TX</spravna>
+        <spatna cesta="">10 Base-FL</spatna>
+        <spatna cesta="">1000 Base-CX</spatna>
+    </question>
+    <question id="106">
+        <otazka cesta="">Jak se nazývá fyzická adresa, která se používá v Ethernetu?</otazka>
+        <spravna cesta="">MAC adresa</spravna>
+        <spatna cesta="">LLC adresa</spatna>
+        <spatna cesta="">CSMA/CD adresa</spatna>
+        <spatna cesta="">IP adresa</spatna>
+    </question>
+    <question id="107">
+        <otazka cesta="">Ethernet topologie 10Base-T je:</otazka>
+        <spatna cesta="">10 Mb/s tlustý koax s délkou segmentu 2 km</spatna>
+        <spatna cesta="">100 Mb/s UTP kabel s délkou segmentu max. 200 m</spatna>
+        <spatna cesta="">10 Mb/s tenký koax s délkou segmentu max 185 m</spatna>
+        <spravna cesta="">10 Mb/s UTP kabel s délkou segmentu max. 100 m</spravna>
+    </question>
+    <question id="108">
+        <otazka cesta="">Která tvrzení platí pro technologii 10 Base-T?</otazka>
+        <spatna cesta="">používá konektory AUI</spatna>
+        <spravna cesta="">jako přenosové médium je použita kroucená dvojlinka kategorie 3</spravna>
+        <spatna cesta="">využívá přístupovou metodu Token Passing</spatna>
+        <spatna cesta="">přenosová rychlost je 100 Mb/s</spatna>
+        <spravna cesta="">maximální délka souvislého kabelového segmentu je 100 m</spravna>
+    </question>
+    <question id="109">
+        <otazka cesta="">Stav, kdy vysílá více uzlů najednou, se označuje jako:</otazka>
+        <spatna cesta="">interference</spatna>
+        <spravna cesta="">kolize</spravna>
+        <spatna cesta="">útlum</spatna>
+        <spatna cesta="">přeslech</spatna>
+        <spatna cesta="">superpozice</spatna>
+    </question>
+    <question id="110">
+        <otazka cesta="">Označte pravdivá tvrzení o privátních IP adresách</otazka>
+        <spravna cesta="">zvyšují bezpečnost v intranetu</spravna>
+        <spatna cesta="">používají se zejména pro adresování supersítí a autonomních systémů</spatna>
+        <spravna cesta="">používají se v sítích, jejichž uzly nepotřebují přímé spojení k Internetu</spravna>
+        <spatna cesta="">všechny směrovače je mají automaticky ve směrovacích tabulkách, tím pádem je směrování rychlejší</spatna>
+    </question>
+    <question id="111">
+        <otazka cesta="">Co signalizuje odpověď WWW serveru 404 Not found?</otazka>
+        <spravna cesta="">stránku není možno na serveru nelézt</spravna>
+        <spatna cesta="">WWW stránka na serveru je chybně formátována</spatna>
+        <spatna cesta="">server není dostupný</spatna>
+    </question>
+    <question id="112">
+        <otazka cesta="">Ethernet topologie 100 Base-FX je:</otazka>
+        <spatna cesta="">100 Mb/s UTP kabel s délkou segmentu 100 m</spatna>
+        <spatna cesta="">100 Mb/s kabel s délkou segmentu max. 100 m</spatna>
+        <spatna cesta="">100 Mb/s koax s délkou segmentu max. 185 m</spatna>
+        <spravna cesta="">100 Mb/s mnohavidový optický kabel s délkou segmentu max. 2 km</spravna>
+    </question>
+    <question id="113">
+        <otazka cesta="">Dobře známé porty slouží k:</otazka>
+        <spatna cesta="">určení portů, které budou známé pro synchronizaci času v Internetu</spatna>
+        <spatna cesta="">určení portů, odkud budou klienti určitých služeb zasílat své požadavky</spatna>
+        <spatna cesta="">nevím</spatna>
+        <spravna cesta="">určení portů, na nichž budou servery určitých služeb očekávat požadavky klientů</spravna>
+    </question>
+    <question id="114">
+        <otazka cesta="">K čemu slouží protokol telnet?</otazka>
+        <spatna cesta="">k zasílání zpráv na vzdálený server</spatna>
+        <spatna cesta="">k přístupu k souborám na vzdáleném serveru</spatna>
+        <spravna cesta="">k přihlášení na vzdálený server</spravna>
+    </question>
+    <question id="115">
+        <otazka cesta="">Co je to hypertext?</otazka>
+        <spravna cesta="">soubor několika dokumentů provázaných aktivními odkazy</spravna>
+        <spatna cesta="">soubor několika dokumentů s obrázky</spatna>
+        <spatna cesta="">dokument doplněný o odkazy na jiné netextové informace</spatna>
+    </question>
+    <question id="116">
+        <otazka cesta="">Je možné při vzdáleném přihlášení k serveru protokolem telnet provést změnu hesla?</otazka>
+        <spravna cesta="">Ano, pokud vzdálený OS tuto funkci umožňuje, ale není to bezepčné - může dojít k odposlechu hesla</spravna>
+        <spatna cesta="">Ano, pokud vzdálený OS tuto funkci umožňuje, bez nebezpečí odposlechu</spatna>
+        <spatna cesta="">Ne</spatna>
+    </question>
+    <question id="117">
+        <otazka cesta="">Přiřaďte pro MAN pojem:</otazka>
+        <spravna cesta="">městské datové sítě</spravna>
+        <spatna cesta="">lokální počítačové sítě</spatna>
+        <spatna cesta="">veřejné datové sítě</spatna>
+    </question>
+    <question id="118">
+        <otazka cesta="">Přiřaďte pro LAN pojem:</otazka>
+        <spatna cesta="">městské datové sítě</spatna>
+        <spravna cesta="">lokální počítačové sítě</spravna>
+        <spatna cesta="">veřejné datové sítě</spatna>
+    </question>
+    <question id="119">
+        <otazka cesta="">Přiřaďte pro WAN pojem:</otazka>
+        <spatna cesta="">městské datové sítě</spatna>
+        <spatna cesta="">lokální počítačové sítě</spatna>
+        <spravna cesta="">veřejné datové sítě</spravna>
+    </question>
+    <question id="120">
+        <otazka cesta="">Označte větu, která odpovídá charakteristice IP protokolu</otazka>
+        <spatna cesta="">spojový a spolehlivý</spatna>
+        <spatna cesta="">pracuje s pevnou délkou paketu</spatna>
+        <spravna cesta="">pracuje s proměnlivou délkou paketu</spravna>
+        <spatna cesta="">implementován pouze na směrovačích, nikoliv na hostitelských počítačích</spatna>
+    </question>
+    <question id="121">
+        <otazka cesta="">SMTP je:</otazka>
+        <spravna cesta="">protokol pro práci s elektronickou poštou je nejstarší</spravna>
+        <spatna cesta="">protokol pro práci s elektronickou poštou je nejnovější</spatna>
+    </question>
+    <question id="122">
+        <otazka cesta="">Směrovací tabulka:</otazka>
+        <spravna cesta="">rozhoduje se podle ní, na které rozhraní se paket pošle</spravna>
+        <spatna cesta="">je uložena ve všech opakovačích</spatna>
+        <spatna cesta="">dá se naplnit pouze staticky</spatna>
+        <spatna cesta="">musí obsahovat minimálně 3 záznamy</spatna>
+    </question>
+    <question id="123">
+        <otazka cesta="">Základní jednotka přenosu dat protokolu UDP je:</otazka>
+        <spatna cesta="">raw</spatna>
+        <spravna cesta="">datagram</spravna>
+        <spatna cesta="">segment</spatna>
+        <spatna cesta="">socket</spatna>
+    </question>
+    <question id="124">
+        <otazka cesta="">Mechanismus CIDR umožňuje:</otazka>
+        <spravna cesta="">optimalizovat směrovací tabulky</spravna>
+        <spravna cesta="">přidělovat IP adresy v počtu odpovídajícím libovolné mocnině dvou</spravna>
+        <spatna cesta="">určit přesně umístění uzlu</spatna>
+    </question>
+    <question id="125">
+        <otazka cesta="">Co je to distribuovaný systém?</otazka>
+        <spravna cesta="">množina navzájem nezávislých počítačů, které se scým uživatelům jeví jako jediný (konsistentní systém)</spravna>
+        <spatna cesta="">Množina navzájem závislých počítačů, které se svým uživatelům jeví jako jediný (konsistentní systém)</spatna>
+        <spatna cesta="">Je tvořen jedním počítačem</spatna>
+    </question>
+    <question id="126">
+        <otazka cesta="">Síťová maska:</otazka>
+        <spatna cesta="">slouží pro určení privátních adres</spatna>
+        <spravna cesta="">ty bity, které jsou v masce nulové, označují v IP adrese identifikaci sítě</spravna>
+        <spatna cesta="">je to tříbajtové číslo</spatna>
+        <spravna cesta="">používá se pro určení adresy sítě</spravna>
+    </question>
+    <question id="127">
+        <otazka cesta="">Označte, která řešení umožňují zvětšit množství dostupných IP adres:</otazka>
+        <spatna cesta="">DHCP</spatna>
+        <spatna cesta="">nové 64 bitové adresy</spatna>
+        <spravna cesta="">IPv6</spravna>
+        <spravna cesta="">překlad adres</spravna>
+    </question>
+    <question id="128">
+        <otazka cesta="">Který z protokolů obsahuje nástroj pro zabezpečení proti odposlechu hesla?</otazka>
+        <spatna cesta="">TSL</spatna>
+        <spatna cesta="">HTTPS</spatna>
+        <spravna cesta="">SSH</spravna>
+    </question>
+    <question id="129">
+        <otazka cesta="">Co charakterizuje směrovací protokoly?</otazka>
+        <spatna cesta="">slouží pro komunikaci mezi uživateli</spatna>
+        <spatna cesta="">garantují spolehlivý přenos dat</spatna>
+        <spatna cesta="">zajišťují šíření linkových oběžníků</spatna>
+        <spravna cesta="">jejich pomocí se aktualizují směrovací tabulky</spravna>
+    </question>
+    <question id="130">
+        <otazka cesta="">Označte všechna pravdivá tvrzení o odesílání zprávy el. pošty:</otazka>
+        <spravna cesta="">po navázání spojení s SMTP serverem se ověřuje platnost adres příjemců i adresy odesílatele</spravna>
+        <spatna cesta="">POP3 ponechává všechny poštovní zprávy na serveru</spatna>
+        <spravna cesta="">zpráva je ze SMTP serveru odchozí pošty zaslána na další SMTP server určený podle adesy příjemce</spravna>
+        <spravna cesta="">klientský program po příkazu k odeslání zprávy naváže spojení se SMTP serverem uvedeným ve své konfiguraci</spravna>
+        <spatna cesta="">během SMTP dialogu se vždy ověřuje jméno a heslo uživatele</spatna>
+        <spatna cesta="">klientský program po příkazu k odeslání zprávy naváže spojení se SMTP serverem určeným pomocí DHCP poskytovatele připojení</spatna>
+    </question>
+    <question id="131">
+        <otazka cesta="">Označte existující typy ICMP zpráv:</otazka>
+        <spravna cesta="">Router Advertisement</spravna>
+        <spravna cesta="">Echo Reply</spravna>
+        <spravna cesta="">Destination Unreachable</spravna>
+        <spatna cesta="">Server Not Ready</spatna>
+        <spatna cesta="">DHCP Request</spatna>
+    </question>
+    <question id="132">
+        <otazka cesta="">Napište implicitní masku pro IP adresu třídy B:</otazka>
+        <spatna cesta="">255.255.255.0</spatna>
+        <spravna cesta="">255.255.0.0</spravna>
+        <spatna cesta="">255.0.0.0</spatna>
+    </question>
+    <question id="133">
+        <otazka cesta="">Označte pravdivá tvrzení o MIME:</otazka>
+        <spatna cesta="">Kódování Base64 je efektivní pro kódování textu s menším množstvím znaků s diakritikou či jiných non-ASCII znaků</spatna>
+        <spatna cesta="">MIME definuje 3 typy kódování českých znaků pro přenos v 7-bitovém tvaru</spatna>
+        <spravna cesta="">MIME umožňuje psát znaky s diakritikou v těle zprávy i v textových polích v hlavičce</spravna>
+        <spravna cesta="">MIME typy se používají kromě elektronické poště také ve službě WWW</spravna>
+        <spatna cesta="">MIME odděluje jednotlivé části zprávy (např. přiložené soubory) od sebe navzájem prázdným řádkem</spatna>
+        <spravna cesta="">MIME umožňuje pomocí MIME typů označit typ přenášeného souboru nezávisle na operačním systému</spravna>
+    </question>
+    <question id="134">
+        <otazka cesta="">Napište implicitní masku pro IP adresu 126.16.10.10</otazka>
+        <spravna cesta="">255.0.0.0.</spravna>
+        <spatna cesta="">255.255.255.255</spatna>
+        <spatna cesta="">255.255.0.0</spatna>
+    </question>
+    <question id="135">
+        <otazka cesta="">Označte pravdivá tvrzení o utilitě traceroute:</otazka>
+        <spravna cesta="">Všechny pakety zaslané utilitou Traceroute mají nastavenou stejnou cílovou iP adresu</spravna>
+        <spravna cesta="">Utilita traceroute využívá paketů ICMP Echo s různou nastavenou životností</spravna>
+        <spatna cesta="">Odpovědi od směrovačů po cestě mají formu chybové zprávy ICMP Destination unreachable</spatna>
+        <spatna cesta="">Traceroute slouží ke zjištění průchodu IP paketu různými servery na cestě k náhodně zvolenému cíli</spatna>
+    </question>
+    <question id="136">
+        <otazka cesta="">Která maska podsítě musí být přiřazena síti 192.168.126.0, aby v ní bylo 126 použitelných adres pro počítače či jiná zařízení?</otazka>
+        <spatna cesta="">255.255.254.0</spatna>
+        <spravna cesta="">255.255.255.128</spravna>
+        <spatna cesta="">255.255.248.0</spatna>
+        <spatna cesta="">255.255.0.0</spatna>
+        <spatna cesta="">255.255.255.0</spatna>
+    </question>
+    <question id="137">
+        <otazka cesta="">Vyznačte správně popsané typy DNS záznamů:</otazka>
+        <spatna cesta="">Záznam typu A slouží k určení IP adresy verze 6 příslušející danému doménovému jménu</spatna>
+        <spravna cesta="">Záznam typu MX slouží k určení jména poštovního serveru obsluhujícího příslušnou poštovní doménu</spravna>
+        <spatna cesta="">Záznam typu CNAME slouží k určení IP adresy daného doménového jména</spatna>
+        <spravna cesta="">Záznam typu AAAA slouží k určení IP adresy verze 6 příslušející danému doménovému jménu</spravna>
+    </question>
+    <question id="138">
+        <otazka cesta="">Adresa 127.0.0.1 je adresou:</otazka>
+        <spravna cesta="">programové smyčky</spravna>
+        <spatna cesta="">multicastové skupiny</spatna>
+        <spatna cesta="">sítě</spatna>
+        <spatna cesta="">všeobecného oběžníku</spatna>
+    </question>
+</questions>
