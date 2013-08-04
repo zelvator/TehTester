@@ -598,6 +598,7 @@ public class Tester extends JFrame {
 		getScrollPane_1().setViewportView(getListOfAnswers());
 		getListOfAnswers().setSelectedIndex(-1);
 		changeSelectedAnswers();
+		getListOfAnswers().setFixedCellWidth(250);
 		getListOfAnswers().setCellRenderer(new AnswersRenderer());
 	}
 
@@ -615,6 +616,7 @@ public class Tester extends JFrame {
 		getScrollPane_1().setViewportView(getListOfAnswers());
 		getListOfAnswers().setSelectedIndex(-1);
 		changeSelectedAnswers();
+		getListOfAnswers().setFixedCellWidth(250);
 		getListOfAnswers().setCellRenderer(new AnswersRenderer());
 	}
 

@@ -34,7 +34,6 @@ import javax.swing.JTextArea;
 import javax.swing.JTextPane;
 import javax.swing.ListCellRenderer;
 import javax.swing.ListSelectionModel;
-import javax.swing.ScrollPaneConstants;
 import javax.swing.UIManager;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
@@ -271,7 +270,7 @@ public class QuestionEditation {
 
 	class AnswersRenderer extends JPanel implements ListCellRenderer<Object> {
 		private static final long serialVersionUID = 4635401484999279341L;
-		
+
 		protected final Border noFocusBorder = new EmptyBorder(1, 1, 1, 1);
 		private final Border SAFE_NO_FOCUS_BORDER = new EmptyBorder(1, 1, 1, 1);
 
@@ -297,6 +296,7 @@ public class QuestionEditation {
 					Style defaultStyle = document.getStyle(StyleContext.DEFAULT_STYLE);
 					StyleConstants.setAlignment(defaultStyle, StyleConstants.ALIGN_CENTER);
 					setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+					
 				} else {
 					document = new DefaultStyledDocument();
 					Style defaultStyle = document.getStyle(StyleContext.DEFAULT_STYLE);
@@ -344,6 +344,7 @@ public class QuestionEditation {
 	 */
 	public void refreshAnswers() {
 		setAnswerList(new JList<Answer>(new ListModelAnswers(getQuestion().getAnswers())));
+		getAnswerList().setFixedCellWidth(250);
 		getAnswerList().setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		getScrollPane_1().setViewportView(getAnswerList());
 		getAnswerList().setSelectedIndex(0);
@@ -787,7 +788,6 @@ public class QuestionEditation {
 	 */
 	private void setScrollPane_1(JScrollPane scrollPane_1) {
 		this.scrollPane_1 = scrollPane_1;
-		scrollPane_1.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 	}
 
 	/**
