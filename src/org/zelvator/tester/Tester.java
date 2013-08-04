@@ -338,6 +338,7 @@ public class Tester extends JFrame {
 
 				JLabel label = new JLabel();
 				label.setIcon(new ImageIcon((BufferedImage) getAnswerPanel().getImage()));
+				label.setAlignmentX(Component.CENTER_ALIGNMENT);
 				add(label);
 
 				Border border = null;

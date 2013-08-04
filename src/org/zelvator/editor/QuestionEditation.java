@@ -312,6 +312,7 @@ public class QuestionEditation {
 
 				JLabel label = new JLabel();
 				label.setIcon(new ImageIcon((BufferedImage) getAnswerPanel().getImage()));
+				label.setAlignmentX(Component.CENTER_ALIGNMENT);
 				add(label);
 
 				if (((Answer) value).isCorrectAnswer()) {
